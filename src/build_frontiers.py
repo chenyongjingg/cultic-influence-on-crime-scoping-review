@@ -27,7 +27,7 @@ def strip_placeholders(s):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--md", default="out/manuscript/manuscript_filled.md")
+    ap.add_argument("--md", default="out/manuscript/manuscript_numbered.md")
     ap.add_argument("--reference", default=r"D:/Frontier综述/project/submission/upload/Manuscript.docx")
     ap.add_argument("--out", default="out/manuscript/Frontiers_manuscript.docx")
     ap.add_argument("--figdir", default="out/figures")

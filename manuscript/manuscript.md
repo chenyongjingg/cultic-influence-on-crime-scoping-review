@@ -52,6 +52,17 @@ study can use, who the person was in the group, how long they were there, or wha
 court decided. The field can display mechanisms; assembling those displays into a
 comparable body of work is the step that does not happen.
 
+Prior syntheses exist, and none is a systematic map. The closest is an editorial
+handbook for forensic practitioners, which integrates theory, clinical and legal
+material in narrative form and states that systematic research in this area is
+scarce {durns}. The only review focused on violent outcomes is seventeen years old
+and restricted to violence {lalich}. Work on joining and leaving synthesises
+recruitment and exit rather than offending {rousselet}. A systematic review of
+coercive control exists, but it is anchored in intimate partner violence rather than
+in groups {lohmann}. Two studies established that the cult–crime intersection is
+empirically reachable {bohm,coates}. None of them supplies a reproducible corpus, a
+measure of reporting completeness, or a reporting standard.
+
 That consequence is the object of this review, and it is measurable. If the
 comparison problem is real, it should show up as a specific pattern of reporting:
 the variables that make comparison possible — who the person was in the group, how
@@ -85,8 +96,8 @@ no pooled estimate, no significance test.
 The review was specified before searching: population, concept and context; the
 search strategy; the eligibility criteria; the screening and extraction procedures;
 and three guiding questions with their anticipated judgements. The PRISMA-ScR
-checklist [1] is submitted with the manuscript and the JBI
-updated guidance [2] was followed for conduct and reporting.
+checklist {tricco} is submitted with the manuscript and the JBI
+updated guidance {peters} was followed for conduct and reporting.
 Deviations from the protocol, and the constraint that forced each, are listed in
 Supplementary Table S1; they are summarised where they bear on interpretation.
 
@@ -104,7 +115,7 @@ and a criminal or judicial outcome, together with the completeness with which th
 mechanism and the outcome are reported.
 
 **Context.** Published, peer-reviewed, legal and grey literature in English, from
-1994 — the year the Group Psychological Abuse scale was published [3] and the point from which empirical work in this area becomes continuous —
+1994 — the year the Group Psychological Abuse scale was published {chambers} and the point from which empirical work in this area becomes continuous —
 to the search date.
 
 Four criteria were applied to titles and abstracts: **I1** the record concerns a
@@ -460,4 +471,5 @@ at each step.
 - **Table S5.** Sensitivity analyses E1–E5 and the M8–M10 coding table.
 - **Table S6.** The 50-record precheck sample.
 - **Table S7.** Validation read of that sample, verdicts record by record.
+- **Table S8.** Reference verification: every reference checked field by field against its registration record.
 - **PRISMA-ScR checklist.** Completed record, submitted with the manuscript.
