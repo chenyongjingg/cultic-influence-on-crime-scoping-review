@@ -38,8 +38,9 @@ criterion doubtful; **N** = does not satisfy.
 | 49 | Judicial competence for military priests | N | "religious cult" = denomination |
 | 50 | Rhetoric and realities of magic | N | late-antique category boundary |
 
-Tally: **Y = 12, M = 5, N = 8**. So precision lies between 12/25 (48%) and 17/25
-(68%) depending on how the marginal band is read.
+Tally: **Y = 11, M = 5, N = 9** — recounted from the table above, which is the record;
+an earlier draft of this file carried 12/5/8, an arithmetic slip now corrected. Precision
+lies between 11/25 (44%) and 16/25 (64%) depending on how the marginal band is read.
 
 ## Records the pipeline auto-excluded (25)
 

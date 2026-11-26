@@ -15,11 +15,18 @@ decision, and their disagreement rate as three distinct numbers.
 """
 import argparse, json, os, re, sys, collections
 
-ROOT = "/root/cultcrime"
+if os.path.isdir("/root/cultcrime"):
+    ROOT = "/root/cultcrime"; P = os.path.join(ROOT, "data", "processed")
+else:
+    ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    P = os.path.join(ROOT, "out", "server_snapshot", "data", "processed")
 
 
 def load(p):
-    return [json.loads(l) for l in open(os.path.join(ROOT, p))]
+    fp = os.path.join(ROOT, p)
+    if not os.path.exists(fp):
+        fp = os.path.join(P, os.path.basename(p))
+    return [json.loads(l) for l in open(fp, encoding="utf8") if l.strip()]
 
 
 def main():
@@ -124,11 +131,11 @@ def main():
         if SECT.search(txt) and CRIMEY.search(txt) and bool(r["screen"].get("I3")) and bool(r["screen"].get("I1")):
             overturned_auto += 1
 
-    with open(os.path.join(ROOT, args.out), "w") as f:
+    with open(os.path.join(P, os.path.basename(args.out)), "w", encoding="utf8") as f:
         for r in included:
             f.write(json.dumps(r, ensure_ascii=False) + "\n")
 
-    with open(os.path.join(ROOT, args.table), "w", encoding="utf8") as f:
+    with open(os.path.join(P, os.path.basename(args.table)), "w", encoding="utf8") as f:
         f.write("id,db,year,title,decision,confidence,reason,I1,I2,I3,I4,path\n")
         for r in rows:
             s = r.get("screen") or {}
@@ -173,7 +180,7 @@ def main():
         summary["perturbation_stability"] = {"n": tot, "same_decision": agree,
                                              "same_decision_pct": round(100 * agree / tot, 1) if tot else None}
 
-    json.dump(summary, open(os.path.join(ROOT, "data/processed/adjudication_summary.json"), "w"),
+    json.dump(summary, open(os.path.join(P, os.path.basename("data/processed/adjudication_summary.json")), "w", encoding="utf8"),
               indent=1, ensure_ascii=False)
     for k, v in summary.items():
         print("%-52s %s" % (k, v))

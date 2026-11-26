@@ -269,10 +269,21 @@ def main():
     if os.path.exists(rtp):
         out["regulatory_tools"] = json.load(open(rtp, encoding="utf8"))["summary"]
 
+    vn = os.path.join(os.path.dirname(OUT_JSON), "validation_numbers.json")
+    if os.path.exists(vn):
+        out["validation_numbers"] = json.load(open(vn, encoding="utf8"))
     m8p = os.path.join(P, "m8_m10.json")
     if os.path.exists(m8p):
         out["m8_m10"] = json.load(open(m8p, encoding="utf8"))["summary"]
 
+    # what the two lowest constructs would be if their recall matched the best observed
+    dv = out.get("detector_validation") or {}
+    best_recall = max((v.get("recall") or 0) for v in (dv.get("per_construct") or {}).values()) if dv else None
+    ctab = {r["construct"]: r for r in out["construct_table"]}
+    if best_recall:
+        out["recall_corrected"] = {
+            k: round(ctab[k]["pct"] / best_recall, 1) for k in ("C5_instrument", "C7_severity")}
+        out["recall_corrected"]["best_recall"] = best_recall
     out["extraction_audit"] = ext_stats
     out["adjudication"] = adj
 

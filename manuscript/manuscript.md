@@ -184,16 +184,21 @@ term.
 
 A validation read tested this. Fifty records — twenty-five included and
 twenty-five auto-excluded — were read against the four criteria. Of the twenty-five
-inclusions, 12 were clearly on topic, 5 were arguable and 8 were not: the errors are
+inclusions, {{validation_numbers.tally.Y}} were clearly on topic, {{validation_numbers.tally.M}} were
+arguable and {{validation_numbers.tally.N}} were not: the errors are
 records where "cult" is a metaphor (veneration, fashion, film criticism) or where a
 criminal organisation is not a high-control group. Of the twenty-five auto-exclusions,
 23 were correctly excluded and 2 were arguably retrievable, both legal analyses
 sitting at the cult/crime boundary. Two consequences follow, and both are carried into
-the reading of the results. First, the eight non-qualifying records are not inert
-denominator: they report a mean of 1.8 constructs against a corpus mean of 2.1, and
-four of the eight report a jurisdiction, which is one of the two largest bars in
-Figure 3. Removing them would move offence type from 49.1% to 48.5% and jurisdiction
-from 52.0% to 52.8% — in both directions, and by less than a percentage point. The
+the reading of the results. First, the {{validation_numbers.nonqualifying_matched}} non-qualifying records are not inert
+denominator: they report a mean of {{validation_numbers.nonqualifying_mean_constructs}} constructs
+against a corpus mean of {{validation_numbers.corpus_mean_constructs}}, and
+{{validation_numbers.nonqualifying_jurisdiction_n}} of them report a jurisdiction, which is
+one of the two largest bars in Figure 3. Removing them would move offence type from
+{{validation_numbers.offence_corpus_pct}}% to {{validation_numbers.offence_without_pct}}% and
+jurisdiction from {{validation_numbers.jurisdiction_corpus_pct}}% to
+{{validation_numbers.jurisdiction_without_pct}}% — in both directions, and by about a
+percentage point. The
 profile therefore does not depend on the screen's precision, but the direction of the
 error is not the one that would flatter the paper: the corpus is not biased towards
 over-reporting, and it is not biased towards under-reporting either. Second, no
@@ -240,9 +245,9 @@ the reported percentages are lower bounds, and that the *distance* between a
 high-recall and a low-recall construct is partly a measurement effect rather than a
 property of the literature. Where the argument depends on the ordering, the paper
 therefore leans on the comparison that survives the correction: the two least
-reported constructs are named in 1.2% and 2.3% of records (standardised instrument,
-Table 2; offence severity), and even if their recall matched the best-observed
-construct (0.62) they would rise only to about 1.9% and 3.7% — still an order of
+reported constructs are named in {{PCT_C5_instrument}}% and {{PCT_C7_severity}}% of records
+(standardised instrument, Table 2; offence severity), and even if their recall matched the best-observed
+construct (0.62) they would rise only to about {{recall_corrected.C5_instrument}}% and {{recall_corrected.C7_severity}}% — still an order of
 magnitude below offence type and jurisdiction. The same
 read gives precision by construct between 0.73 and 1.00 where it can be estimated,
 so the error runs in the direction of under-counting, not over-counting.

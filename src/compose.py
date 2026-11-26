@@ -10,12 +10,19 @@ Counting rules implemented here (each reported separately in the manuscript):
   C6 tier S (tier P restricted set OR mechanism term AND crime term)
 No count is ever used as a denominator for a different count on the chain.
 """
-import json, os, re, sys, collections
+import html, json, os, re, sys, collections
 
-ROOT = "/root/cultcrime"
-RAW = os.path.join(ROOT, "data", "raw")
-PROC = os.path.join(ROOT, "data", "processed")
-spec = json.load(open(os.path.join(ROOT, "src", "query_spec.json")))
+if os.path.isdir("/root/cultcrime"):
+    ROOT = "/root/cultcrime"
+    RAW = os.path.join(ROOT, "data", "raw")
+    PROC = os.path.join(ROOT, "data", "processed")
+else:
+    ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    PROC = os.path.join(ROOT, "out", "server_snapshot", "data", "processed")
+    RAW = os.path.join(os.path.dirname(PROC), "raw")
+    if not os.path.isdir(RAW):
+        RAW = os.path.join(ROOT, "out", "server_snapshot", "data", "raw")
+spec = json.load(open(os.path.join(ROOT, "src", "query_spec.json"), encoding="utf8"))
 
 
 def rx(term):
@@ -47,7 +54,11 @@ def norm_doi(d):
 
 
 def norm_title(t):
-    return re.sub(r"[^a-z0-9]+", " ", (t or "").lower()).strip()
+    # HTML entities must be decoded first: one copy carrying "&amp;" where another
+    # carries "and" gives two different keys for the same paper, which is how a
+    # duplicate survived deduplication in the first run.
+    t = html.unescape(t or "").replace("&", " and ")
+    return re.sub(r"[^a-z0-9]+", " ", t.lower()).strip()
 
 
 def ascii_ratio(s):
@@ -65,7 +76,7 @@ def load_all():
     for fp in sorted(glob.glob(os.path.join(RAW, "*.jsonl"))):
         name = os.path.basename(fp)[:-6]
         n = 0
-        with open(fp) as f:
+        with open(fp, encoding="utf8") as f:
             for line in f:
                 if line.strip():
                     rows.append(json.loads(line)); n += 1
@@ -152,10 +163,10 @@ def main():
     report["without_abstract"] = sum(1 for r in out if not r["has_abstract"])
 
     os.makedirs(PROC, exist_ok=True)
-    with open(os.path.join(PROC, "corpus.jsonl"), "w") as f:
+    with open(os.path.join(PROC, "corpus.jsonl"), "w", encoding="utf8") as f:
         for r in out:
             f.write(json.dumps(r, ensure_ascii=False) + "\n")
-    json.dump(report, open(os.path.join(PROC, "compose_report.json"), "w"), indent=1, ensure_ascii=False)
+    json.dump(report, open(os.path.join(PROC, "compose_report.json"), "w", encoding="utf8"), indent=1, ensure_ascii=False)
     for k, v in report.items():
         print("%-28s %s" % (k, v))
     print("COMPOSE_DONE")

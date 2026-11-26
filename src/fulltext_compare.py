@@ -16,9 +16,14 @@ retrieved subset is printed next to the corpus profile.
 """
 import hashlib, json, os, re, sys
 
-ROOT = "/root/cultcrime"
-P = os.path.join(ROOT, "data", "processed")
-FT = os.path.join(ROOT, "data", "fulltext")
+if os.path.isdir("/root/cultcrime"):
+    ROOT = "/root/cultcrime"
+    P = os.path.join(ROOT, "data", "processed")
+    FT = os.path.join(ROOT, "data", "fulltext")
+else:
+    ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    P = os.path.join(ROOT, "out", "server_snapshot", "data", "processed")
+    FT = os.path.join(ROOT, "out", "server_snapshot", "data", "fulltext")
 sys.path.insert(0, os.path.join(ROOT, "src"))
 import measure as M
 
@@ -36,9 +41,9 @@ def measure(text):
 
 
 def main():
-    inc = {json.loads(l)["id"]: json.loads(l) for l in open(os.path.join(P, "included.jsonl"))}
+    inc = {json.loads(l)["id"]: json.loads(l) for l in open(os.path.join(P, "included.jsonl"), encoding="utf8")}
     rows = []
-    for line in open(os.path.join(FT, "fetch.jsonl")):
+    for line in open(os.path.join(FT, "fetch.jsonl"), encoding="utf8"):
         r = json.loads(line)
         if not r.get("fulltext_measure"):
             continue
@@ -58,7 +63,7 @@ def main():
     if not n:
         print("no full texts retrieved yet")
         return
-    all_inc = [json.loads(l) for l in open(os.path.join(P, "extracted.jsonl"))
+    all_inc = [json.loads(l) for l in open(os.path.join(P, "extracted.jsonl"), encoding="utf8")
                if json.loads(l).get("extraction")]
     N_all = len(all_inc)
 

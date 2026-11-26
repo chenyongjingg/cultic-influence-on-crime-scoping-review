@@ -17,8 +17,11 @@ investigation.
 """
 import json, os, re, sys, collections
 
-ROOT = "/root/cultcrime"
-P = os.path.join(ROOT, "data", "processed")
+if os.path.isdir("/root/cultcrime"):
+    ROOT = "/root/cultcrime"; P = os.path.join(ROOT, "data", "processed")
+else:
+    ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    P = os.path.join(ROOT, "out", "server_snapshot", "data", "processed")
 
 SCHEMES = {
     "M8_interrogation": {
@@ -72,7 +75,7 @@ def code(text, key):
 
 
 def main():
-    recs = [json.loads(l) for l in open(os.path.join(P, "included.jsonl"))]
+    recs = [json.loads(l) for l in open(os.path.join(P, "included.jsonl"), encoding="utf8")]
     rows, agg = [], {k: collections.Counter() for k in SCHEMES}
     for r in recs:
         ab = (r.get("abstract") or "").strip()
@@ -92,7 +95,7 @@ def main():
                "modules": {k: {cn: {"n": agg[k][cn], "pct": round(100.0 * agg[k][cn] / N, 1) if N else 0}
                                for cn in sorted(SCHEMES[k])} for k in SCHEMES}}
     json.dump({"summary": summary, "records": rows},
-              open(os.path.join(P, "m8_m10.json"), "w"), indent=1, ensure_ascii=False)
+              open(os.path.join(P, "m8_m10.json"), "w", encoding="utf8"), indent=1, ensure_ascii=False)
     for k in SCHEMES:
         print(k, "N=%d" % N)
         for cn, v in summary["modules"][k].items():
