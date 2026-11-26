@@ -7,23 +7,44 @@ code did not compute.
 """
 import json, os, csv, collections, re, glob
 
-ROOT = "/root/cultcrime"
-P = os.path.join(ROOT, "data", "processed")
+# The analysis runs either on the execution host or, after archiving, against the
+# frozen snapshot taken from it. Both layouts are resolved here so a rebuild does
+# not depend on which one is present.
+if os.path.isdir("/root/cultcrime"):
+    ROOT = "/root/cultcrime"
+    P = os.path.join(ROOT, "data", "processed")
+else:
+    ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    P = os.path.join(ROOT, "data", "processed")
+    if not os.path.isdir(P):
+        P = os.path.join(ROOT, "out", "server_snapshot", "data", "processed")
+OUT_JSON = os.environ.get("ANALYSIS_OUT", os.path.join(P, "analysis.json"))
 CONS = ["C1_group_def", "C2_role", "C3_duration", "C4_mechanism", "C5_instrument",
         "C6_offence", "C7_severity", "C8_legal", "C9_jurisdiction", "C10_source",
         "C11_comparison", "C12_n"]
 
 
+def _resolve(p):
+    """Paths in the calls are relative to the project root; on the archived layout
+    the processed files live one level deeper."""
+    direct = os.path.join(ROOT, p)
+    if os.path.exists(direct):
+        return direct
+    alt = os.path.join(P, os.path.basename(p))
+    return alt if os.path.exists(alt) else direct
+
+
 def load(p):
-    with open(os.path.join(ROOT, p)) as f:
+    with open(_resolve(p), encoding="utf8") as f:
         return [json.loads(l) for l in f if l.strip()]
 
 
 def main():
-    counts = json.load(open(os.path.join(ROOT, "data", "counts.json")))
-    comp = json.load(open(os.path.join(P, "compose_report.json")))
-    adj = json.load(open(os.path.join(P, "adjudication_summary.json")))
-    ext_stats = json.load(open(os.path.join(P, "extract_stats.json")))
+    data_root = ROOT if os.path.isdir(os.path.join(ROOT, "data")) else os.path.dirname(P)
+    counts = json.load(open(os.path.join(data_root, "counts.json"), encoding="utf8"))
+    comp = json.load(open(os.path.join(P, "compose_report.json"), encoding="utf8"))
+    adj = json.load(open(os.path.join(P, "adjudication_summary.json"), encoding="utf8"))
+    ext_stats = json.load(open(os.path.join(P, "extract_stats.json"), encoding="utf8"))
     ext = load("data/processed/extracted.jsonl")
 
     out = collections.OrderedDict()
@@ -49,7 +70,7 @@ def main():
     prisma["excluded_no_base_block"] = comp["after_language"] - (comp["tierP"] + comp["tierS_only"])
     dd = os.path.join(P, "dedup_screened_report.json")
     if os.path.exists(dd):
-        d = json.load(open(dd))
+        d = json.load(open(dd, encoding="utf8"))
         prisma["model_scored_rows"] = d.get("input")
         prisma["duplicates_removed_after_screening"] = d.get("dropped")
     prisma["screened"] = adj["screened"]
@@ -208,7 +229,7 @@ def main():
 
     ep = os.path.join(P, "embed_dedup_report.json")
     if os.path.exists(ep):
-        e = json.load(open(ep))
+        e = json.load(open(ep, encoding="utf8"))
         out["embed_dedup_summary"] = {
             "clusters_095": (e.get("0.95") or {}).get("clusters"),
             "absorbed_095": (e.get("0.95") or {}).get("records_absorbed"),
@@ -217,32 +238,37 @@ def main():
 
     fl = os.path.join(P, "fulltext_lift.json")
     if os.path.exists(fl):
-        out["fulltext_lift"] = json.load(open(fl))
+        out["fulltext_lift"] = json.load(open(fl, encoding="utf8"))
 
     fp5 = os.path.join(P, "exp5_llm_construct.json")
     if os.path.exists(fp5):
-        out["llm_construct_read"] = json.load(open(fp5))
+        out["llm_construct_read"] = json.load(open(fp5, encoding="utf8"))
 
     for key, fn in (("detector_validation", "exp1_detector_validation.json"),
                     ("term_sensitivity", "exp4_terms.json"),
                     ("strata", "exp3_strata.json")):
         fp = os.path.join(P, fn)
         if os.path.exists(fp):
-            out[key] = json.load(open(fp))
+            out[key] = json.load(open(fp, encoding="utf8"))
 
     for key, fn in (("experiments", "experiments.json"), ("e5", "e5.json")):
         fp = os.path.join(P, fn)
         if os.path.exists(fp):
-            out[key] = json.load(open(fp))
+            out[key] = json.load(open(fp, encoding="utf8"))
+
+    rtp = os.path.join(P, "regulatory_tools.json")
+    if os.path.exists(rtp):
+        out["regulatory_tools"] = json.load(open(rtp, encoding="utf8"))["summary"]
 
     m8p = os.path.join(P, "m8_m10.json")
     if os.path.exists(m8p):
-        out["m8_m10"] = json.load(open(m8p))["summary"]
+        out["m8_m10"] = json.load(open(m8p, encoding="utf8"))["summary"]
 
     out["extraction_audit"] = ext_stats
     out["adjudication"] = adj
 
-    json.dump(out, open(os.path.join(P, "analysis.json"), "w"), indent=1, ensure_ascii=False)
+    os.makedirs(os.path.dirname(OUT_JSON), exist_ok=True)
+    json.dump(out, open(OUT_JSON, "w", encoding="utf8"), indent=1, ensure_ascii=False)
 
     # CSVs
     with open(os.path.join(P, "construct_table.csv"), "w", newline="", encoding="utf8") as f:

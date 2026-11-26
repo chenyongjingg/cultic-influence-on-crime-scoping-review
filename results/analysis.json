@@ -1,35 +1,6 @@
 {
  "prisma": {
-  "identification": {
-   "core": {
-    "retrieved": 269,
-    "reported_total": null
-   },
-   "crossref": {
-    "retrieved": 87,
-    "reported_total": null
-   },
-   "doaj": {
-    "retrieved": 150,
-    "reported_total": null
-   },
-   "europepmc": {
-    "retrieved": 46,
-    "reported_total": 46
-   },
-   "europepmc_tierS": {
-    "retrieved": 143,
-    "reported_total": 143
-   },
-   "pubmed": {
-    "retrieved": 49,
-    "reported_total": 50
-   },
-   "s2": {
-    "retrieved": 410,
-    "reported_total": null
-   }
-  },
+  "identification": {},
   "records_retrieved_total": 1154,
   "unique_per_source": {
    "core": 269,
@@ -2234,6 +2205,42 @@
   "include_counts": {
    "7B": 5,
    "14B": 5
+  }
+ },
+ "regulatory_tools": {
+  "N": 171,
+  "any_instrument_named": 20,
+  "any_instrument_pct": 11.7,
+  "two_or_more_named": 4,
+  "counts": {
+   "criminal_prosecution": {
+    "n": 14,
+    "pct": 8.2
+   },
+   "trafficking_law": {
+    "n": 3,
+    "pct": 1.8
+   },
+   "immigration_law": {
+    "n": 4,
+    "pct": 2.3
+   },
+   "family_marriage_law": {
+    "n": 3,
+    "pct": 1.8
+   },
+   "charity_religious_regulation": {
+    "n": 0,
+    "pct": 0.0
+   },
+   "civil_commitment_mental_health": {
+    "n": 0,
+    "pct": 0.0
+   },
+   "financial_consumer_regulation": {
+    "n": 1,
+    "pct": 0.6
+   }
   }
  },
  "m8_m10": {

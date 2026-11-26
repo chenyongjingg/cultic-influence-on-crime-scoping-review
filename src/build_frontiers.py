@@ -25,6 +25,40 @@ def strip_placeholders(s):
     return re.sub(r"\{\{[^}]+\}\}", "", s)
 
 
+STYLE_STUBS = {
+    "BodyText": ("Body Text", '<w:pPr><w:spacing w:after="120"/></w:pPr>'),
+    "Compact": ("Compact", '<w:pPr><w:spacing w:after="60" w:line="240" w:lineRule="auto"/></w:pPr>'),
+    "FirstParagraph": ("First Paragraph", ""),
+}
+
+
+def define_missing_styles(path):
+    """Pandoc emits BodyText, Compact and FirstParagraph, which this template does not
+    define; Word silently falls back to Normal. Defining them as Normal-based styles
+    keeps the layout identical while removing the dangling references."""
+    import shutil, zipfile
+    z = zipfile.ZipFile(path)
+    items = {n: z.read(n) for n in z.namelist()}
+    z.close()
+    sx = items["word/styles.xml"].decode("utf8")
+    defined = set(re.findall(r'w:styleId="([^"]+)"', sx))
+    added = []
+    for sid, (name, ppr) in STYLE_STUBS.items():
+        if sid in defined:
+            continue
+        sx = sx.replace("</w:styles>",
+                        '<w:style w:type="paragraph" w:styleId="%s"><w:name w:val="%s"/>'
+                        '<w:basedOn w:val="Normal"/><w:qFormat/>%s</w:style></w:styles>'
+                        % (sid, name, ppr))
+        added.append(sid)
+    if added:
+        items["word/styles.xml"] = sx.encode("utf8")
+        with zipfile.ZipFile(path, "w", zipfile.ZIP_DEFLATED) as out:
+            for n, b in items.items():
+                out.writestr(n, b)
+    return added
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--md", default="out/manuscript/manuscript_numbered.md")
@@ -93,6 +127,8 @@ def main():
 
     doc.save(args.out)
 
+    added = define_missing_styles(args.out)
+    print("styles defined:", added or "none (all already present)")
     print("main-text words:", words)
     print("written:", args.out, os.path.getsize(args.out), "bytes")
 

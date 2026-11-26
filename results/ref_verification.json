@@ -2,35 +2,48 @@
  {
   "n": 1,
   "claim": {
-   "n": 1,
-   "first_author": "Durns",
-   "title": "A Clinical and Forensic Guide to Cults and Persuasive Leadership",
-   "journal": null,
-   "year": 2025,
-   "volume": null,
-   "issue": null,
-   "pages": null,
-   "doi": "10.1017/9781009280099",
-   "type": "edited-book",
-   "publisher": "Cambridge University Press",
-   "key": "hassan"
+   "key": "tricco",
+   "first_author": "Tricco",
+   "title": "PRISMA Extension for Scoping Reviews (PRISMA-ScR): Checklist and Explanation",
+   "journal": "Annals of Internal Medicine",
+   "year": 2018,
+   "volume": "169",
+   "issue": "7",
+   "pages": "467-473",
+   "doi": "10.7326/M18-0850",
+   "n": 1
   },
   "checks": {
    "title": {
-    "claimed": "A Clinical and Forensic Guide to Cults and Persuasive Leadership",
-    "record": "A Clinical and Forensic Guide to Cults and Persuasive Leadership",
+    "claimed": "PRISMA Extension for Scoping Reviews (PRISMA-ScR): Checklist and Explanation",
+    "record": "PRISMA Extension for Scoping Reviews (PRISMA-ScR): Checklist and Explanation",
     "similarity": 1.0
    },
    "first_author": {
-    "claimed": "Durns",
-    "record": "Durns",
+    "claimed": "Tricco",
+    "record": "Tricco",
     "match": true
    },
    "year": {
-    "claimed": 2025,
-    "record": 2025,
+    "claimed": 2018,
+    "record": 2018,
     "match": true,
     "basis": "published-print"
+   },
+   "volume": {
+    "claimed": "169",
+    "record": "169",
+    "match": true
+   },
+   "pages": {
+    "claimed": "467-473",
+    "record": "467-473",
+    "match": true
+   },
+   "journal": {
+    "claimed": "Annals of Internal Medicine",
+    "record": "Annals of Internal Medicine",
+    "similarity": 1.0
    }
   },
   "verdict": "VERIFIED",
@@ -40,16 +53,110 @@
  {
   "n": 2,
   "claim": {
-   "n": 2,
-   "first_author": "Lalich",
-   "title": "The violent outcomes of ideological extremism: what have we learned since Jonestown?",
-   "journal": "Cultic Studies Review",
-   "year": 2009,
-   "volume": "8",
-   "issue": "3",
-   "pages": "281-302",
+   "key": "peters",
+   "first_author": "Peters",
+   "title": "Updated methodological guidance for the conduct of scoping reviews",
+   "journal": "JBI Evidence Synthesis",
+   "year": 2020,
+   "volume": "18",
+   "issue": "10",
+   "pages": "2119-2126",
+   "doi": "10.11124/JBIES-20-00167",
+   "n": 2
+  },
+  "checks": {
+   "title": {
+    "claimed": "Updated methodological guidance for the conduct of scoping reviews",
+    "record": "Updated methodological guidance for the conduct of scoping reviews",
+    "similarity": 1.0
+   },
+   "first_author": {
+    "claimed": "Peters",
+    "record": "Peters",
+    "match": true
+   },
+   "year": {
+    "claimed": 2020,
+    "record": 2020,
+    "match": true,
+    "basis": "issued"
+   },
+   "volume": {
+    "claimed": "18",
+    "record": "18",
+    "match": true
+   },
+   "pages": {
+    "claimed": "2119-2126",
+    "record": "2119-2126",
+    "match": true
+   },
+   "journal": {
+    "claimed": "JBI Evidence Synthesis",
+    "record": "JBI Evidence Synthesis",
+    "similarity": 1.0
+   }
+  },
+  "verdict": "VERIFIED",
+  "second_source": "present",
+  "source": "Crossref"
+ },
+ {
+  "n": 3,
+  "claim": {
+   "key": "chambers",
+   "first_author": "Chambers",
+   "title": "The Group Psychological Abuse Scale: a measure of the varieties of cultic abuse",
+   "journal": "Cultic Studies Journal",
+   "year": 1994,
+   "volume": "11",
+   "issue": "1",
+   "pages": "88-117",
    "doi": null,
-   "key": "chambers"
+   "manual_evidence": "OpenAlex free-text search 'Group Psychological Abuse Scale cultic abuse' (2026-11-26) returns a 1994 work with this exact title and authors Chambers WV, Langone MD, Dole AA, Grice JW. The record carries no DOI, volume or pagination, so the citation's 11(1):88-117 cannot be confirmed from it. Cultic Studies Journal is not DOI-registered.",
+   "n": 3
+  },
+  "checks": {
+   "title": {
+    "claimed": "The Group Psychological Abuse Scale: a measure of the varieties of cultic abuse",
+    "record": "The Group Psychological Abuse Scale: A measure of the varieties of cultic abuse.",
+    "similarity": 1.0
+   },
+   "first_author": {
+    "claimed": "Chambers",
+    "record": "Chambers",
+    "match": true
+   },
+   "year": {
+    "claimed": 1994,
+    "record": 1994,
+    "match": true
+   }
+  },
+  "verdict": "PARTIAL (authors, title, year via OpenAlex; pagination unverified)",
+  "openalex": {
+   "title": "The Group Psychological Abuse Scale: A measure of the varieties of cultic abuse.",
+   "title_sim": 1.0,
+   "first_author": "Chambers",
+   "first_author_match": true,
+   "year": 1994
+  },
+  "source": "OpenAlex (no DOI)"
+ },
+ {
+  "n": 4,
+  "claim": {
+   "key": "hassan",
+   "first_author": "Hassan",
+   "title": "Freedom of Mind: Helping Loved Ones Leave Controlling People, Cults, and Beliefs",
+   "journal": null,
+   "year": 2012,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "doi": null,
+   "manual_evidence": "No DOI or ISBN record located in Crossref or OpenAlex. Freedom of Mind Press is a trade publisher. The book is widely cited but cannot be confirmed through a registration agency; an ISBN would settle it.",
+   "n": 4
   },
   "checks": {
    "record": "no registration record located"
@@ -57,111 +164,9 @@
   "verdict": "UNVERIFIED (no record in Crossref or OpenAlex)"
  },
  {
-  "n": 3,
-  "claim": {
-   "n": 3,
-   "first_author": "Rousselet",
-   "title": "Cult membership: What factors contribute to joining or leaving?",
-   "journal": "Psychiatry Research",
-   "year": 2017,
-   "volume": "257",
-   "issue": null,
-   "pages": "27-33",
-   "doi": "10.1016/j.psychres.2017.07.018",
-   "key": "tricco"
-  },
-  "checks": {
-   "title": {
-    "claimed": "Cult membership: What factors contribute to joining or leaving?",
-    "record": "Cult membership: What factors contribute to joining or leaving?",
-    "similarity": 1.0
-   },
-   "first_author": {
-    "claimed": "Rousselet",
-    "record": "Rousselet",
-    "match": true
-   },
-   "year": {
-    "claimed": 2017,
-    "record": 2017,
-    "match": true,
-    "basis": "published-print"
-   },
-   "volume": {
-    "claimed": "257",
-    "record": "257",
-    "match": true
-   },
-   "pages": {
-    "claimed": "27-33",
-    "record": "27-33",
-    "match": true
-   },
-   "journal": {
-    "claimed": "Psychiatry Research",
-    "record": "Psychiatry Research",
-    "similarity": 1.0
-   }
-  },
-  "verdict": "VERIFIED",
-  "second_source": "present",
-  "source": "Crossref"
- },
- {
-  "n": 4,
-  "claim": {
-   "n": 4,
-   "first_author": "Lohmann",
-   "title": "The Trauma and Mental Health Impacts of Coercive Control: A Systematic Review and Meta-Analysis",
-   "journal": "Trauma, Violence, & Abuse",
-   "year": 2024,
-   "volume": "25",
-   "issue": "1",
-   "pages": "630-647",
-   "doi": "10.1177/15248380231162972",
-   "key": "peters"
-  },
-  "checks": {
-   "title": {
-    "claimed": "The Trauma and Mental Health Impacts of Coercive Control: A Systematic Review and Meta-Analysis",
-    "record": "The Trauma and Mental Health Impacts of Coercive Control: A Systematic Review and Meta-Analysis",
-    "similarity": 1.0
-   },
-   "first_author": {
-    "claimed": "Lohmann",
-    "record": "Lohmann",
-    "match": true
-   },
-   "year": {
-    "claimed": 2024,
-    "record": 2024,
-    "match": true,
-    "basis": "published-print"
-   },
-   "volume": {
-    "claimed": "25",
-    "record": "25",
-    "match": true
-   },
-   "pages": {
-    "claimed": "630-647",
-    "record": "630-647",
-    "match": true
-   },
-   "journal": {
-    "claimed": "Trauma, Violence, & Abuse",
-    "record": "Trauma, Violence, &amp; Abuse",
-    "similarity": 0.913
-   }
-  },
-  "verdict": "VERIFIED",
-  "second_source": "present",
-  "source": "Crossref"
- },
- {
   "n": 5,
   "claim": {
-   "n": 5,
+   "key": "bohm",
    "first_author": "Bohm",
    "title": "An exploratory study in methods of distinguishing destructive cults",
    "journal": "Psychology, Crime & Law",
@@ -170,7 +175,7 @@
    "issue": "2",
    "pages": "133-165",
    "doi": "10.1080/10683160108401792",
-   "key": "bohm"
+   "n": 5
   },
   "checks": {
    "title": {
@@ -212,7 +217,7 @@
  {
   "n": 6,
   "claim": {
-   "n": 6,
+   "key": "coates",
    "first_author": "Coates",
    "title": "Life inside a deviant \"religious\" group: Conformity and commitment as ensured through \"brainwashing\" or as the result of normal processes of socialization",
    "journal": "International Journal of Law, Crime and Justice",
@@ -221,7 +226,7 @@
    "issue": null,
    "pages": "103-121",
    "doi": "10.1016/j.ijlcj.2015.06.002",
-   "key": "coates"
+   "n": 6
   },
   "checks": {
    "title": {
@@ -263,47 +268,47 @@
  {
   "n": 7,
   "claim": {
-   "n": 7,
-   "first_author": "Tricco",
-   "title": "PRISMA Extension for Scoping Reviews (PRISMA-ScR): Checklist and Explanation",
-   "journal": "Annals of Internal Medicine",
-   "year": 2018,
-   "volume": "169",
-   "issue": "7",
-   "pages": "467-473",
-   "doi": "10.7326/M18-0850",
-   "key": "durns"
+   "key": "rousselet",
+   "first_author": "Rousselet",
+   "title": "Cult membership: What factors contribute to joining or leaving?",
+   "journal": "Psychiatry Research",
+   "year": 2017,
+   "volume": "257",
+   "issue": null,
+   "pages": "27-33",
+   "doi": "10.1016/j.psychres.2017.07.018",
+   "n": 7
   },
   "checks": {
    "title": {
-    "claimed": "PRISMA Extension for Scoping Reviews (PRISMA-ScR): Checklist and Explanation",
-    "record": "PRISMA Extension for Scoping Reviews (PRISMA-ScR): Checklist and Explanation",
+    "claimed": "Cult membership: What factors contribute to joining or leaving?",
+    "record": "Cult membership: What factors contribute to joining or leaving?",
     "similarity": 1.0
    },
    "first_author": {
-    "claimed": "Tricco",
-    "record": "Tricco",
+    "claimed": "Rousselet",
+    "record": "Rousselet",
     "match": true
    },
    "year": {
-    "claimed": 2018,
-    "record": 2018,
+    "claimed": 2017,
+    "record": 2017,
     "match": true,
     "basis": "published-print"
    },
    "volume": {
-    "claimed": "169",
-    "record": "169",
+    "claimed": "257",
+    "record": "257",
     "match": true
    },
    "pages": {
-    "claimed": "467-473",
-    "record": "467-473",
+    "claimed": "27-33",
+    "record": "27-33",
     "match": true
    },
    "journal": {
-    "claimed": "Annals of Internal Medicine",
-    "record": "Annals of Internal Medicine",
+    "claimed": "Psychiatry Research",
+    "record": "Psychiatry Research",
     "similarity": 1.0
    }
   },
@@ -314,48 +319,48 @@
  {
   "n": 8,
   "claim": {
-   "n": 8,
-   "first_author": "Peters",
-   "title": "Updated methodological guidance for the conduct of scoping reviews",
-   "journal": "JBI Evidence Synthesis",
-   "year": 2020,
-   "volume": "18",
-   "issue": "10",
-   "pages": "2119-2126",
-   "doi": "10.11124/JBIES-20-00167",
-   "key": "lalich"
+   "key": "lohmann",
+   "first_author": "Lohmann",
+   "title": "The Trauma and Mental Health Impacts of Coercive Control: A Systematic Review and Meta-Analysis",
+   "journal": "Trauma, Violence, & Abuse",
+   "year": 2024,
+   "volume": "25",
+   "issue": "1",
+   "pages": "630-647",
+   "doi": "10.1177/15248380231162972",
+   "n": 8
   },
   "checks": {
    "title": {
-    "claimed": "Updated methodological guidance for the conduct of scoping reviews",
-    "record": "Updated methodological guidance for the conduct of scoping reviews",
+    "claimed": "The Trauma and Mental Health Impacts of Coercive Control: A Systematic Review and Meta-Analysis",
+    "record": "The Trauma and Mental Health Impacts of Coercive Control: A Systematic Review and Meta-Analysis",
     "similarity": 1.0
    },
    "first_author": {
-    "claimed": "Peters",
-    "record": "Peters",
+    "claimed": "Lohmann",
+    "record": "Lohmann",
     "match": true
    },
    "year": {
-    "claimed": 2020,
-    "record": 2020,
+    "claimed": 2024,
+    "record": 2024,
     "match": true,
-    "basis": "issued"
+    "basis": "published-print"
    },
    "volume": {
-    "claimed": "18",
-    "record": "18",
+    "claimed": "25",
+    "record": "25",
     "match": true
    },
    "pages": {
-    "claimed": "2119-2126",
-    "record": "2119-2126",
+    "claimed": "630-647",
+    "record": "630-647",
     "match": true
    },
    "journal": {
-    "claimed": "JBI Evidence Synthesis",
-    "record": "JBI Evidence Synthesis",
-    "similarity": 1.0
+    "claimed": "Trauma, Violence, & Abuse",
+    "record": "Trauma, Violence, &amp; Abuse",
+    "similarity": 0.913
    }
   },
   "verdict": "VERIFIED",
@@ -365,16 +370,17 @@
  {
   "n": 9,
   "claim": {
-   "n": 9,
-   "first_author": "Chambers",
-   "title": "The Group Psychological Abuse Scale: a measure of the varieties of cultic abuse",
-   "journal": "Cultic Studies Journal",
-   "year": 1994,
-   "volume": "11",
-   "issue": "1",
-   "pages": "88-117",
+   "key": "lalich",
+   "first_author": "Lalich",
+   "title": "The violent outcomes of ideological extremism: what have we learned since Jonestown?",
+   "journal": "Cultic Studies Review",
+   "year": 2009,
+   "volume": "8",
+   "issue": "3",
+   "pages": "281-302",
    "doi": null,
-   "key": "rousselet"
+   "manual_evidence": "No record in Crossref or OpenAlex for this title (searched 2026-11-26). Cultic Studies Review is not DOI-registered. The authors should attach an archival URL or scan before submission.",
+   "n": 9
   },
   "checks": {
    "record": "no registration record located"
@@ -384,39 +390,50 @@
  {
   "n": 10,
   "claim": {
-   "n": 10,
-   "first_author": "Hassan",
-   "title": "Freedom of Mind: Helping Loved Ones Leave Controlling People, Cults, and Beliefs",
+   "key": "durns",
+   "first_author": "Durns",
+   "title": "A Clinical and Forensic Guide to Cults and Persuasive Leadership",
    "journal": null,
-   "year": 2012,
+   "year": 2025,
    "volume": null,
    "issue": null,
    "pages": null,
-   "doi": null,
-   "type": "book",
-   "key": "lohmann"
+   "doi": "10.1017/9781009280099",
+   "type": "edited-book",
+   "publisher": "Cambridge University Press",
+   "n": 10
   },
   "checks": {
-   "record": "no registration record located"
+   "title": {
+    "claimed": "A Clinical and Forensic Guide to Cults and Persuasive Leadership",
+    "record": "A Clinical and Forensic Guide to Cults and Persuasive Leadership",
+    "similarity": 1.0
+   },
+   "first_author": {
+    "claimed": "Durns",
+    "record": "Durns",
+    "match": true
+   },
+   "year": {
+    "claimed": 2025,
+    "record": 2025,
+    "match": true,
+    "basis": "published-print"
+   }
   },
-  "verdict": "UNVERIFIED (no record in Crossref or OpenAlex)"
+  "verdict": "VERIFIED",
+  "second_source": "present",
+  "source": "Crossref"
  },
  {
   "n": 11,
   "claim": {
-   "n": 11,
    "key": "dayan",
-   "doi": "10.1016/j.avb.2018.04.004",
    "first_author": "Dayan",
    "title": "Sexual abuse and charismatic cults",
    "year": 2018,
-   "journal": null,
-   "volume": null,
-   "issue": null,
-   "pages": null,
-   "generated_from_crossref": true,
-   "printed": "Dayan H. Sexual abuse and charismatic cults. Aggression and Violent Behavior. 2018;41:25-31. doi:10.1016/j.avb.2018.04.004",
-   "section": "3.1"
+   "doi": "10.1016/j.avb.2018.04.004",
+   "n": 11
   },
   "checks": {
    "title": {
@@ -443,19 +460,12 @@
  {
   "n": 12,
   "claim": {
-   "n": 12,
    "key": "smirnova",
-   "doi": "10.17759/psylaw.2015100202",
    "first_author": "Smirnova",
    "title": "Manipulative influence strategy used by totalitarian sect members on the Internet",
    "year": 2015,
-   "journal": null,
-   "volume": null,
-   "issue": null,
-   "pages": null,
-   "generated_from_crossref": true,
-   "printed": "Smirnova N, Dvoryanchikov N. Manipulative influence strategy used by totalitarian sect members on the Internet. Psychology and Law. 2015;5(2):16-40. doi:10.17759/psylaw.2015100202",
-   "section": "3.1"
+   "doi": "10.17759/psylaw.2015100202",
+   "n": 12
   },
   "checks": {
    "title": {
@@ -482,19 +492,12 @@
  {
   "n": 13,
   "claim": {
-   "n": 13,
    "key": "ushiyama",
-   "doi": "10.1007/s11186-016-9279-6",
    "first_author": "Ushiyama",
    "title": "Cultural trauma, counter-narratives, and dialogical intellectuals: the works of Murakami Haruki and Mori Tatsuya in the context of the Aum affair",
    "year": 2016,
-   "journal": null,
-   "volume": null,
-   "issue": null,
-   "pages": null,
-   "generated_from_crossref": true,
-   "printed": "Ushiyama R, Baert P. Cultural trauma, counter-narratives, and dialogical intellectuals: the works of Murakami Haruki and Mori Tatsuya in the context of the Aum affair. Theory and Society. 2016;45(6):471-499. doi:10.1007/s11186-016-9279-6",
-   "section": "3.1"
+   "doi": "10.1007/s11186-016-9279-6",
+   "n": 13
   },
   "checks": {
    "title": {
@@ -521,19 +524,12 @@
  {
   "n": 14,
   "claim": {
-   "n": 14,
    "key": "akimoto2006",
-   "doi": "10.1111/j.1440-1819.2006.01454.x",
    "first_author": "Akimoto",
    "title": "The Aum Cult leader Asahara's mental deviation and its social relations",
    "year": 2006,
-   "journal": null,
-   "volume": null,
-   "issue": null,
-   "pages": null,
-   "generated_from_crossref": true,
-   "printed": "Akimoto H. The Aum Cult leader Asahara's mental deviation and its social relations. Psychiatry and Clinical Neurosciences. 2006;60(1):3-8. doi:10.1111/j.1440-1819.2006.01454.x",
-   "section": "3.1"
+   "doi": "10.1111/j.1440-1819.2006.01454.x",
+   "n": 14
   },
   "checks": {
    "title": {
@@ -560,19 +556,12 @@
  {
   "n": 15,
   "claim": {
-   "n": 15,
    "key": "felthous",
-   "doi": "10.1111/1556-4029.15392",
    "first_author": "Felthous",
    "title": "A classification of combined homicide-suicide: An update-Part III: Extrafamilial homicide-suicide",
    "year": 2024,
-   "journal": null,
-   "volume": null,
-   "issue": null,
-   "pages": null,
-   "generated_from_crossref": true,
-   "printed": "Felthous AR, Masood Y, Safari D, Rodgers E, Chennu N, Kahlon C, et al. A classification of combined homicide-suicide: An update-Part III: Extrafamilial homicide-suicide. Journal of Forensic Sciences. 2024;69(1):241-251. doi:10.1111/1556-4029.15392",
-   "section": "3.2"
+   "doi": "10.1111/1556-4029.15392",
+   "n": 15
   },
   "checks": {
    "title": {
@@ -599,19 +588,12 @@
  {
   "n": 16,
   "claim": {
-   "n": 16,
    "key": "akimoto1997",
-   "doi": "10.1111/j.1440-1819.1997.tb02581.x",
    "first_author": "Akimoto",
    "title": "Two cases of pseudologia phantastica: Consideration from the viewpoint of forensic psychiatry",
    "year": 1997,
-   "journal": null,
-   "volume": null,
-   "issue": null,
-   "pages": null,
-   "generated_from_crossref": true,
-   "printed": "Akimoto H. Two cases of pseudologia phantastica: Consideration from the viewpoint of forensic psychiatry. Psychiatry and Clinical Neurosciences. 1997;51(4):185-195. doi:10.1111/j.1440-1819.1997.tb02581.x",
-   "section": "3.2"
+   "doi": "10.1111/j.1440-1819.1997.tb02581.x",
+   "n": 16
   },
   "checks": {
    "title": {
@@ -638,58 +620,12 @@
  {
   "n": 17,
   "claim": {
-   "n": 17,
-   "key": "kuca",
-   "doi": "10.1007/s00204-026-04629-z",
-   "first_author": "Kuca",
-   "title": "Modern targeted nerve agent incidents: toxicokinetic complexity, biomarker interpretation and forensic uncertainty",
-   "year": 2026,
-   "journal": null,
-   "volume": null,
-   "issue": null,
-   "pages": null,
-   "generated_from_crossref": true,
-   "printed": "Kuca K, Nepovimova E. Modern targeted nerve agent incidents: toxicokinetic complexity, biomarker interpretation and forensic uncertainty. Archives of Toxicology. 2026. doi:10.1007/s00204-026-04629-z",
-   "section": "3.3"
-  },
-  "checks": {
-   "title": {
-    "claimed": "Modern targeted nerve agent incidents: toxicokinetic complexity, biomarker interpretation and forensic uncertainty",
-    "record": "Modern targeted nerve agent incidents: toxicokinetic complexity, biomarker interpretation and forensic uncertainty",
-    "similarity": 1.0
-   },
-   "first_author": {
-    "claimed": "Kuca",
-    "record": "Kuca",
-    "match": true
-   },
-   "year": {
-    "claimed": 2026,
-    "record": 2026,
-    "match": true,
-    "basis": "issued"
-   }
-  },
-  "verdict": "VERIFIED",
-  "second_source": "present",
-  "source": "Crossref"
- },
- {
-  "n": 18,
-  "claim": {
-   "n": 18,
    "key": "mihalyfy",
-   "doi": "10.1353/nvr.2025.a967007",
    "first_author": "Mihalyfy",
    "title": "A Recent Trend of Racketeering Prosecutions and Civil Suits Against New Religious Movements and \"Cults\"",
    "year": 2025,
-   "journal": null,
-   "volume": null,
-   "issue": null,
-   "pages": null,
-   "generated_from_crossref": true,
-   "printed": "Mihalyfy D. A Recent Trend of Racketeering Prosecutions and Civil Suits Against New Religious Movements and \"Cults\". Nova Religio. 2025;29(1):78-94. doi:10.1353/nvr.2025.a967007",
-   "section": "3.3"
+   "doi": "10.1353/nvr.2025.a967007",
+   "n": 17
   },
   "checks": {
    "title": {
@@ -714,21 +650,14 @@
   "source": "Crossref"
  },
  {
-  "n": 19,
+  "n": 18,
   "claim": {
-   "n": 19,
    "key": "boylelaisure",
-   "doi": "10.54208/0002/004",
    "first_author": "Boyle Laisure",
    "title": "Preventing Predatory Alienation by High-Control Groups: The Application of Human Trafficking Laws to Groups Popularly Known as Cults, & Proposed Changes to Laws Regarding Federal Immigration, State Child Marriage, & Undue Influence",
    "year": 2021,
-   "journal": null,
-   "volume": null,
-   "issue": null,
-   "pages": null,
-   "generated_from_crossref": true,
-   "printed": "Boyle Laisure R. Preventing Predatory Alienation by High-Control Groups: The Application of Human Trafficking Laws to Groups Popularly Known as Cults, & Proposed Changes to Laws Regarding Federal Immigration, State Child Marriage, & Undue Influence. International Journal of Coercion, Abuse, and Manipulation. 2021;2:27-40. doi:10.54208/0002/004",
-   "section": "3.3"
+   "doi": "10.54208/0002/004",
+   "n": 18
   },
   "checks": {
    "title": {
@@ -753,21 +682,14 @@
   "source": "Crossref"
  },
  {
-  "n": 20,
+  "n": 19,
   "claim": {
-   "n": 20,
    "key": "wang",
-   "doi": "10.1007/978-981-15-9136-5_10",
    "first_author": "Wang",
    "title": "The People v. Zhang X, and Zhang X (A) (Intentional Homicide and Using a Cult to Undermine Law Enforcement): Principles of Punishment against Cult-related Crimes and Application of the Death Penalty on Cult Members Committing Serious Crimes",
    "year": 2021,
-   "journal": null,
-   "volume": null,
-   "issue": null,
-   "pages": null,
-   "generated_from_crossref": true,
-   "printed": "Wang Q. The People v. Zhang X, and Zhang X (A) (Intentional Homicide and Using a Cult to Undermine Law Enforcement): Principles of Punishment against Cult-related Crimes and Application of the Death Penalty on Cult Members Committing Serious Crimes. Library of Selected Cases from the Chinese Court. 2021. doi:10.1007/978-981-15-9136-5_10",
-   "section": "3.3"
+   "doi": "10.1007/978-981-15-9136-5_10",
+   "n": 19
   },
   "checks": {
    "title": {
@@ -792,21 +714,46 @@
   "source": "Crossref"
  },
  {
+  "n": 20,
+  "claim": {
+   "key": "kuca",
+   "first_author": "Kuca",
+   "title": "Modern targeted nerve agent incidents: toxicokinetic complexity, biomarker interpretation and forensic uncertainty",
+   "year": 2026,
+   "doi": "10.1007/s00204-026-04629-z",
+   "n": 20
+  },
+  "checks": {
+   "title": {
+    "claimed": "Modern targeted nerve agent incidents: toxicokinetic complexity, biomarker interpretation and forensic uncertainty",
+    "record": "Modern targeted nerve agent incidents: toxicokinetic complexity, biomarker interpretation and forensic uncertainty",
+    "similarity": 1.0
+   },
+   "first_author": {
+    "claimed": "Kuca",
+    "record": "Kuca",
+    "match": true
+   },
+   "year": {
+    "claimed": 2026,
+    "record": 2026,
+    "match": true,
+    "basis": "issued"
+   }
+  },
+  "verdict": "VERIFIED",
+  "second_source": "present",
+  "source": "Crossref"
+ },
+ {
   "n": 21,
   "claim": {
-   "n": 21,
    "key": "tade",
-   "doi": "10.1177/25166069221127375",
    "first_author": "Tade",
    "title": "'They Smashed the Heads of Their Victims with Grinding Stone': Badoo Cult Gang and Victimization Experiences in Lagos State",
    "year": 2022,
-   "journal": null,
-   "volume": null,
-   "issue": null,
-   "pages": null,
-   "generated_from_crossref": true,
-   "printed": "Tade O, Akeredolu BC. 'They Smashed the Heads of Their Victims with Grinding Stone': Badoo Cult Gang and Victimization Experiences in Lagos State. Journal of Victimology and Victim Justice. 2022;5(2):149-165. doi:10.1177/25166069221127375",
-   "section": "3.4"
+   "doi": "10.1177/25166069221127375",
+   "n": 21
   },
   "checks": {
    "title": {
@@ -833,19 +780,12 @@
  {
   "n": 22,
   "claim": {
-   "n": 22,
    "key": "lane",
-   "doi": "10.54208/1000/0008/005",
    "first_author": "Lane",
    "title": "Charles Manson: Cult Leader, Counterculture Hero, and Psychopath",
    "year": 2025,
-   "journal": null,
-   "volume": null,
-   "issue": null,
-   "pages": null,
-   "generated_from_crossref": true,
-   "printed": "Lane JP. Charles Manson: Cult Leader, Counterculture Hero, and Psychopath. International Journal of Coercion, Abuse, and Manipulation. 2025;8:93. doi:10.54208/1000/0008/005",
-   "section": "3.4"
+   "doi": "10.54208/1000/0008/005",
+   "n": 22
   },
   "checks": {
    "title": {
@@ -863,6 +803,159 @@
     "record": 2025,
     "match": true,
     "basis": "published-print"
+   }
+  },
+  "verdict": "VERIFIED",
+  "second_source": "present",
+  "source": "Crossref"
+ },
+ {
+  "n": 23,
+  "claim": {
+   "key": "meissner",
+   "first_author": "Meissner",
+   "title": "Accusatorial and information-gathering interrogation methods and their effects on true and false confessions: a meta-analytic review",
+   "journal": "Journal of Experimental Criminology",
+   "year": 2014,
+   "volume": "10",
+   "issue": "4",
+   "pages": "459-486",
+   "doi": "10.1007/s11292-014-9207-6",
+   "n": 23
+  },
+  "checks": {
+   "title": {
+    "claimed": "Accusatorial and information-gathering interrogation methods and their effects on true and false confessions: a meta-analytic review",
+    "record": "Accusatorial and information-gathering interrogation methods and their effects on true and false confessions: a meta-analytic review",
+    "similarity": 1.0
+   },
+   "first_author": {
+    "claimed": "Meissner",
+    "record": "Meissner",
+    "match": true
+   },
+   "year": {
+    "claimed": 2014,
+    "record": 2014,
+    "match": true,
+    "basis": "published-print"
+   },
+   "volume": {
+    "claimed": "10",
+    "record": "10",
+    "match": true
+   },
+   "pages": {
+    "claimed": "459-486",
+    "record": "459-486",
+    "match": true
+   },
+   "journal": {
+    "claimed": "Journal of Experimental Criminology",
+    "record": "Journal of Experimental Criminology",
+    "similarity": 1.0
+   }
+  },
+  "verdict": "VERIFIED",
+  "second_source": "present",
+  "source": "Crossref"
+ },
+ {
+  "n": 24,
+  "claim": {
+   "key": "kassin",
+   "first_author": "Kassin",
+   "title": "Police-induced confessions: Risk factors and recommendations",
+   "journal": "Law and Human Behavior",
+   "year": 2010,
+   "volume": "34",
+   "issue": "1",
+   "pages": "3-38",
+   "doi": "10.1007/s10979-009-9188-6",
+   "n": 24
+  },
+  "checks": {
+   "title": {
+    "claimed": "Police-induced confessions: Risk factors and recommendations",
+    "record": "Police-induced confessions: Risk factors and recommendations.",
+    "similarity": 1.0
+   },
+   "first_author": {
+    "claimed": "Kassin",
+    "record": "Kassin",
+    "match": true
+   },
+   "year": {
+    "claimed": 2010,
+    "record": 2010,
+    "match": true,
+    "basis": "issued"
+   },
+   "volume": {
+    "claimed": "34",
+    "record": "34",
+    "match": true
+   },
+   "pages": {
+    "claimed": "3-38",
+    "record": "3-38",
+    "match": true
+   },
+   "journal": {
+    "claimed": "Law and Human Behavior",
+    "record": "Law and Human Behavior",
+    "similarity": 1.0
+   }
+  },
+  "verdict": "VERIFIED",
+  "second_source": "present",
+  "source": "Crossref"
+ },
+ {
+  "n": 25,
+  "claim": {
+   "key": "vrij",
+   "first_author": "Vrij",
+   "title": "Pitfalls and Opportunities in Nonverbal and Verbal Lie Detection",
+   "journal": "Psychological Science in the Public Interest",
+   "year": 2010,
+   "volume": "11",
+   "issue": "3",
+   "pages": "89-121",
+   "doi": "10.1177/1529100610390861",
+   "n": 25
+  },
+  "checks": {
+   "title": {
+    "claimed": "Pitfalls and Opportunities in Nonverbal and Verbal Lie Detection",
+    "record": "Pitfalls and Opportunities in Nonverbal and Verbal Lie Detection",
+    "similarity": 1.0
+   },
+   "first_author": {
+    "claimed": "Vrij",
+    "record": "Vrij",
+    "match": true
+   },
+   "year": {
+    "claimed": 2010,
+    "record": 2010,
+    "match": true,
+    "basis": "published-print"
+   },
+   "volume": {
+    "claimed": "11",
+    "record": "11",
+    "match": true
+   },
+   "pages": {
+    "claimed": "89-121",
+    "record": "89-121",
+    "match": true
+   },
+   "journal": {
+    "claimed": "Psychological Science in the Public Interest",
+    "record": "Psychological Science in the Public Interest",
+    "similarity": 1.0
    }
   },
   "verdict": "VERIFIED",

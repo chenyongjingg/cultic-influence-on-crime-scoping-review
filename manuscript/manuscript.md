@@ -149,6 +149,12 @@ served {{SRC_S2}} records only after repeated 429 backoff. The biomedical source
 remain the weakest fit for a criminological and legal literature, which is itself a
 finding about the field's publication venues.
 
+Grey literature followed the same rule. Three policy documents inform the
+background — the Victorian Parliament committee report on harm in high-control groups,
+the Family Survival Trust report on coercive control in UK cultic groups, and the
+McIvor et al. review — and none entered the corpus: none is peer-reviewed and none
+reports a codable mechanism–outcome pair. They are cited as context, not counted.
+
 The search used a base block plus five nested blocks. The base block requires at
 least one high-control-group term and at least one crime term in the title or
 abstract; the nested blocks add manipulation-mechanism terms, offence-type terms,
@@ -213,13 +219,16 @@ the named authors remains outstanding, and the numbers here are the machine reco
 not a claim of human review. In the pilot the model's residual errors were
 concentrated in one direction — it over-admitted intimate-partner-violence records
 before the I1 gate was made explicit, and over-rejected when asked to judge twelve
-constructs at once — and both are recorded in the repository's deviation log.
+constructs at once — and both are recorded in the repository's deviation log. The
+validation sample will be read blind by a second author, and the two readings will be
+reported side by side in Supplementary Table S7, completed together with the author
+adjudication in Table S3.
 
 ### 2.5 Measurement of reporting completeness
 
 Reporting completeness was measured at the level of title and abstract, over twelve
-constructs corresponding to the items of the minimum reporting set plus sample size,
-comparison and a group operational definition. Each construct was measured by a
+constructs: the ten items of the minimum reporting set (Table 2), plus sample size
+and comparison. Each construct was measured by a
 documented detector — a term list, a numeric pattern or a two-condition rule, with
 the full set given in the repository and summarised in Supplementary Table S2. A
 construct counts as *reported* when its detector fires, and the detector returns the
@@ -238,9 +247,10 @@ the reported percentages are lower bounds, and that the *distance* between a
 high-recall and a low-recall construct is partly a measurement effect rather than a
 property of the literature. Where the argument depends on the ordering, the paper
 therefore leans on the comparison that survives the correction: the two least
-reported constructs are named in 1.2% and 3.5% of records, and even if their recall
-matched the best-observed construct (0.62) they would rise only to about 1.9% and
-5.6% — still an order of magnitude below offence type and jurisdiction. The same
+reported constructs are named in 1.2% and 2.3% of records (standardised instrument,
+Table 2; offence severity), and even if their recall matched the best-observed
+construct (0.62) they would rise only to about 1.9% and 3.7% — still an order of
+magnitude below offence type and jurisdiction. The same
 read gives precision by construct between 0.73 and 1.00 where it can be estimated,
 so the error runs in the direction of under-counting, not over-counting.
 
@@ -355,6 +365,10 @@ directional reading and the condition for reading a gap:
 ### 3.4 The evidence map and the reporting gap
 
 {{SECTION_6}}
+
+### 3.5 Investigative and regulatory practice in the corpus
+
+{{SECTION_35}}
 
 ## 4. Discussion
 

@@ -21,30 +21,11 @@ def main(src="out/manuscript/manuscript_filled.md",
     refblock, tail = refblock.split("\n## Figures", 1)
     tail = "\n## Figures" + tail
 
-    # existing printed strings, keyed by their current number
-    printed = {}
-    for line in refblock.split("\n"):
-        m = re.match(r"^\s*(\d+)\.\s+(.*\S)\s*$", line)
-        if m:
-            printed[int(m.group(1))] = m.group(2)
-
-    meta = json.load(io.open(os.path.join(ROOT, "src", "refs.json"), encoding="utf8"))["refs"]
-    key_of = {}
-    for r in meta:
-        if r.get("section"):
-            key_of[r["n"]] = None  # corpus refs are keyed below
-    corpus = json.load(io.open(os.path.join(ROOT, "out", "data", "corpus_refs.json"), encoding="utf8"))
-
-    # key -> printed string
-    keys = {}
-    for k, n in (("tricco", 1), ("peters", 2), ("chambers", 3), ("hassan", 4),
-                 ("bohm", 5), ("coates", 6), ("rousselet", 7), ("lohmann", 8),
-                 ("lalich", 9), ("durns", 10)):
-        if n not in printed:
-            sys.exit("reference %d missing from the block" % n)
-        keys[k] = printed[n]
-    for i, r in enumerate(corpus):
-        keys[r["key"]] = r["reference"]
+    # Reference strings come from a canonical map (key -> formatted citation), not
+    # from parsing the current block: once the list is renumbered, the block no
+    # longer says which key a number belongs to.
+    keys = json.load(io.open(os.path.join(ROOT, "out", "data", "reference_strings.json"),
+                             encoding="utf8"))
 
     # order of first appearance
     order, seen = [], set()

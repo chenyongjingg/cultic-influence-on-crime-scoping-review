@@ -185,7 +185,8 @@ def check(r):
 def main():
     data = json.load(open(os.path.join(ROOT, "src", "refs.json"), encoding="utf8"))
     rows = []
-    for r in data["refs"]:
+    for i, r in enumerate(data["refs"], 1):
+        r = dict(r); r["n"] = i
         rows.append(check(r))
         time.sleep(0.4)
 
@@ -215,14 +216,14 @@ def main():
     # items no registration agency covers get their evidence printed, not a bare tick
     manual = [r for r in rows if r["claim"].get("manual_evidence")]
     if manual:
-        L.append("
-## Items not verifiable through a registration agency
-")
+        L.append("")
+        L.append("## Items not verifiable through a registration agency")
+        L.append("")
         for r in manual:
-            L.append("**%d.** %s
-
-> %s
-" % (r["n"], r["claim"].get("title"), r["claim"]["manual_evidence"]))
+            L.append("**%d.** %s" % (r["n"], r["claim"].get("title")))
+            L.append("")
+            L.append("> " + r["claim"]["manual_evidence"])
+            L.append("")
 
     ok = sum(1 for r in rows if r["verdict"] == "VERIFIED")
     L.append("\n%d of %d verified on every field checked." % (ok, len(rows)))
