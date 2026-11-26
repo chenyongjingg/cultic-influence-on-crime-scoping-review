@@ -71,6 +71,7 @@ def main():
 
     # ---- word count: main text only, from Introduction to before References
     body = md.split("\n## 1. Introduction", 1)[1].split("\n## References", 1)[0]
+    body = re.sub(r"(?s)<!--.*?-->", " ", body)               # editor notes are not text
     body = re.sub(r"!\[[^\]]*\]\([^)]*\)", "", body)          # images
     body = re.sub(r"^##+ .*$", "", body, flags=re.M)          # headings
     body = re.sub(r"^\*\*Figure [0-9S]+\.\*\*.*$", "", body, flags=re.M)

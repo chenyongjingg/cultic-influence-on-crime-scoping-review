@@ -16,7 +16,7 @@
 
 ## Abstract
 
-**Background.** High-control groups sit at the junction of social psychology, group dynamics and criminal conduct. Mental manipulation, coercive control and indoctrination shape how courts and clinicians attribute agency, and therefore findings of criminal responsibility. The relation between these mechanisms and criminal outcomes is widely discussed and rarely compared. **Objective.** To map what the literature on cultic influence and crime demonstrates, what it measures and what it leaves unreported, and to derive a minimum reporting set from that map. **Methods.** Scoping review following PRISMA-ScR and JBI guidance, specified before searching. Six bibliographic sources were searched from 1994 to November 2026 with a base block requiring a high-control-group term and a crime term in title or abstract. Records were screened against four criteria by a fixed open-weight language model, with every verdict, supporting span and confidence retained; reporting completeness was then measured by twelve documented lexical detectors, each returning its matched span so that every count can be re-derived. No effect size was pooled and no significance test was computed. **Results.** 192 records met the inclusion criteria, 171 of which carried an abstract; full text was obtainable for 42 of them (24.6%). Among the measurable abstracts, 5.8% stated how the group was operationally identified, 14.6% distinguished participant roles, 4.1% reported involvement or exit duration, 1.2% named a standardised instrument and 20.5% reported a legal outcome. The evidence map is sparse. Most mechanism–outcome cells are empty. **Conclusions.** The variables that carry the causal claim — role, duration, instrument, legal outcome — are the least reported in the abstract, but they are not missing from the papers. A paired reading of abstracts against full texts raises the standardised-instrument rate from 0% to 28.6%, and the legal-outcome rate from 16.7% to 66.7%. The deficit sits at the reading interface rather than in the scholarship, and a ten-item minimum reporting set is proposed for that interface.
+**Background.** High-control groups sit at the junction of social psychology, group dynamics and criminal conduct. Mental manipulation, coercive control and indoctrination shape how courts and clinicians attribute agency, and therefore findings of criminal responsibility. The relation between these mechanisms and criminal outcomes is widely discussed and rarely compared. **Objective.** To map what the literature on cultic influence and crime demonstrates, what it measures and what it leaves unreported, and to derive a minimum reporting set from that map. **Methods.** Scoping review following PRISMA-ScR and JBI guidance, specified before searching. Six bibliographic sources were searched from 1994 to November 2026 with a base block requiring a high-control-group term and a crime term in title or abstract. Records were screened against four criteria by a fixed open-weight language model, with every verdict, supporting span and confidence retained; reporting completeness was then measured by twelve documented lexical detectors, each returning its matched span so that every count can be re-derived. No effect size was pooled and no significance test was computed. **Results.** 192 records met the inclusion criteria, 171 of which carried an abstract; full text was obtainable for 42 of them (24.6%). Among the measurable abstracts, 5.8% stated how the group was operationally identified, 14.6% distinguished participant roles, 4.1% reported involvement or exit duration, 1.2% named a standardised instrument and 20.5% reported a legal outcome. The evidence map is sparse. Most mechanism–outcome cells are empty. **Conclusions.** The variables that carry the causal claim — role, duration, instrument, legal outcome — are the least reported in the abstract, but they are not missing from the papers. A paired reading of abstracts against full texts raises the standardised-instrument rate from 0% to 28.6%, and the legal-outcome rate from 16.7% to 66.7%. The deficit sits at the reading interface rather than in the scholarship, and a ten-item minimum reporting set is proposed for that interface, framed as a disclosure instrument a regulator could impose at low cost.
 
 ---
 
@@ -72,13 +72,14 @@ such as the name of the group or a narrative of the mechanism, should be reporte
 almost universally. The pattern is a testable prediction about the corpus, and this
 review tests it by counting.
 
-Three contributions follow. First, a descriptive evidence map over mechanisms and
-criminal outcomes, in which an empty cell is a finding. Second,
-a measurement of reporting completeness across twelve constructs, each reported as
-n/N with its denominator. Third, a minimum reporting set — MRS-CI — derived from what is actually missing, not from what a committee would prefer, with every
-item stated in the minimum form that would make the next study comparable. This
-last point is the review's practical claim: the binding constraint on this field is
-not the supply of studies but the comparability of what they report.
+Four contributions follow. First, the reading-interface finding: the quantities that
+make studies comparable are in the papers and absent from their abstracts, on a paired
+comparison with a length-matched control. Second, a comparative map across twelve
+constructs, each reported as n/N with its denominator. Third, a map of the
+investigative record and what it does and does not contain (Section 3.5). Fourth, the
+regulatory asymmetry: every instrument the corpus names is ex post, none operates on
+information, and MRS-CI is proposed as a disclosure-based instrument of low burden.
+The binding constraint on this field is the comparability of what studies report.
 
 The review is scoping rather than systematic-with-meta-analysis, and this is a
 substantive position. The mechanism variables are measured with different
@@ -104,8 +105,7 @@ Supplementary Table S1; they are summarised where they bear on interpretation.
 
 **Population.** People involved in high-control groups — leaders, core executors,
 ordinary members, victims, and former members — and the empirical studies, case
-reports, forensic assessments and court documents built on them. The unit of
-analysis is the record, not the person.
+reports, forensic assessments and court documents built on them. The unit of analysis is the record.
 
 **Concept.** The relation between a psychological manipulation mechanism
 (indoctrination, thought reform, coercive control, mind control, social isolation,
@@ -134,18 +134,16 @@ block), Semantic Scholar (410), CORE (269), Europe PMC
 and DOAJ (150) together retrieved 1154 records before
 deduplication.
 
-The choice of sources follows a constraint. OpenAlex, the
-source the protocol originally treated as primary, moved in February 2026 to a
-credit-metered model; its free allowance was exhausted during pre-search
-development and every request then returned HTTP 429 with a retry-after of roughly
-eighteen hours. The search was rebuilt instead, on sources that were
-measurable on the execution date. Their yields differ sharply and this is reported, not smoothed: CORE returned 3,046 hits for the composite query but its
-unkeyed quota allowed only 269 records to be retrieved before persistent
-throttling; Crossref's relevance ranking yields few on-topic records per thousand
-rows because it does not support boolean title/abstract logic; Semantic Scholar
-served 410 records only after repeated 429 backoff. The biomedical sources
-remain the weakest fit for a criminological and legal literature, which is itself a
-finding about the field's publication venues.
+The choice of sources follows a constraint. OpenAlex, the protocol's original primary source, moved in February 2026 to credit
+metering; its free allowance was exhausted during pre-search development and every
+request returned HTTP 429 with a retry-after of about eighteen hours. The search was
+rebuilt on sources measurable on the execution date, and their yields differ. CORE
+returned 3,046 hits for the composite query but its unkeyed quota allowed
+269 records before persistent throttling; Crossref ranks by relevance and
+yields few on-topic records per thousand rows; Semantic Scholar served 410
+records only after repeated 429 backoff. The biomedical sources remain the weakest fit
+for a criminological and legal literature, which is itself a finding about where this
+field publishes.
 
 Grey literature followed the same rule. Three policy documents inform the
 background — the Victorian Parliament committee report on harm in high-control groups,
@@ -157,7 +155,7 @@ The search used a base block plus five nested blocks. The base block requires at
 least one high-control-group term and at least one crime term in the title or
 abstract; the nested blocks add manipulation-mechanism terms, offence-type terms,
 measurement terms, forensic and legal terms, and intervention and exit terms, and
-are reported as filters with their own counts, not as independent populations. The full strategy, per-source counts, retrieval dates and artefact
+are reported as filters with their own counts. The full strategy, per-source counts, retrieval dates and artefact
 hashes are in Supplementary Table S2.
 
 ### 2.4 Screening
@@ -171,8 +169,7 @@ from the record, and only then a decision and a confidence; the order is part of
 method, because in the pilot the model answered "everything is irrelevant" when the
 decision field came first and located evidence correctly when the span came first.
 
-Three gates convert the model's output into an inclusion decision, and each is
-computed from the output, not taken from it. First, the decision is
+Three gates convert the model's output into an inclusion decision, and each is computed from the output. First, the decision is
 computed from the four criterion flags, not read from the model's own decision
 field: the pilot caught the model returning INCLUDE while one of its own criteria
 was false. Second, the group criterion is conjunctive — a record must carry a
@@ -200,11 +197,11 @@ from 52.0% to 52.8% — in both directions, and by less than a percentage point.
 profile therefore does not depend on the screen's precision, but the direction of the
 error is not the one that would flatter the paper: the corpus is not biased towards
 over-reporting, and it is not biased towards under-reporting either. Second, no
-precision claim is made for the screen; the sample is small, the reader is the executing agent, not an independent reviewer, and the operative check is the
-author adjudication of the full table. Supplementary Table S7 gives the verdicts
-record by record.
+precision claim is made for the screen; the sample is small, the reader is the executing agent, not an independent reviewer, and the operative check will be the
+author adjudication of the full table, which has not yet been performed.
+Supplementary Table S7 gives the verdicts record by record.
 
-Two disclosures belong here, not in a limitations paragraph. No double
+Two disclosures belong here. No double
 independent screening by two human reviewers was performed; what replaces the
 inter-rater statistic is the full decision trail, a prompt-perturbation re-run that
 measures how far decisions move when the criterion wording is paraphrased, and a
@@ -250,33 +247,25 @@ magnitude below offence type and jurisdiction. The same
 read gives precision by construct between 0.73 and 1.00 where it can be estimated,
 so the error runs in the direction of under-counting, not over-counting.
 
-A language-model extractor was implemented first and abandoned. On a pilot of 28
+A language-model extractor was implemented first and abandoned: on a pilot of 28
 records it marked all twelve constructs absent for abstracts that plainly named an
-offence type and a jurisdiction, and its verbatim anchors failed a string
-re-check in 30% of the cases where it did fire. The failure is documented here
-because it is a real property of small open models on twelve-way extraction, and
-because it determines how the resulting numbers should be read: a lexical detector
-measures *whether the words are there*, and that is exactly the claim the reporting
-set is about.
+offence type and a jurisdiction, and its verbatim anchors failed a string re-check in
+30% of the cases where it did fire. A lexical detector measures *whether the words are
+there*, and that is exactly the claim the reporting set is about.
 
-The obvious alternative was tested, not asserted. The same 29 hand-coded
-records were also put to the 14B screening model one construct at a time — the
-prompt form that works for this model — and scored against the hand read. That
-reading is precise and far too conservative: precision
-0.846, recall 0.177, rising to 0.62 only for a named
-mechanism. It would have reported offence type in 2 of 29
-records where the hand read finds it in all 29. An instrument that is right when it
-fires and silent most of the time cannot carry a prevalence estimate, which is why
-the measurement layer is lexical rather than generative.
+The obvious alternative was tested. The same 29 hand-coded records were put to the
+14B model one construct at a time — the prompt form that works for it — and scored
+against the hand read: precision 0.846, recall
+0.177, rising to 0.62 only for a named mechanism. It would have
+reported offence type in 2 of 29 records where the hand read finds it in all 29. An
+instrument right when it fires and silent most of the time cannot carry a prevalence
+estimate, which is why the measurement layer is lexical.
 
-What this measurement covers defines what the review can claim. What is measured
-is what a record states at its reading interface — the title and abstract — not what
-its full text contains. For constructs conventionally reported in the body of a paper and not in its abstract, this choice under-counts. The consequence is a
-claim about the *visibility* of the evidence, which is the correct claim for a
-review whose readers meet this literature through abstracts and databases, and it is
-not a claim about what the studies actually measured. Where an abstract is absent,
-the measurement is not made and the record is reported as missing data rather than
-as a negative finding.
+What is measured is what a record states at its reading interface — title and
+abstract — not what its full text contains, so constructs reported only in the body
+are under-counted. The claim is about the *visibility* of the evidence, which is the
+right claim for readers who meet this literature through databases. Where an abstract
+is absent the measurement is not made, and the record counts as missing data.
 
 ### 2.6 Analysis
 
@@ -291,20 +280,15 @@ and by nothing stronger.
 ### 2.7 Sensitivity analyses
 
 Five pre-specified analyses test how much of the result depends on a discretionary
-choice. All run on artefacts already produced; none retrieves new records. Results
-are in Supplementary Table S5.
+choice; all run on artefacts already produced and none retrieves new records.
+Results are in Supplementary Table S5.
 
-**E1** replays the automatic-exclusion rule over a range of confidence thresholds
-and reports how the included set would move. **E2** compares the conjunctive and
-disjunctive readings of the group criterion (lexical anchor *and* model verdict
-versus model verdict alone) and classifies the records that only the disjunctive
-reading would admit. **E3** reports each source's independent contribution — the
-records no other source returned — so that no single source's coverage is allowed
-to stand in for the field. **E4** reports what the year and language limits removed.
-**E5** compares the 7B and 14B screening layers on the same records and reports
-agreement on the decision and on each criterion, with Cohen's kappa used to describe
-how much agreement exceeds chance and explicitly not to decide which model is
-correct.
+**E1** replays the automatic-exclusion rule across confidence thresholds. **E2**
+compares the conjunctive and disjunctive readings of the group criterion. **E3**
+reports each source's exclusive contribution. **E4** reports what the year and
+language limits removed. **E5** compares the 7B and 14B layers on the same records,
+using Cohen's kappa to describe how far agreement exceeds chance and not to decide
+which model is right.
 
 ### 2.8 Abstract layer versus full text
 
@@ -427,8 +411,7 @@ Two practical consequences follow for the forensic reader. First, an expert aske
 to assess a member's responsibility has to construct the mechanism evidence ad hoc,
 case by case, which is exactly the condition in which assessments diverge between
 experts and between jurisdictions. Second, because no common instrument exists, no
-cumulative evidence base can form: each assessment is an argument, not a
-measurement, and arguments do not aggregate.
+cumulative evidence base can form: each assessment is an argument, and arguments do not aggregate.
 
 ### 3.3 Mechanism–crime relations
 
@@ -440,35 +423,32 @@ severity?** 4 of 171 records
 distinguish participant roles and report a duration. The pre-specified bar for a
 directional reading was three independent studies reporting involvement parameters
 in comparable form alongside a graded outcome; that bar is not met in this corpus.
-The reading is therefore a gap, and the gap has a specific shape: role and duration
-are the two variables through which any dose-response claim would have to be made,
-and they are the two that a record is least likely to report.
+The reading is therefore a gap with a specific shape: role and duration are the two
+variables any dose-response claim would need, and the two a record is least likely to
+report.
 
 **A-2: does standardised measurement make comparison possible?** The bar was a
 record that names an instrument and reports its score with the administration
-context. 2 of 171 records name an instrument at all, so the
-second clause is not reached. The gap here is not one of reporting completeness
-within studies that measure; it is the near-absence of measurement.
+context. 2 of 171 records name an instrument at all, so the second
+clause is not reached and the gap is the near-absence of measurement.
 
 **A-3: is there a statable relation between quantified manipulation and judicial
 outcomes?** 5 of 171 records
 report both a named mechanism and a legal outcome. The pre-specified bar was
 documentable pairs of manipulation assessment and subsequent legal outcome; it is
-not met. The corpus does contain records that discuss both in the same paper — a
-case is narrated and the court's reasoning is described — but the two are not
-reported as a measured pair, and a reader cannot recover from the abstract what
-was assessed against what was decided.
+not met. Records do discuss both in one paper — a case is narrated and the court's reasoning
+described — but not as a measured pair, so a reader cannot recover what was assessed
+against what was decided.
 
 The records that carry the argument furthest are those where a criminal proceeding
 and a group are documented together: prosecutions brought against a group, not an individual member [17,18], cases in which the group's
 doctrine enters the court's reasoning [19], and incidents where the mechanism and
 the offence are physically inseparable, as in a chemical release [20].
 
-Taken together the three questions return the same structure: the literature can
-say that manipulation was present and can say what the court decided, and cannot
-say how much manipulation was present or how the decision related to it. This is
-the comparative failure that motivates the reporting set in Section 4.1, and it is
-worth being precise about what kind of failure it is. It is not a failure of
+The three questions return one structure: the literature can say that manipulation
+was present and what the court decided, and cannot say how much was present or how the
+decision related to it. That comparative failure motivates the reporting set in
+Section 4.1, and its kind matters. It is not a failure of
 scholarship: the individual studies are often careful, and the case literature is
 detailed. It is a failure of commensurability — the vocabulary is shared and the
 measures are not, so each study speaks to its own case and the accumulation that a
@@ -514,7 +494,7 @@ operational definition in 10.
 Read as lower bounds, as the validation in Section 2.5 requires. The detector
 recall differs by construct — highest for a named mechanism and jurisdiction, lowest
 for a group definition and participant role — so the gap between the top and the
-bottom of this list is larger than the bars suggest, not smaller. What the bars
+bottom of this list is larger than the bars suggest. What the bars
 establish is the magnitude of the difference between the two groups: even under the
 most generous correction the least reported constructs do not exceed single figures,
 while offence type and jurisdiction sit near the ceiling of what an abstract can
@@ -540,7 +520,7 @@ Records cluster in the most recent decade, come from a relatively small number o
 journals, and are dominated by case reports and commentary and not designs with denominators. A scoping review is the right instrument for a literature in this
 condition — the point is to map it, not to summarise an effect — but the map is a map
 of a thin and heterogeneous body of work, and the reporting set in the next section
-should be read as a description of what would make the *next* literature comparable, not as a criticism of this one.
+should be read as a description of what would make the *next* literature comparable.
 
 ### 3.4.1 Where the numbers actually come from
 
@@ -585,33 +565,28 @@ paper, not that the underlying study is sound.
 
 ### 3.4.2 What the sensitivity analyses change
 
-None of the five analyses moves the headline. E1 shows that the automatic-exclusion
-rule is insensitive to its threshold across the range 0.60 to 0.90, not because the
-rule is robust but because the model's stated confidence clusters at 0.90 and 0.95;
-a threshold is not a graded dial when the dial has two positions. E2 is the most
-informative result for the method: under the 14B layer the lexical half of the group
-criterion adds 0 records beyond
-what the model's own I1 verdict removes, so the gate that mattered for the 7B layer
-is redundant at 14B. That is a statement about where the fix belongs — in the
-prompt, not in a post-hoc rule — and it is reported and not quietly kept as belt-and-braces. E3 shows that
-344 records are unique
-to Semantic Scholar, 166
+None of the five analyses moves the headline. E1 shows the automatic-exclusion rule
+insensitive to its threshold from 0.60 to 0.90, because the model's stated confidence
+clusters at 0.90 and 0.95; a threshold is not a graded dial when the dial has two
+positions. E2 matters most for the method: under the 14B layer the lexical half of the
+group criterion adds
+0 records beyond the model's own
+I1 verdict, so the gate that mattered at 7B is redundant at 14B — the fix belongs in
+the prompt. E3 shows
+344 records unique to
+Semantic Scholar, 166
 to CORE and 33
 to Crossref, so the corpus is not one source wearing six names. E4 records what the
-year and language limits removed. E5 compares the two screening layers: agreement on
-the decision is 74 per cent with a kappa of 0.35,
-which is substantial but far from interchangeable, and the layers agree on INCLUDE
-for 5 of the fifty sampled records.
+year and language limits removed. E5 compares the two screening layers: agreement is
+74 per cent with a kappa of 0.35, and the layers
+agree on INCLUDE for 5 of the fifty sampled records.
 
-Two further diagnostics belong here. An embedding pass over the eligible records
-(bge-m3, cosine on title and abstract) found
-8 near-duplicate clusters at a threshold of 0.95,
-including the same paper in two languages and the same record served by two
-sources; they are listed for the authors and not merged automatically, because
-two of the clusters join works that are related but distinct. The overall reading is
-that the corpus is source-dependent in composition but not in conclusion: adding
-three sources multiplied the included set severalfold and left the reporting profile
-in Figure 3 unchanged in shape.
+An embedding pass over the eligible records (bge-m3, cosine on title and abstract)
+found 8 near-duplicate clusters at 0.95, including
+the same paper in two languages and the same record served by two sources. The overall
+reading is that the corpus is source-dependent in composition and not in conclusion:
+three sources multiplied the included set severalfold and left the profile in Figure 3
+unchanged in shape.
 
 ### 3.5 Investigative and regulatory practice in the corpus
 
@@ -669,15 +644,10 @@ civil suits against new religious movements [17], the application of trafficking
 high-control groups together with proposed amendments [18], and sentencing principles in
 cult-related cases [19].
 
-That distribution is a governance finding. The literature treats
-regulation as what happens to a group once an offence is established, and almost never
-as an instrument operating earlier, on information. MRS-CI is best understood in those terms: an
-information-disclosure-based, low-burden regulatory instrument. It imposes no licence and no
-sanction; it changes what must be made visible, so that otherwise
-incomparable case narratives become an auditable and comparable record. The disclosure obligation attaches where an
-organisation already holds the information, and it converts an unverifiable narrative
-into a record a regulator, a court or a later study can check. This is Section 4.2's "cheapest possible intervention" said
-in regulatory rather than methodological terms.
+That distribution is a governance finding. MRS-CI is best understood against it: an
+information-disclosure-based, low-burden regulatory instrument. It imposes no licence and
+no sanction; it changes what must be made visible, so that otherwise incomparable case
+narratives become an auditable and comparable record.
 
 The asymmetry is the finding. Every instrument these records name acts on conduct after
 the event: prosecution, removal or status, trafficking enforcement, family-court
@@ -689,19 +659,28 @@ operates on information.
 
 That shape follows from what this class of harm looks like. Incidents are rare, and
 severe when they occur; the corpus is a record of those incidents. Enforcement arrives
-after the damage and cannot be calibrated to it, while a registration or disclosure
-requirement attaches at the point where a group already holds the information and costs
-little to impose. The field's regulatory imagination is anchored to the cases that
-produced it.
+after the damage and cannot be calibrated to it. The field's regulatory imagination is
+anchored to the cases that produced it.
 
 Read in those terms, MRS-CI belongs to a recognisable sequence of regulatory instruments.
 It first makes risk countable: items 1 and 6 to 9 turn a group, an offence and a legal
 outcome into quantities a regulator can tally. It then supplies the parameters an
 assessment needs: items 2, 3 and 5 give exposure and capacity, who the person was, how
-long, measured how. It closes with a pathway of minimum burden, where the obligation
-attaches to disclosure and not to conduct. Identification, assessment, pathway: that
-sequence is the ordinary shape of risk governance, and the same shape appears in
-risk-assessment registration and in algorithmic accountability regimes.
+long, measured how. <!-- TODO (round 4, self-citation): the sequence named here is the same
+risk-governance framing the first author develops for AI-industry oversight
+(Zhu, S. 2026. 风险防范：人工智能产业"非理性繁荣"的问题审视与规制路径研究.
+信息技术与管理学院/信息技术与管理应用, 2026(1); reprinted in 人大复印报刊资料
+《体制改革》2026(6)). It is NOT cited because no bibliographic record could be
+confirmed from this environment: Crossref has no record for the journal or the
+title, Baidu Scholar returns an empty shell, Bing returns no result, Wanfang
+returns an empty page, CQVIP returns HTTP 412 and CNKI requires an
+authenticated session. Add the citation here once the CNKI record (authors,
+volume, issue, pages) is in hand; the author-group self-citation count is
+currently 0. -->
+
+Identification, assessment, disclosure: that sequence is the
+ordinary shape of risk governance, and the same shape appears in risk-assessment
+registration and in algorithmic accountability regimes.
 
 The parallel is structural, not empirical. The review shows that the disclosure layer is
 missing from this literature. It offers no evidence that adding the layer would reduce
@@ -723,16 +702,18 @@ counts show which of those the literature currently makes available to a fact-fi
 and the regulatory counts show which it makes available to a regulator — in both cases,
 the answer for this corpus is: fewer than the underlying cases contain.
 
-This subsection codes only what published literature states about practice. It is not an
-investigative guide, not a legislative proposal, and it draws on no unpublished or
+This subsection codes only what published literature states about practice. It is neither an investigative guide nor a legislative proposal, and it draws on no unpublished or
 restricted case material.
 
 ## 4. Discussion
 
+This section addresses three audiences at once: reviewers, for what to require of this
+literature; investigators, for what the record does and does not support; and
+regulators, for where the instrument gap sits.
+
 ### 4.1 A minimum reporting set (MRS-CI)
 
-The minimum reporting set (Table 2) is derived from what the corpus reports, not
-from what a committee would prefer — and Section 3.4.1 fixes its target. The information the set asks for
+The minimum reporting set (Table 2) is derived from what the corpus reports, and not from committee preference — and Section 3.4.1 fixes its target. The information the set asks for
 already exists in the papers; what fails is its transit to the abstract. A set
 addressed at that transit is unusually cheap: it does not ask any author to measure
 anything new, and it does not ask any journal to change its peer review. It asks for
@@ -825,7 +806,7 @@ only one available to a review.
 
 Three questions follow from the map. Each is stated in a form that a future
 literature could settle, and each is left without a formal falsification design
-because the design would be an empirical study, not a review.
+because that design is an empirical study.
 
 **Q1. Does role-graded reporting change the consistency of mechanism–crime
 findings?** If records began to classify participants by role and duration, the
@@ -839,7 +820,7 @@ is held constant.
 the set is adopted, it should appear first in the studies that already have data —
 it is cheap to report what one has measured — and only later change what is
 measured. The prediction is that adoption of MRS-CI will be visible before any
-change in the underlying instruments, and that instrument development will follow adoption, not cause it.
+change in the underlying instruments, and that instrument development will follow adoption.
 
 **Q3. Is the legal outcome the binding constraint?** If the interface is where the
 literature fails — mechanism reported, outcome not — then studies that do report a
@@ -892,8 +873,12 @@ it is a matter of counting.
 
 **Author contributions.** Ziying Xue: investigation, formal analysis, writing —
 original draft. Yongjin Chen: data curation, validation, visualization. Songze Zhu:
-conceptualization, methodology, adjudication (recorded in Supplementary Table S3),
-correspondence. All three authors contributed to writing — review and editing.
+conceptualization, methodology, correspondence. All three authors contributed to
+writing — review and editing.
+
+Adjudication of the screening table (Supplementary Table S3) remains outstanding. The
+worksheet is complete and blank for the author's decisions, and the numbers reported
+here are the machine record; Section 2.4 says how they should be read in consequence.
 
 
 **Ethics.** No human participants and no personal data were involved; the corpus
