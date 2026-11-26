@@ -35,19 +35,19 @@ Row numbers are the numbers the manuscript prints, in its order.
 
 ## Items no registration agency covers
 
-**2.** The violent outcomes of ideological extremism: what have we learned since Jonestown? (lalich)
+**2.** Lalich JA. The violent outcomes of ideological extremism: what have we learned since Jonestown? *Cultic Studies Review*. 2009;8(3):281–302.
 
 > EBSCO record (gcd:49048565) and the ICSA archive of Cultic Studies Review Vol. 8 No. 3 (2009) give 8(3):281-302, ISSN 1539-0152. The journal registered no DOI with Crossref.
 
-**9.** The Group Psychological Abuse Scale: a measure of the varieties of cultic abuse (chambers)
+**9.** Chambers WV, Langone MD, Dole AA, Grice JW. The Group Psychological Abuse Scale: a measure of the varieties of cultic abuse. *Cultic Studies Journal*. 1994;11(1):88–117.
 
 > Scopus (document 0007306098), the Mendeley catalogue and the ICSA e-library record Cultic Studies Journal 11(1):88-117 (1994), authors Chambers, Langone, Dole, Grice. The journal registered no DOI with Crossref.
 
-**10.** Freedom of Mind: Helping Loved Ones Leave Controlling People, Cults, and Beliefs (hassan)
+**10.** Hassan S. *Freedom of Mind: Helping Loved Ones Leave Controlling People, Cults, and Beliefs*. Newton, MA: Freedom of Mind Press; 2012.
 
 > ISBN 9780967068817. Hassan's own CV, library catalogue records and the ICSA book review (IJCS 6, 2015) all give Newton, MA: Freedom of Mind Press, 2012. Some catalogues carry 2013 for a later printing of the same edition.
 
-**26.** Risk prevention: a critical examination of "irrational exuberance" in the AI industry and its regulatory pathways (zhu2026)
+**26.** Zhu S. Risk prevention: a critical examination of “irrational exuberance” in the AI industry and its regulatory pathways [in Chinese]. *Information Technology and Management Application*. 2026;(1).
 
 > Verified by the authors against the journal record. The journal registers no DOI with Crossref, and the record could not be reached from the build environment (Crossref, Baidu Scholar, Bing, Wanfang, CQVIP 412, CNKI authentication). Reprint: 人大复印报刊资料《体制改革》2026年第6期.
 

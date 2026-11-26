@@ -410,8 +410,8 @@ regulators, for where the instrument gap sits.
 
 ## Declarations
 
-**Author contributions.** Ziying Xue: investigation, formal analysis, writing —
-original draft. Yongjin Chen: data curation, validation, visualization. Songze Zhu:
+**Author contributions.** Ziying Xue: investigation, formal analysis, screening
+audit, writing — original draft. Yongjin Chen: data curation, validation, visualization. Songze Zhu:
 conceptualization, methodology, correspondence. All three authors contributed to
 writing — review and editing.
 
@@ -514,7 +514,7 @@ at each step.
 
 ## Supplementary material
 
-- **Table S1.** Protocol deviations and the constraint behind each (D-1 to D-8).
+- **Table S1.** Protocol deviations and the constraint behind each (D-1 to D-18).
 - **Table S2.** Search strategy, per-source counts and the construct detector
   definitions.
 - **Table S3.** Screening and adjudication table, one row per record, with the
@@ -523,5 +523,9 @@ at each step.
 - **Table S5.** Sensitivity analyses E1–E5 and the M8–M10 coding table.
 - **Table S6.** The 50-record precheck sample.
 - **Table S7.** Validation read of that sample, verdicts record by record.
-- **Table S8.** Reference verification: every reference checked field by field against its registration record.
+- **Table S8.** Reference verification: every reference checked field by field against its registration record, and S8b, whether each cited work supports the sentence it is cited in.
+- **Table S9.** Full-corpus audit of the screening decisions: the rule replay, the metaphor screen, the records whose own evidence names no group, and the sensitivity of every headline percentage to those flags.
+- **Table S9b.** The author audit applied: the 30 flagged records, the 28 excluded, and the before/after percentages.
+- **Table S10.** The 30 flagged records with the abstract, the model's flags and quoted evidence, and the author's verdict.
+- **Supplementary File 1.** The protocol, in the language in which it was written (Chinese).
 - **PRISMA-ScR checklist.** Completed record, submitted with the manuscript.
