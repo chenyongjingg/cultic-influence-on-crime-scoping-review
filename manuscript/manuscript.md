@@ -1,66 +1,22 @@
 # Cultic influence on crime: a PRISMA-ScR scoping review of mechanisms, criminal outcomes and reporting practices
 
-**Running title:** Mechanisms of cultic influence and criminal outcomes
+**Authors:** Songze Zhu¹, Ziying Xue¹, Yongjin Chen¹
 
-**Authors:** [author list per protocol §7.3 — Songze Zhu, Ziying Xue, Yongjin Chen]
+**Affiliation:** ¹ People's Public Security University of China, Beijing 100038, China
 
-**Manuscript type:** Systematic Review (scoping review, PRISMA-ScR)
+* Correspondence: Songze Zhu, 20196846@ppsuc.edu.cn
 
-**Target:** *Frontiers in Psychology* — Forensic and Legal Psychology;
-Research Topic "Understanding Cultic Influence on Crime: Psychological Manipulation,
-Group Dynamics, and Forensic Implications"
+**Running title:** Cultic influence on crime
 
----
+**Keywords:** coercive control; cults; high-control groups; forensic psychology; scoping review; reporting standard
+
+**Article type:** Systematic Review (scoping review, PRISMA-ScR)
+
+**Word count:** {{WORDCOUNT}} words in the main text; 5 figures; 2 tables.
 
 ## Abstract
 
-**Background.** High-control groups are a meeting point for social psychology,
-deviant group dynamics and criminal conduct. Mental manipulation, coercive control
-and indoctrination put pressure on how courts and clinicians attribute agency, and
-therefore on findings of criminal responsibility. The relation between these
-mechanisms and criminal outcomes is widely discussed and rarely compared: the field
-is rich in cases and single studies, and thin in commensurable measures.
-
-**Objective.** To map what the empirical and documentary literature on cultic
-influence and crime can demonstrate, what it measures, and what it leaves
-unreported, and to derive from that map a minimum reporting set.
-
-**Methods.** Scoping review following PRISMA-ScR and the JBI guidance. Population,
-concept and context were specified before searching. {{N_SOURCES}} bibliographic
-sources were searched from 1994 to November 2026 with a base block requiring a
-high-control-group term and a crime term in the title or abstract. Records were
-screened against four criteria by a fixed open-weight language model, with every
-verdict, its supporting span and its confidence retained and with inclusion gated
-on both a lexical group anchor and the model's verdict; reporting completeness was
-then measured by twelve documented lexical detectors, each returning the matched
-span, so that every count can be re-derived and every flag inspected. No effect
-size was pooled and no significance test was computed.
-
-**Results.** {{N_INCLUDED}} records met the inclusion criteria, of which
-{{N_INCLUDED_MEASURABLE}} carried an abstract and could be measured. Full text was
-obtainable for {{fulltext_lift.n_pairs}} of them ({{fulltext_lift.availability_pct}}%).
-Of the measurable abstracts,
-{{PCT_GROUP_DEF}}% stated how the group was operationally identified, {{PCT_ROLE}}% distinguished
-participant roles, {{PCT_DURATION}}% reported involvement or exit duration,
-{{PCT_INSTRUMENT}}% named a standardised instrument, and {{PCT_LEGAL}}% reported a
-legal outcome. The evidence map is sparse: most mechanism–outcome cells are empty,
-and the cells that are filled are concentrated in the informational and thought
-domains against homicide, which is the pattern a case-record literature produces.
-
-**Conclusions.** The variables that carry the causal claim — role, duration,
-instrument, legal outcome — are the least reported in the abstract. They are not
-missing from the papers. A paired reading of abstracts against full texts shows the
-reporting rate for a standardised instrument rising from
-{{fulltext_lift.per_construct.C5_instrument.abstract_pct}}% to
-{{fulltext_lift.per_construct.C5_instrument.fulltext_pct}}%, and for a legal outcome
-from {{fulltext_lift.per_construct.C8_legal.abstract_pct}}% to
-{{fulltext_lift.per_construct.C8_legal.fulltext_pct}}%. The deficit sits at the
-reading interface rather than in the scholarship, and a ten-item minimum reporting
-set is proposed for that interface: it asks for denominators and comparable forms,
-not for new work.
-
-**Keywords:** coercive control, cults, high-control groups, forensic psychology,
-scoping review, PRISMA-ScR, criminal responsibility, reporting standards
+**Background.** High-control groups sit at the junction of social psychology, group dynamics and criminal conduct. Mental manipulation, coercive control and indoctrination shape how courts and clinicians attribute agency, and therefore findings of criminal responsibility. The relation between these mechanisms and criminal outcomes is widely discussed and rarely compared. **Objective.** To map what the literature on cultic influence and crime demonstrates, what it measures and what it leaves unreported, and to derive a minimum reporting set from that map. **Methods.** Scoping review following PRISMA-ScR and JBI guidance, specified before searching. Six bibliographic sources were searched from 1994 to November 2026 with a base block requiring a high-control-group term and a crime term in title or abstract. Records were screened against four criteria by a fixed open-weight language model, with every verdict, supporting span and confidence retained; reporting completeness was then measured by twelve documented lexical detectors, each returning its matched span so that every count can be re-derived. No effect size was pooled and no significance test was computed. **Results.** {{N_INCLUDED}} records met the inclusion criteria, {{N_INCLUDED_MEASURABLE}} of which carried an abstract; full text was obtainable for {{fulltext_lift.n_pairs}} of them ({{fulltext_lift.availability_pct}}%). Among the measurable abstracts, {{PCT_GROUP_DEF}}% stated how the group was operationally identified, {{PCT_ROLE}}% distinguished participant roles, {{PCT_DURATION}}% reported involvement or exit duration, {{PCT_INSTRUMENT}}% named a standardised instrument and {{PCT_LEGAL}}% reported a legal outcome. The evidence map is sparse: most mechanism–outcome cells are empty. **Conclusions.** The variables that carry the causal claim — role, duration, instrument, legal outcome — are the least reported in the abstract, but they are not missing from the papers. A paired reading of abstracts against full texts raises the standardised-instrument rate from {{fulltext_lift.per_construct.C5_instrument.abstract_pct}}% to {{fulltext_lift.per_construct.C5_instrument.fulltext_pct}}%, and the legal-outcome rate from {{fulltext_lift.per_construct.C8_legal.abstract_pct}}% to {{fulltext_lift.per_construct.C8_legal.fulltext_pct}}%. The deficit sits at the reading interface rather than in the scholarship, and a ten-item minimum reporting set is proposed for that interface.
 
 ---
 
@@ -122,15 +78,15 @@ effect of manipulation on crime. PRISMA-ScR and the JBI guidance accommodate
 exactly this situation: descriptive statistics and qualitative content analysis,
 no pooled estimate, no significance test.
 
-## 2. Scope, questions and methods
+## 2. Materials and methods
 
 ### 2.1 Protocol and reporting
 
 The review was specified before searching: population, concept and context; the
 search strategy; the eligibility criteria; the screening and extraction procedures;
 and three guiding questions with their anticipated judgements. The PRISMA-ScR
-checklist (Tricco et al., 2018) is submitted with the manuscript and the JBI
-updated guidance (Peters et al., 2020) was followed for conduct and reporting.
+checklist [1] is submitted with the manuscript and the JBI
+updated guidance [2] was followed for conduct and reporting.
 Deviations from the protocol, and the constraint that forced each, are listed in
 Supplementary Table S1; they are summarised where they bear on interpretation.
 
@@ -148,8 +104,7 @@ and a criminal or judicial outcome, together with the completeness with which th
 mechanism and the outcome are reported.
 
 **Context.** Published, peer-reviewed, legal and grey literature in English, from
-1994 — the year the Group Psychological Abuse scale was published (Chambers et al.,
-1994) and the point from which empirical work in this area becomes continuous —
+1994 — the year the Group Psychological Abuse scale was published [3] and the point from which empirical work in this area becomes continuous —
 to the search date.
 
 Four criteria were applied to titles and abstracts: **I1** the record concerns a
@@ -261,7 +216,7 @@ matched span, which is reproduced in the extraction table for every record so th
 any reader can inspect the basis of any flag and can disagree with the term list and
 recount.
 
-The detectors were themselves validated, because everything in Section 6 rests on
+The detectors were themselves validated, because everything in Section 3.4 rests on
 them. Thirty records drawn at random were coded by hand against the same twelve
 constructs, blind to the detector output, and the two readings compared. The
 detectors are precise and conservative: overall precision 0.80, overall recall 0.45,
@@ -372,35 +327,39 @@ directional reading and the condition for reading a gap:
   manipulation assessment and subsequent legal outcome. Gap if legal outcomes and
   psychological assessments are almost never reported together.
 
-## 3. The design space of mechanisms
+## 3. Results
+
+### 3.1 The design space of mechanisms
 
 {{SECTION_3}}
 
-## 4. The forensic toolchain and its misalignment
+### 3.2 The forensic toolchain and its misalignment
 
 {{SECTION_4}}
 
-## 5. Mechanism–crime relations
+### 3.3 Mechanism–crime relations
 
 {{SECTION_5}}
 
-## 6. The evidence map and the reporting gap
+### 3.4 The evidence map and the reporting gap
 
 {{SECTION_6}}
 
-## 7. A minimum reporting set (MRS-CI)
+## 4. Discussion
+
+### 4.1 A minimum reporting set (MRS-CI)
 
 {{SECTION_7}}
 
-## 8. What legal translation requires
+### 4.2 What legal translation requires
 
 {{SECTION_8}}
 
-## 9. Outlook: three questions worth testing
+### 4.3 Outlook: three questions worth testing
 
 {{SECTION_9}}
 
-## 10. Conclusion
+## 5. Conclusion
 
 {{SECTION_10}}
 
@@ -444,13 +403,15 @@ by running the published search script rather than redistributed.
 
 ## Figures
 
+![](fig1_evidence_map.png){width=14cm}
+
 **Figure 1.** Records by manipulation domain and criminal outcome type. Each cell
 counts included records that were assigned to a BITE domain (behaviour, information,
 thought, emotion) and named an offence of that type; a dot marks an empty cell.
 Domains are inferred from the techniques each record names, not from the domain
 labels themselves.
 
-![Figure 1](fig1_evidence_map.png)
+![](fig2_toolchain.png){width=14cm}
 
 **Figure 2.** Assessment tools named, by family. Bars count records whose title or
 abstract names a tool of that family; the annotation gives n/N. The families span
@@ -458,20 +419,20 @@ the instruments a forensic assessment would draw on. A family with no records is
 an absence of instruments in the world but an absence of named instruments in this
 literature.
 
-![Figure 2](fig2_toolchain.png)
+![](fig3_reporting.png){width=14cm}
 
 **Figure 3.** Reporting completeness across the included records. Each bar is the
 proportion of records whose title or abstract states the construct; the annotation
 gives n/N with the denominator printed. Constructs are ordered by frequency.
 
-![Figure 3](fig3_reporting.png)
+![](fig4_loop.png){width=14cm}
 
 **Figure 4.** The design loop the reporting set is meant to close: prediction,
 reporting, comparability, re-prediction. The loop is broken at the second step in
 this literature, which is why the recommendation is a reporting standard rather than
 a new study design.
 
-![Figure 4](fig4_loop.png)
+![](fig5_fulltext_lift.png){width=14cm}
 
 **Figure 5.** The same records read twice: title and abstract (blue) versus full text
 (red), with the line joining the two readings of each construct. The control that
@@ -479,12 +440,10 @@ makes this interpretable is in Section 2.8 — a body window matched to the abst
 length reports no more than the abstract, so the difference is about what the paper
 says in its summary, not about how much text there is.
 
-![Figure 5](fig5_fulltext_lift.png)
+![](figS1_prisma.png){width=14cm}
 
 **Figure S1.** PRISMA-ScR flow with the count at each stage and the records removed
 at each step.
-
-![Figure S1](figS1_prisma.png)
 
 ## Table 1. Theory integration: psychological mechanisms and criminological theories
 
