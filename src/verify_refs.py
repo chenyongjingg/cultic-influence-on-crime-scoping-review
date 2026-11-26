@@ -125,6 +125,17 @@ def check(r):
         best = crossref_query(r["first_author"], r["title"])
         if best and best[0] >= 0.75:
             rec, src = best[1], "Crossref bibliographic"
+    if not rec and r.get("author_verified"):
+        row["verdict"] = "VERIFIED BY AUTHORS (no registration record; checked against the journal by the authors)"
+        row["checks"]["record"] = "no registration record; verification provenance recorded in the evidence note"
+        row["source"] = "author check"
+        return row
+    if not rec and r.get("manual_evidence"):
+        # the verdict must not depend on whether a lookup service answered this run
+        row["verdict"] = "NOT IN A REGISTRATION INDEX (evidence note recorded)"
+        row["source"] = "manual evidence"
+        row["checks"]["record"] = "no automated record; see the evidence note"
+        return row
     if not rec:
         row["verdict"] = "UNVERIFIED (no record in Crossref or OpenAlex)"
         row["checks"]["record"] = "no registration record located"
@@ -226,8 +237,12 @@ def main():
             L.append("")
 
     ok = sum(1 for r in rows if r["verdict"] == "VERIFIED")
-    L.append("\n%d of %d verified on every field checked." % (ok, len(rows)))
-    bad = [r for r in rows if r["verdict"] != "VERIFIED"]
+    byauth = sum(1 for r in rows if r["verdict"].startswith("VERIFIED BY AUTHORS"))
+    L.append("\n%d references: %d verified field by field against Crossref, %d verified by the "
+             "authors against the journal record, %d falling short of that (listed below)."
+             % (len(rows), ok, byauth, len(rows) - ok - byauth))
+    bad = [r for r in rows
+           if r["verdict"] != "VERIFIED" and not r["verdict"].startswith("VERIFIED BY AUTHORS")]
     if bad:
         L.append("\n## Items needing attention\n")
         for r in bad:

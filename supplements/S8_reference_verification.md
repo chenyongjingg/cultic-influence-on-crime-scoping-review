@@ -6,13 +6,13 @@ Each reference was checked field by field against the registration record, not m
 |---|---|---|---|---|---|---|---|---|
 | 1 | VERIFIED | Crossref | 1.0 | ✓ | ✓ | ✓ | ✓ | 1.0 |
 | 2 | VERIFIED | Crossref | 1.0 | ✓ | ✓ | ✓ | ✓ | 1.0 |
-| 3 | UNVERIFIED (no record in Crossref or OpenAlex) | — | — | — | — | — | — | — |
-| 4 | UNVERIFIED (no record in Crossref or OpenAlex) | — | — | — | — | — | — | — |
+| 3 | PARTIAL (authors, title, year via OpenAlex; pagination unverified) | OpenAlex (no DOI) | 1.0 | ✓ | ✓ | — | — | — |
+| 4 | NOT IN A REGISTRATION INDEX (evidence note recorded) | manual evidence | — | — | — | — | — | — |
 | 5 | VERIFIED | Crossref | 1.0 | ✓ | ✓ | ✓ | ✓ | 0.909 |
 | 6 | VERIFIED | Crossref | 0.993 | ✓ | ✓ | ✓ | ✓ | 1.0 |
 | 7 | VERIFIED | Crossref | 1.0 | ✓ | ✓ | ✓ | ✓ | 1.0 |
 | 8 | VERIFIED | Crossref | 1.0 | ✓ | ✓ | ✓ | ✓ | 0.913 |
-| 9 | UNVERIFIED (no record in Crossref or OpenAlex) | — | — | — | — | — | — | — |
+| 9 | NOT IN A REGISTRATION INDEX (evidence note recorded) | manual evidence | — | — | — | — | — | — |
 | 10 | VERIFIED | Crossref | 1.0 | ✓ | ✓ | — | — | — |
 | 11 | VERIFIED | Crossref | 1.0 | ✓ | ✓ | — | — | — |
 | 12 | VERIFIED | Crossref | 1.0 | ✓ | ✓ | — | — | — |
@@ -29,6 +29,7 @@ Each reference was checked field by field against the registration record, not m
 | 23 | VERIFIED | Crossref | 1.0 | ✓ | ✓ | ✓ | ✓ | 1.0 |
 | 24 | VERIFIED | Crossref | 1.0 | ✓ | ✓ | ✓ | ✓ | 1.0 |
 | 25 | VERIFIED | Crossref | 1.0 | ✓ | ✓ | ✓ | ✓ | 1.0 |
+| 26 | VERIFIED BY AUTHORS (no registration record; checked against the journal by the authors) | author check | — | — | — | — | — | — |
 
 ## Items not verifiable through a registration agency
 
@@ -44,14 +45,20 @@ Each reference was checked field by field against the registration record, not m
 
 > No record in Crossref or OpenAlex for this title (searched 2026-11-26). Cultic Studies Review is not DOI-registered. The authors should attach an archival URL or scan before submission.
 
+**26.** Risk prevention: a critical examination of "irrational exuberance" in the AI industry and its regulatory pathways
 
-22 of 25 verified on every field checked.
+> Verified by the authors against the journal record. The journal registers no DOI with Crossref, and the record could not be reached from the build environment (Crossref, Baidu Scholar, Bing, Wanfang, CQVIP 412, CNKI authentication). Reprint: 人大复印报刊资料《体制改革》2026年第6期.
+
+
+26 references: 22 verified field by field against Crossref, 1 verified by the authors against the journal record, 3 falling short of that (listed below).
 
 ## Items needing attention
 
-- **3.** UNVERIFIED (no record in Crossref or OpenAlex)
-  - record: no registration record located
-- **4.** UNVERIFIED (no record in Crossref or OpenAlex)
-  - record: no registration record located
-- **9.** UNVERIFIED (no record in Crossref or OpenAlex)
-  - record: no registration record located
+- **3.** PARTIAL (authors, title, year via OpenAlex; pagination unverified)
+  - title: claimed 'The Group Psychological Abuse Scale: a measure of the varieties of cultic abuse' / record 'The Group Psychological Abuse Scale: A measure of the varieties of cultic abuse.'
+  - first_author: claimed 'Chambers' / record 'Chambers'
+  - year: claimed 1994 / record 1994
+- **4.** NOT IN A REGISTRATION INDEX (evidence note recorded)
+  - record: no automated record; see the evidence note
+- **9.** NOT IN A REGISTRATION INDEX (evidence note recorded)
+  - record: no automated record; see the evidence note

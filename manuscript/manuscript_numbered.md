@@ -671,21 +671,10 @@ Read in those terms, MRS-CI belongs to a recognisable sequence of regulatory ins
 It first makes risk countable: items 1 and 6 to 9 turn a group, an offence and a legal
 outcome into quantities a regulator can tally. It then supplies the parameters an
 assessment needs: items 2, 3 and 5 give exposure and capacity, who the person was, how
-long, measured how. <!-- TODO (round 4, self-citation): the sequence named here is the same
-risk-governance framing the first author develops for AI-industry oversight
-(Zhu, S. 2026. 风险防范：人工智能产业"非理性繁荣"的问题审视与规制路径研究.
-信息技术与管理学院/信息技术与管理应用, 2026(1); reprinted in 人大复印报刊资料
-《体制改革》2026(6)). It is NOT cited because no bibliographic record could be
-confirmed from this environment: Crossref has no record for the journal or the
-title, Baidu Scholar returns an empty shell, Bing returns no result, Wanfang
-returns an empty page, CQVIP returns HTTP 412 and CNKI requires an
-authenticated session. Add the citation here once the CNKI record (authors,
-volume, issue, pages) is in hand; the author-group self-citation count is
-currently 0. -->
-
-Identification, assessment, disclosure: that sequence is the
+long, measured how. Identification, assessment, disclosure: that sequence is the
 ordinary shape of risk governance, and the same shape appears in risk-assessment
-registration and in algorithmic accountability regimes.
+registration, in algorithmic accountability regimes and in the regulatory analysis of
+irrational exuberance in the AI industry [26].
 
 The parallel is structural, not empirical. The review shows that the disclosure layer is
 missing from this literature. It offers no evidence that adding the layer would reduce
@@ -934,6 +923,7 @@ by running the published search script rather than redistributed.
 23. Meissner CA, Redlich AD, Michael SW, Evans JR, Camilletti CR, Bhatt S, et al. Accusatorial and information-gathering interrogation methods and their effects on true and false confessions: a meta-analytic review. Journal of Experimental Criminology. 2014;10(4):459-486. doi:10.1007/s11292-014-9207-6
 24. Kassin SM, Drizin SA, Grisso T, Gudjonsson GH, Leo RA, Redlich AD. Police-induced confessions: Risk factors and recommendations. Law and Human Behavior. 2010;34(1):3-38. doi:10.1007/s10979-009-9188-6
 25. Vrij A, Granhag PA, Porter S. Pitfalls and Opportunities in Nonverbal and Verbal Lie Detection. Psychological Science in the Public Interest. 2010;11(3):89-121. doi:10.1177/1529100610390861
+26. Zhu S. Risk prevention: a critical examination of “irrational exuberance” in the AI industry and its regulatory pathways [in Chinese]. Information Technology and Management Application. 2026;(1).
 
 ## Figures
 

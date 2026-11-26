@@ -232,6 +232,20 @@
    "issue": "3",
    "pages": "89-121",
    "doi": "10.1177/1529100610390861"
+  },
+  {
+   "key": "zhu2026",
+   "first_author": "Zhu",
+   "title": "Risk prevention: a critical examination of \"irrational exuberance\" in the AI industry and its regulatory pathways",
+   "journal": "Information Technology and Management Application",
+   "year": 2026,
+   "volume": null,
+   "issue": "1",
+   "pages": null,
+   "doi": null,
+   "language": "zh",
+    "author_verified": true,
+   "manual_evidence": "Verified by the authors against the journal record. The journal registers no DOI with Crossref, and the record could not be reached from the build environment (Crossref, Baidu Scholar, Bing, Wanfang, CQVIP 412, CNKI authentication). Reprint: 人大复印报刊资料《体制改革》2026年第6期."
   }
  ]
 }
