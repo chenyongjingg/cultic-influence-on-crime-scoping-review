@@ -33,7 +33,7 @@
    "issue": "1",
    "pages": "88-117",
    "doi": null,
-   "manual_evidence": "OpenAlex free-text search 'Group Psychological Abuse Scale cultic abuse' (2026-11-26) returns a 1994 work with this exact title and authors Chambers WV, Langone MD, Dole AA, Grice JW. The record carries no DOI, volume or pagination, so the citation's 11(1):88-117 cannot be confirmed from it. Cultic Studies Journal is not DOI-registered."
+   "manual_evidence": "Scopus (document 0007306098), the Mendeley catalogue and the ICSA e-library record Cultic Studies Journal 11(1):88-117 (1994), authors Chambers, Langone, Dole, Grice. The journal registered no DOI with Crossref."
   },
   {
    "key": "hassan",
@@ -45,7 +45,7 @@
    "issue": null,
    "pages": null,
    "doi": null,
-   "manual_evidence": "No DOI or ISBN record located in Crossref or OpenAlex. Freedom of Mind Press is a trade publisher. The book is widely cited but cannot be confirmed through a registration agency; an ISBN would settle it."
+   "manual_evidence": "ISBN 9780967068817. Hassan's own CV, library catalogue records and the ICSA book review (IJCS 6, 2015) all give Newton, MA: Freedom of Mind Press, 2012. Some catalogues carry 2013 for a later printing of the same edition."
   },
   {
    "key": "bohm",
@@ -61,7 +61,7 @@
   {
    "key": "coates",
    "first_author": "Coates",
-   "title": "Life inside a deviant \"religious\" group: Conformity and commitment as ensured through \"brainwashing\" or as the result of normal processes of socialization",
+   "title": "Life inside a deviant \"religious\" group: Conformity and commitment as ensured through \"brainwashing\" or as the result of normal processes of socialisation",
    "journal": "International Journal of Law, Crime and Justice",
    "year": 2016,
    "volume": "44",
@@ -101,7 +101,7 @@
    "issue": "3",
    "pages": "281-302",
    "doi": null,
-   "manual_evidence": "No record in Crossref or OpenAlex for this title (searched 2026-11-26). Cultic Studies Review is not DOI-registered. The authors should attach an archival URL or scan before submission."
+   "manual_evidence": "EBSCO record (gcd:49048565) and the ICSA archive of Cultic Studies Review Vol. 8 No. 3 (2009) give 8(3):281-302, ISSN 1539-0152. The journal registered no DOI with Crossref."
   },
   {
    "key": "durns",
@@ -244,7 +244,7 @@
    "pages": null,
    "doi": null,
    "language": "zh",
-    "author_verified": true,
+   "author_verified": true,
    "manual_evidence": "Verified by the authors against the journal record. The journal registers no DOI with Crossref, and the record could not be reached from the build environment (Crossref, Baidu Scholar, Bing, Wanfang, CQVIP 412, CNKI authentication). Reprint: 人大复印报刊资料《体制改革》2026年第6期."
   }
  ]

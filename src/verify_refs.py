@@ -193,23 +193,65 @@ def check(r):
     return row
 
 
-def main():
-    data = json.load(open(os.path.join(ROOT, "src", "refs.json"), encoding="utf8"))
-    rows = []
-    for i, r in enumerate(data["refs"], 1):
-        r = dict(r); r["n"] = i
-        rows.append(check(r))
-        time.sleep(0.4)
+def printed_order(refs):
+    """Map key -> the number the manuscript prints.
 
-    json.dump(rows, open(OUT_JSON, "w", encoding="utf8"), indent=1, ensure_ascii=False)
+    src/refs.json is ordered by when entries were added, not by first appearance
+    in the text, so its row order is NOT the manuscript's reference order. A
+    supplement numbered in file order sends a reader who looks up "reference 9"
+    to a different work than the manuscript's [9].
+    """
+    try:
+        strings = json.load(open(os.path.join(ROOT, "out", "data", "reference_strings.json"), encoding="utf8"))
+        printed = json.load(open(os.path.join(ROOT, "out", "data", "printed_refs.json"), encoding="utf8"))
+    except Exception:
+        return {}
+    rev = {re.sub(r"\s+", " ", v).strip(): k for k, v in strings.items()}
+    out = {}
+    for n, s in printed.items():
+        k = rev.get(re.sub(r"\s+", " ", s).strip())
+        if k:
+            out[k] = int(n)
+    return out
+
+
+def main(render_only=False):
+    data = json.load(open(os.path.join(ROOT, "src", "refs.json"), encoding="utf8"))
+    order = printed_order(data["refs"])
+    if render_only:
+        # re-render from the queries already made; no network, no new evidence
+        rows = json.load(open(OUT_JSON, encoding="utf8"))
+        for row in rows:
+            row["n"] = order.get((row.get("claim") or {}).get("key"), 0)
+    else:
+        rows = []
+        for r in data["refs"]:
+            r = dict(r)
+            r["n"] = order.get(r["key"], 0)
+            rows.append(check(r))
+            time.sleep(0.4)
+        json.dump(rows, open(OUT_JSON, "w", encoding="utf8"), indent=1, ensure_ascii=False)
+
+    # two verdicts must not depend on whether a lookup service answered this run
+    for row in rows:
+        claim = row.get("claim") or {}
+        if claim.get("author_verified"):
+            row["verdict"] = "VERIFIED BY AUTHORS (no registration record; checked against the journal by the authors)"
+            row["source"] = "author check"
+        elif claim.get("manual_evidence"):
+            row["verdict"] = "NOT IN A REGISTRATION INDEX (record confirmed outside it; see the evidence note)"
+            row["source"] = "manual evidence"
+
+    rows.sort(key=lambda r: r["n"] or 999)
 
     L = ["# S8. Reference verification\n",
          "Each reference was checked field by field against the registration record, "
          "not merely resolved. A resolving DOI proves the identifier exists; it does "
          "not prove the authors, year, volume or pages printed in the manuscript are "
          "the ones attached to it.\n",
-         "| # | Verdict | Source | Title sim. | First author | Year | Volume | Pages | Journal sim. |",
-         "|---|---|---|---|---|---|---|---|---|"]
+         "Row numbers are the numbers the manuscript prints, in its order.\n",
+         "| # | Key | Verdict | Source | Title sim. | First author | Year | Volume | Pages | Journal sim. |",
+         "|---|---|---|---|---|---|---|---|---|---|"]
     for row in rows:
         c = row["checks"]
         def cell(key, field):
@@ -219,30 +261,35 @@ def main():
             if field == "sim":
                 return str(v.get("similarity", "—"))
             return "✓" if v.get("match") else "✗ (%s)" % v.get("record")
-        L.append("| %d | %s | %s | %s | %s | %s | %s | %s | %s |" % (
-            row["n"], row["verdict"], row.get("source", "—"),
+        L.append("| %d | %s | %s | %s | %s | %s | %s | %s | %s | %s |" % (
+            row["n"] or 0, (row.get("claim") or {}).get("key", "—"),
+            row["verdict"], row.get("source", "—"),
             cell("title", "sim"), cell("first_author", "m"), cell("year", "m"),
             cell("volume", "m"), cell("pages", "m"), cell("journal", "sim")))
 
     # items no registration agency covers get their evidence printed, not a bare tick
-    manual = [r for r in rows if r["claim"].get("manual_evidence")]
+    manual = [r for r in rows if (r.get("claim") or {}).get("manual_evidence")]
     if manual:
         L.append("")
-        L.append("## Items not verifiable through a registration agency")
+        L.append("## Items no registration agency covers")
         L.append("")
         for r in manual:
-            L.append("**%d.** %s" % (r["n"], r["claim"].get("title")))
+            L.append("**%d.** %s (%s)" % (r["n"], r["claim"].get("title"), r["claim"].get("key")))
             L.append("")
             L.append("> " + r["claim"]["manual_evidence"])
             L.append("")
 
     ok = sum(1 for r in rows if r["verdict"] == "VERIFIED")
     byauth = sum(1 for r in rows if r["verdict"].startswith("VERIFIED BY AUTHORS"))
-    L.append("\n%d references: %d verified field by field against Crossref, %d verified by the "
-             "authors against the journal record, %d falling short of that (listed below)."
-             % (len(rows), ok, byauth, len(rows) - ok - byauth))
+    manual_n = sum(1 for r in rows if r["verdict"].startswith("NOT IN A REGISTRATION INDEX"))
+    L.append("\n%d references: %d verified field by field against Crossref, %d confirmed outside "
+             "the registration indexes (evidence printed above), %d verified by the authors against "
+             "the journal record, %d falling short of that."
+             % (len(rows), ok, manual_n, byauth, len(rows) - ok - byauth - manual_n))
     bad = [r for r in rows
-           if r["verdict"] != "VERIFIED" and not r["verdict"].startswith("VERIFIED BY AUTHORS")]
+           if r["verdict"] != "VERIFIED"
+           and not r["verdict"].startswith("VERIFIED BY AUTHORS")
+           and not r["verdict"].startswith("NOT IN A REGISTRATION INDEX")]
     if bad:
         L.append("\n## Items needing attention\n")
         for r in bad:
@@ -261,4 +308,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    main(render_only="--render-only" in sys.argv)

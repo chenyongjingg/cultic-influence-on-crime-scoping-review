@@ -1,30 +1,213 @@
 {
-  "note": "Whether each cited work supports the sentence it is cited in. Judgements made by reading the deposited abstract; 'no abstract retrieved' is recorded as such rather than assumed. This is the layer a DOI check cannot reach: an identifier can resolve and the metadata can match while the citation still points at a paper that does not say what the sentence needs.",
-  "checks": [
-    {"key": "durns", "n": 1, "claim": "editorial handbook for forensic practitioners that integrates theory, clinical and legal material and states that systematic research is scarce", "abstract": "yes", "verdict": "SUPPORTS", "evidence": "abstract: 'systematic study on the structure, psychological predispositions, and relevance to clinical and legal settings are comparatively scarce'"},
-    {"key": "lalich", "n": 2, "claim": "the only review focused on violent outcomes is seventeen years old and restricted to violence", "abstract": "no record", "verdict": "NOT VERIFIABLE", "evidence": "no record in Crossref, OpenAlex or Semantic Scholar; 2026-2009 = 17 is arithmetic on the year"},
-    {"key": "rousselet", "n": 3, "claim": "work on joining and leaving examines recruitment and exit rather than offending", "abstract": "yes", "verdict": "SUPPORTS AFTER CORRECTION", "evidence": "abstract: 31 former members, semi-structured interviews on commitment, retention and departure. The text said 'synthesises', which the abstract does not support; changed to 'examines'."},
-    {"key": "lohmann", "n": 4, "claim": "a systematic review of coercive control exists but is anchored in intimate partner violence rather than in groups", "abstract": "yes", "verdict": "SUPPORTS", "evidence": "abstract opens: 'Coercive control is an under researched type of intimate partner violence (IPV)'"},
-    {"key": "bohm", "n": 5, "claim": "established that the cult-crime intersection is empirically reachable", "abstract": "yes", "verdict": "SUPPORTS", "evidence": "abstract: 25 cults deconstructed into behaviours; 7 behaviours discriminate destructive from benign cults"},
-    {"key": "coates", "n": 6, "claim": "established that the cult-crime intersection is empirically reachable", "abstract": "no", "verdict": "WEAK", "evidence": "title indicates a theoretical/case analysis of conformity in one deviant group; 'empirically reachable' is generous for this one. Flagged, not changed."},
-    {"key": "tricco", "n": 7, "claim": "PRISMA-ScR checklist submitted with the manuscript", "abstract": "no", "verdict": "SUPPORTS", "evidence": "title is the checklist itself"},
-    {"key": "peters", "n": 8, "claim": "JBI updated methodological guidance followed", "abstract": "no", "verdict": "SUPPORTS", "evidence": "title is the updated guidance"},
-    {"key": "chambers", "n": 9, "claim": "the year the Group Psychological Abuse scale was published", "abstract": "no", "verdict": "RECORD PARTIAL", "evidence": "OpenAlex: 1994, authors Chambers/Langone/Dole/Grice, no DOI; volume and pages unverified"},
-    {"key": "hassan", "n": 10, "claim": "the BITE frame distinguishes four domains of control", "abstract": "no", "verdict": "RECORD NOT VERIFIED", "evidence": "OpenLibrary: 'Freedom of mind', Steven Hassan, Freedom of Mind Press, ISBNs 9780967068817/9780967068848/9780967068855; editions listed for 2013 and 2022, NOT 2012 as cited. Year needs confirmation."},
-    {"key": "dayan", "n": 11, "claim": "the studies that describe technique in detail are case-based and rarely comparative", "abstract": "no", "verdict": "CANNOT JUDGE", "evidence": "no abstract retrieved from Crossref, OpenAlex or the landing page"},
-    {"key": "smirnova", "n": 12, "claim": "one of the few studies that treats the online channel as an object of analysis", "abstract": "yes", "verdict": "SUPPORTS", "evidence": "abstract: content analysis of manipulative strategy in NRO internet resources"},
-    {"key": "ushiyama", "n": 13, "claim": "the analysis is produced by outside observers reconstructing the group's culture", "abstract": "yes", "verdict": "SUPPORTS", "evidence": "abstract: intellectuals as carriers of cultural trauma in the Aum affair"},
-    {"key": "akimoto2006", "n": 14, "claim": "the analysis is produced by outside observers reconstructing the group's culture", "abstract": "yes", "verdict": "SUPPORTS", "evidence": "abstract: a psychiatrist reconstructing Asahara's psychopathology from the group's publications and trial behaviour"},
-    {"key": "felthous", "n": 15, "claim": "classification schemes built for homicide and suicide typologies", "abstract": "yes", "verdict": "SUPPORTS", "evidence": "abstract: subclassification of homicide-suicide; Part III covers extrafamilial, including a cult category"},
-    {"key": "akimoto1997", "n": 16, "claim": "psychiatric formulations applied to individual defendants", "abstract": "yes", "verdict": "SUPPORTS", "evidence": "abstract: two individual cases of pseudologia phantastica"},
-    {"key": "mihalyfy", "n": 17, "claim": "racketeering prosecutions and civil suits against new religious movements", "abstract": "yes", "verdict": "SUPPORTS", "evidence": "abstract: RICO in prosecutions and civil suits against NRMs, cases enumerated to April 2025"},
-    {"key": "boylelaisure", "n": 18, "claim": "the application of trafficking law to high-control groups together with proposed amendments", "abstract": "yes", "verdict": "PARTIAL", "evidence": "title supports the claim (trafficking law, high-demand groups, proposed changes); the deposited abstract reads as a year-in-review that covers the Raniere human-trafficking precedent, so it does not read as this article's own abstract. Metadata suspect at the publisher, citation content consistent."},
-    {"key": "wang", "n": 19, "claim": "sentencing principles in cult-related cases; the group's doctrine enters the court's reasoning", "abstract": "no", "verdict": "SUPPORTS", "evidence": "title: 'Principles of Punishment against Cult-related Crimes' in a Chinese homicide case"},
-    {"key": "kuca", "n": 20, "claim": "incidents where the mechanism and the offence are physically inseparable, as in a chemical release", "abstract": "no", "verdict": "SUPPORTS", "evidence": "title: modern targeted nerve agent incidents, forensic uncertainty"},
-    {"key": "tade", "n": 21, "claim": "a study of a gang-style cult reports victimisation in detail and no instrument", "abstract": "yes", "verdict": "SUPPORTS", "evidence": "abstract: victim selection, victim experiences and modus operandi by interview; no instrument"},
-    {"key": "lane", "n": 22, "claim": "a single-case study reports the mechanism as biography and no denominator", "abstract": "yes", "verdict": "SUPPORTS", "evidence": "abstract: narrative review, single case, lifetime biography, no denominator"},
-    {"key": "meissner", "n": 23, "claim": "how well established the effect of interrogation method on true and false confessions is", "abstract": "no", "verdict": "SUPPORTS", "evidence": "title is a meta-analytic review of exactly that effect"},
-    {"key": "kassin", "n": 24, "claim": "how well established the effect of method on true and false confessions is", "abstract": "yes", "verdict": "SUPPORTS", "evidence": "abstract: white paper on police-induced confessions, risk factors and recommendations"},
-    {"key": "vrij", "n": 25, "claim": "how unreliable demeanour-based deception detection has proved", "abstract": "yes", "verdict": "SUPPORTS", "evidence": "abstract: whether people can detect lies from nonverbal behaviour and speech"}
-  ]
+ "note": "Whether each cited work supports the sentence it is cited in. Judgements made by reading the deposited abstract; 'no abstract retrieved' is recorded as such rather than assumed. This is the layer a DOI check cannot reach: an identifier can resolve and the metadata can match while the citation still points at a paper that does not say what the sentence needs.",
+ "checks": [
+  {
+   "key": "durns",
+   "n": 1,
+   "claim": "editorial handbook for forensic practitioners that integrates theory, clinical and legal material and states that systematic research is scarce",
+   "abstract": "yes",
+   "verdict": "SUPPORTS",
+   "evidence": "abstract: 'systematic study on the structure, psychological predispositions, and relevance to clinical and legal settings are comparatively scarce'"
+  },
+  {
+   "key": "lalich",
+   "n": 2,
+   "claim": "the only review focused on violent outcomes is seventeen years old and restricted to violence",
+   "abstract": "no record",
+   "verdict": "NOT VERIFIABLE",
+   "evidence": "no record in Crossref, OpenAlex or Semantic Scholar; 2026-2009 = 17 is arithmetic on the year"
+  },
+  {
+   "key": "rousselet",
+   "n": 3,
+   "claim": "work on joining and leaving examines recruitment and exit rather than offending",
+   "abstract": "yes",
+   "verdict": "SUPPORTS AFTER CORRECTION",
+   "evidence": "abstract: 31 former members, semi-structured interviews on commitment, retention and departure. The text said 'synthesises', which the abstract does not support; changed to 'examines'."
+  },
+  {
+   "key": "lohmann",
+   "n": 4,
+   "claim": "a systematic review of coercive control exists but is anchored in intimate partner violence rather than in groups",
+   "abstract": "yes",
+   "verdict": "SUPPORTS",
+   "evidence": "abstract opens: 'Coercive control is an under researched type of intimate partner violence (IPV)'"
+  },
+  {
+   "key": "bohm",
+   "n": 5,
+   "claim": "established that the cult-crime intersection is empirically reachable",
+   "abstract": "yes",
+   "verdict": "SUPPORTS",
+   "evidence": "abstract: 25 cults deconstructed into behaviours; 7 behaviours discriminate destructive from benign cults"
+  },
+  {
+   "key": "coates",
+   "n": 6,
+   "claim": "established that the cult-crime intersection is empirically reachable",
+   "abstract": "no",
+   "verdict": "WEAK",
+   "evidence": "title indicates a theoretical/case analysis of conformity in one deviant group; 'empirically reachable' is generous for this one. Flagged, not changed."
+  },
+  {
+   "key": "tricco",
+   "n": 7,
+   "claim": "PRISMA-ScR checklist submitted with the manuscript",
+   "abstract": "no",
+   "verdict": "SUPPORTS",
+   "evidence": "title is the checklist itself"
+  },
+  {
+   "key": "peters",
+   "n": 8,
+   "claim": "JBI updated methodological guidance followed",
+   "abstract": "no",
+   "verdict": "SUPPORTS",
+   "evidence": "title is the updated guidance"
+  },
+  {
+   "key": "chambers",
+   "n": 9,
+   "claim": "the year the Group Psychological Abuse scale was published",
+   "abstract": "no",
+   "verdict": "RECORD PARTIAL",
+   "evidence": "OpenAlex: 1994, authors Chambers/Langone/Dole/Grice, no DOI; volume and pages unverified"
+  },
+  {
+   "key": "hassan",
+   "n": 10,
+   "claim": "the BITE frame distinguishes four domains of control",
+   "abstract": "no",
+   "verdict": "RECORD NOT VERIFIED",
+   "evidence": "OpenLibrary: 'Freedom of mind', Steven Hassan, Freedom of Mind Press, ISBNs 9780967068817/9780967068848/9780967068855; editions listed for 2013 and 2022, NOT 2012 as cited. Year needs confirmation."
+  },
+  {
+   "key": "dayan",
+   "n": 11,
+   "claim": "the studies that describe technique in detail are case-based and rarely comparative",
+   "abstract": "no",
+   "verdict": "CANNOT JUDGE",
+   "evidence": "no abstract retrieved from Crossref, OpenAlex or the landing page"
+  },
+  {
+   "key": "smirnova",
+   "n": 12,
+   "claim": "one of the few studies that treats the online channel as an object of analysis",
+   "abstract": "yes",
+   "verdict": "SUPPORTS",
+   "evidence": "abstract: content analysis of manipulative strategy in NRO internet resources"
+  },
+  {
+   "key": "ushiyama",
+   "n": 13,
+   "claim": "the analysis is produced by outside observers reconstructing the group's culture",
+   "abstract": "yes",
+   "verdict": "SUPPORTS",
+   "evidence": "abstract: intellectuals as carriers of cultural trauma in the Aum affair"
+  },
+  {
+   "key": "akimoto2006",
+   "n": 14,
+   "claim": "the analysis is produced by outside observers reconstructing the group's culture",
+   "abstract": "yes",
+   "verdict": "SUPPORTS",
+   "evidence": "abstract: a psychiatrist reconstructing Asahara's psychopathology from the group's publications and trial behaviour"
+  },
+  {
+   "key": "felthous",
+   "n": 15,
+   "claim": "classification schemes built for homicide and suicide typologies",
+   "abstract": "yes",
+   "verdict": "SUPPORTS",
+   "evidence": "abstract: subclassification of homicide-suicide; Part III covers extrafamilial, including a cult category"
+  },
+  {
+   "key": "akimoto1997",
+   "n": 16,
+   "claim": "psychiatric formulations applied to individual defendants",
+   "abstract": "yes",
+   "verdict": "SUPPORTS",
+   "evidence": "abstract: two individual cases of pseudologia phantastica"
+  },
+  {
+   "key": "mihalyfy",
+   "n": 17,
+   "claim": "racketeering prosecutions and civil suits against new religious movements",
+   "abstract": "yes",
+   "verdict": "SUPPORTS",
+   "evidence": "abstract: RICO in prosecutions and civil suits against NRMs, cases enumerated to April 2025"
+  },
+  {
+   "key": "boylelaisure",
+   "n": 18,
+   "claim": "the application of trafficking law to high-control groups together with proposed amendments",
+   "abstract": "yes",
+   "verdict": "PARTIAL",
+   "evidence": "title supports the claim (trafficking law, high-demand groups, proposed changes); the deposited abstract reads as a year-in-review that covers the Raniere human-trafficking precedent, so it does not read as this article's own abstract. Metadata suspect at the publisher, citation content consistent."
+  },
+  {
+   "key": "wang",
+   "n": 19,
+   "claim": "sentencing principles in cult-related cases; the group's doctrine enters the court's reasoning",
+   "abstract": "no",
+   "verdict": "SUPPORTS",
+   "evidence": "title: 'Principles of Punishment against Cult-related Crimes' in a Chinese homicide case"
+  },
+  {
+   "key": "kuca",
+   "n": 20,
+   "claim": "incidents where the mechanism and the offence are physically inseparable, as in a chemical release",
+   "abstract": "no",
+   "verdict": "SUPPORTS",
+   "evidence": "title: modern targeted nerve agent incidents, forensic uncertainty"
+  },
+  {
+   "key": "tade",
+   "n": 21,
+   "claim": "a study of a gang-style cult reports victimisation in detail and no instrument",
+   "abstract": "yes",
+   "verdict": "SUPPORTS",
+   "evidence": "abstract: victim selection, victim experiences and modus operandi by interview; no instrument"
+  },
+  {
+   "key": "lane",
+   "n": 22,
+   "claim": "a single-case study reports the mechanism as biography and no denominator",
+   "abstract": "yes",
+   "verdict": "SUPPORTS",
+   "evidence": "abstract: narrative review, single case, lifetime biography, no denominator"
+  },
+  {
+   "key": "meissner",
+   "n": 23,
+   "claim": "how well established the effect of interrogation method on true and false confessions is",
+   "abstract": "no",
+   "verdict": "SUPPORTS",
+   "evidence": "title is a meta-analytic review of exactly that effect"
+  },
+  {
+   "key": "kassin",
+   "n": 24,
+   "claim": "how well established the effect of method on true and false confessions is",
+   "abstract": "yes",
+   "verdict": "SUPPORTS",
+   "evidence": "abstract: white paper on police-induced confessions, risk factors and recommendations"
+  },
+  {
+   "key": "vrij",
+   "n": 25,
+   "claim": "how unreliable demeanour-based deception detection has proved",
+   "abstract": "yes",
+   "verdict": "SUPPORTS",
+   "evidence": "abstract: whether people can detect lies from nonverbal behaviour and speech"
+  },
+  {
+   "key": "zhu2026",
+   "n": 26,
+   "claim": "the same identify/assess/disclose shape appears in the regulatory analysis of irrational exuberance in the AI industry",
+   "abstract": "none retrievable",
+   "verdict": "PARTIAL",
+   "evidence": "title supports the topical part: a regulatory analysis of 'irrational exuberance' in the AI industry (Information Technology and Management Application, 2026(1)); no abstract retrievable, so the specific claim that the analysis runs through identify/assess/disclose is not independently checkable here. Existence verified by the authors against the journal record."
+  }
+ ]
 }
