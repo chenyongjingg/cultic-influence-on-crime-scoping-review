@@ -1,6 +1,35 @@
 {
  "prisma": {
-  "identification": {},
+  "identification": {
+   "core": {
+    "retrieved": 269,
+    "reported_total": null
+   },
+   "crossref": {
+    "retrieved": 87,
+    "reported_total": null
+   },
+   "doaj": {
+    "retrieved": 150,
+    "reported_total": null
+   },
+   "europepmc": {
+    "retrieved": 46,
+    "reported_total": 46
+   },
+   "europepmc_tierS": {
+    "retrieved": 143,
+    "reported_total": 143
+   },
+   "pubmed": {
+    "retrieved": 49,
+    "reported_total": 50
+   },
+   "s2": {
+    "retrieved": 410,
+    "reported_total": null
+   }
+  },
   "records_retrieved_total": 1154,
   "unique_per_source": {
    "core": 269,
@@ -861,7 +890,111 @@
    }
   },
   "availability_pct": 24.6,
-  "median_fulltext_chars": 43313
+  "median_fulltext_chars": 43313,
+  "max_abs_drift_pp": 8.6
+ },
+ "llm_read_scores": {
+  "n_records": 29,
+  "precision": 0.846,
+  "recall": 0.177,
+  "per_construct": {
+   "C1_group_def": {
+    "both": 0,
+    "missed": 21,
+    "over": 0,
+    "neither": 8,
+    "precision": null,
+    "recall": 0.0
+   },
+   "C2_role": {
+    "both": 0,
+    "missed": 8,
+    "over": 0,
+    "neither": 21,
+    "precision": null,
+    "recall": 0.0
+   },
+   "C3_duration": {
+    "both": 0,
+    "missed": 2,
+    "over": 0,
+    "neither": 27,
+    "precision": null,
+    "recall": 0.0
+   },
+   "C4_mechanism": {
+    "both": 5,
+    "missed": 3,
+    "over": 1,
+    "neither": 20,
+    "precision": 0.833,
+    "recall": 0.625
+   },
+   "C5_instrument": {
+    "both": 0,
+    "missed": 0,
+    "over": 0,
+    "neither": 29,
+    "precision": null,
+    "recall": null
+   },
+   "C6_offence": {
+    "both": 2,
+    "missed": 27,
+    "over": 0,
+    "neither": 0,
+    "precision": 1.0,
+    "recall": 0.069
+   },
+   "C7_severity": {
+    "both": 0,
+    "missed": 1,
+    "over": 0,
+    "neither": 28,
+    "precision": null,
+    "recall": 0.0
+   },
+   "C8_legal": {
+    "both": 0,
+    "missed": 11,
+    "over": 0,
+    "neither": 18,
+    "precision": null,
+    "recall": 0.0
+   },
+   "C9_jurisdiction": {
+    "both": 11,
+    "missed": 9,
+    "over": 2,
+    "neither": 7,
+    "precision": 0.846,
+    "recall": 0.55
+   },
+   "C10_source": {
+    "both": 2,
+    "missed": 14,
+    "over": 0,
+    "neither": 13,
+    "precision": 1.0,
+    "recall": 0.125
+   },
+   "C11_comparison": {
+    "both": 0,
+    "missed": 1,
+    "over": 1,
+    "neither": 27,
+    "precision": 0.0,
+    "recall": 0.0
+   },
+   "C12_n": {
+    "both": 2,
+    "missed": 5,
+    "over": 0,
+    "neither": 22,
+    "precision": 1.0,
+    "recall": 0.286
+   }
+  }
  },
  "llm_construct_read": {
   "9278323": {

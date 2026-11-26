@@ -53,9 +53,12 @@ def main():
         pass
     # identification: authoritative row counts come from the raw files themselves
     raw_counts = {}
-    for f in sorted(glob.glob(os.path.join(ROOT, "data", "raw", "*.jsonl"))):
+    raw_dir = os.path.join(ROOT, "data", "raw")
+    if not os.path.isdir(raw_dir):
+        raw_dir = os.path.join(os.path.dirname(P), "raw")
+    for f in sorted(glob.glob(os.path.join(raw_dir, "*.jsonl"))):
         name = os.path.basename(f)[:-6]
-        with open(f) as fh:
+        with open(f, encoding="utf8") as fh:
             raw_counts[name] = sum(1 for line in fh if line.strip())
     prisma["identification"] = {
         s: {"retrieved": raw_counts.get(s, 0),
@@ -238,8 +241,14 @@ def main():
 
     fl = os.path.join(P, "fulltext_lift.json")
     if os.path.exists(fl):
-        out["fulltext_lift"] = json.load(open(fl, encoding="utf8"))
+        flj = json.load(open(fl, encoding="utf8"))
+        drifts = [abs(v.get("subset_drift_pp") or 0) for v in flj.get("per_construct", {}).values()]
+        flj["max_abs_drift_pp"] = round(max(drifts), 1) if drifts else None
+        out["fulltext_lift"] = flj
 
+    sc = os.path.join(P, "exp5_scores.json")
+    if os.path.exists(sc):
+        out["llm_read_scores"] = json.load(open(sc, encoding="utf8"))
     fp5 = os.path.join(P, "exp5_llm_construct.json")
     if os.path.exists(fp5):
         out["llm_construct_read"] = json.load(open(fp5, encoding="utf8"))
