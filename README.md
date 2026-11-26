@@ -4,14 +4,21 @@ Reproducibility package for a scoping review of how the literature on cults and
 high-control groups relates manipulation mechanisms to criminal and judicial
 outcomes, and of how completely it reports what would be needed to compare studies.
 
-**The finding in one paragraph.** On 171 abstracts, offence type and jurisdiction are
-reported often (49% and 52%) and the variables that make studies comparable are
+**The finding in one paragraph.** On 170 abstracts, offence type and jurisdiction are
+reported often (48.8% and 52.4%) and the variables that make studies comparable are
 reported rarely: a standardised instrument in 1.2%, a comparison or an explicit
 "none" in 3.5%, involvement duration in 4.1%. A paired reading of abstracts against
 full texts for the same records shows the instrument figure rising from 0% to 28.6%
 and the legal-outcome figure from 16.7% to 66.7%. The deficit is at the reading
 interface, not in the scholarship — which is why the contribution is a reporting
 standard ([`mrs-ci/`](mrs-ci/)) rather than a research agenda.
+
+## The corpus in numbers
+
+1,154 records retrieved from seven source files → 832 unique after deduplication
+(entities decoded, titles merged) → 744 after the year and language limits → 628
+screened at title and abstract → 191 included → 170 carrying an abstract, which is
+the denominator every percentage in the manuscript uses.
 
 ## Reproduce
 
@@ -75,7 +82,7 @@ every raw file the analysis was run on, so a reproduction can be checked against
 - Screening precision was measured at 48–68% on a 50-record read, and the detectors
   at precision 0.80 / recall 0.45 on a 29-record read. Every percentage is therefore
   a **lower bound**.
-- Full text was obtainable for 24.6% of included records; the subset is biased
+- Full text was obtainable for 24.7% of included records; the subset is biased
   towards open access.
 - OpenAlex was unavailable (credit exhaustion) and replaced by a six-source stack;
   see `docs/deviations.md` D-9 and D-13.

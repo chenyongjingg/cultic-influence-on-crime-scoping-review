@@ -8,7 +8,7 @@ Ten items that an abstract should state when it reports a study of cultic influe
 and crime, plus two requirements of general reporting hygiene. Each item is derived
 from a *measured* absence in the corpus, not from a committee's preference: the
 `measured_*` fields in `mrs-ci.json` record how often the construct actually appears
-in the title and abstract of the 171 records that carried an abstract.
+in the title and abstract of the 170 records that carried an abstract.
 
 ## Why it is aimed at the abstract
 
