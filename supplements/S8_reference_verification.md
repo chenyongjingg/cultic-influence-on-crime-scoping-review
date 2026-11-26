@@ -6,7 +6,7 @@ Each reference was checked field by field against the registration record, not m
 |---|---|---|---|---|---|---|---|---|
 | 1 | VERIFIED | Crossref | 1.0 | ✓ | ✓ | ✓ | ✓ | 1.0 |
 | 2 | VERIFIED | Crossref | 1.0 | ✓ | ✓ | ✓ | ✓ | 1.0 |
-| 3 | PARTIAL (authors, title, year via OpenAlex; pagination unverified) | OpenAlex (no DOI) | 1.0 | ✓ | ✓ | — | — | — |
+| 3 | UNVERIFIED (no record in Crossref or OpenAlex) | — | — | — | — | — | — | — |
 | 4 | UNVERIFIED (no record in Crossref or OpenAlex) | — | — | — | — | — | — | — |
 | 5 | VERIFIED | Crossref | 1.0 | ✓ | ✓ | ✓ | ✓ | 0.909 |
 | 6 | VERIFIED | Crossref | 0.993 | ✓ | ✓ | ✓ | ✓ | 1.0 |
@@ -49,10 +49,8 @@ Each reference was checked field by field against the registration record, not m
 
 ## Items needing attention
 
-- **3.** PARTIAL (authors, title, year via OpenAlex; pagination unverified)
-  - title: claimed 'The Group Psychological Abuse Scale: a measure of the varieties of cultic abuse' / record 'The Group Psychological Abuse Scale: A measure of the varieties of cultic abuse.'
-  - first_author: claimed 'Chambers' / record 'Chambers'
-  - year: claimed 1994 / record 1994
+- **3.** UNVERIFIED (no record in Crossref or OpenAlex)
+  - record: no registration record located
 - **4.** UNVERIFIED (no record in Crossref or OpenAlex)
   - record: no registration record located
 - **9.** UNVERIFIED (no record in Crossref or OpenAlex)

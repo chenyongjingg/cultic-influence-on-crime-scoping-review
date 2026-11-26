@@ -56,8 +56,8 @@ Prior syntheses exist, and none is a systematic map. The closest is an editorial
 handbook for forensic practitioners, which integrates theory, clinical and legal
 material in narrative form and states that systematic research in this area is
 scarce {durns}. The only review focused on violent outcomes is seventeen years old
-and restricted to violence {lalich}. Work on joining and leaving synthesises
-recruitment and exit rather than offending {rousselet}. A systematic review of
+and restricted to violence {lalich}. Work on joining and leaving
+examines recruitment and exit rather than offending {rousselet}. A systematic review of
 coercive control exists, but it is anchored in intimate partner violence rather than
 in groups {lohmann}. Two studies established that the cult–crime intersection is
 empirically reachable {bohm,coates}. None of them supplies a reproducible corpus, a
