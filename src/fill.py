@@ -49,7 +49,8 @@ def build_named(a):
                        ("DURATION", "C3_duration"), ("MECHANISM", "C4_mechanism"),
                        ("INSTRUMENT", "C5_instrument"), ("OFFENCE", "C6_offence"),
                        ("LEGAL", "C8_legal"), ("JURISDICTION", "C9_jurisdiction")):
-        named["PCT_" + short] = fmt(ct[key]["pct"])
+        # one decimal always: "7.0%" reads as a rate, "7%" reads as a count
+        named["PCT_" + short] = "%.1f" % ct[key]["pct"]
         named["N_" + short] = str(ct[key]["n_reported_verified"])
     return named
 
@@ -96,7 +97,7 @@ def main(path_in, path_out, analysis):
 
     # splice section files into {{SECTION_n}} markers
     base = os.path.dirname(os.path.abspath(path_in))
-    for n in range(3, 11):
+    for n in list(range(3, 11)) + [35]:
         marker = "{{SECTION_%d}}" % n
         if marker in txt:
             fp = os.path.join(base, "sections", "s%d.md" % n)
@@ -118,7 +119,8 @@ def main(path_in, path_out, analysis):
         return fmt(v)
 
     txt = re.sub(r"\{\{([A-Za-z0-9_.]+)\}\}", sub, txt)
-    left = sorted(set(re.findall(r"\{\{([A-Za-z0-9_.]+)\}\}", txt)))
+    # WORDCOUNT is computed by build_frontiers.py after this step, by design
+    left = sorted(set(re.findall(r"\{\{([A-Za-z0-9_.]+)\}\}", txt)) - {"WORDCOUNT"})
     open(path_out, "w", encoding="utf8").write(txt)
     print("WROTE %s  %d chars" % (path_out, len(txt)))
     if left:

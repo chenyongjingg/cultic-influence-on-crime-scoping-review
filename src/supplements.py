@@ -3,13 +3,20 @@
 import json, os, csv, collections
 
 ROOT = "/root/cultcrime"
-P = os.path.join(ROOT, "data", "processed")
+if not os.path.isdir(ROOT):
+    ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+P = os.environ.get("PROCESSED_DIR", os.path.join(ROOT, "data", "processed"))
+if not os.path.isdir(P):
+    P = os.path.join(ROOT, "out", "server_snapshot", "data", "processed")
+DATA = os.path.join(os.path.dirname(P), "counts.json")
+if not os.path.exists(DATA):
+    DATA = os.path.join(ROOT, "data", "counts.json")
 OUT = os.path.join(ROOT, "out", "supplements")
 
 
 def main():
     os.makedirs(OUT, exist_ok=True)
-    counts = json.load(open(os.path.join(ROOT, "data", "counts.json")))
+    counts = json.load(open(DATA))
     comp = json.load(open(os.path.join(P, "compose_report.json")))
 
     # ---- S2 search strategy and per-source counts

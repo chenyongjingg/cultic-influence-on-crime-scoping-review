@@ -16,7 +16,7 @@
 
 ## Abstract
 
-**Background.** High-control groups sit at the junction of social psychology, group dynamics and criminal conduct. Mental manipulation, coercive control and indoctrination shape how courts and clinicians attribute agency, and therefore findings of criminal responsibility. The relation between these mechanisms and criminal outcomes is widely discussed and rarely compared. **Objective.** To map what the literature on cultic influence and crime demonstrates, what it measures and what it leaves unreported, and to derive a minimum reporting set from that map. **Methods.** Scoping review following PRISMA-ScR and JBI guidance, specified before searching. Six bibliographic sources were searched from 1994 to November 2026 with a base block requiring a high-control-group term and a crime term in title or abstract. Records were screened against four criteria by a fixed open-weight language model, with every verdict, supporting span and confidence retained; reporting completeness was then measured by twelve documented lexical detectors, each returning its matched span so that every count can be re-derived. No effect size was pooled and no significance test was computed. **Results.** 191 records met the inclusion criteria, 170 of which carried an abstract; full text was obtainable for 42 of them (24.7%). Among the measurable abstracts, 5.9% stated how the group was operationally identified, 14.7% distinguished participant roles, 4.1% reported involvement or exit duration, 1.2% named a standardised instrument and 20.6% reported a legal outcome. The evidence map is sparse. Most mechanism–outcome cells are empty. **Conclusions.** The variables that carry the causal claim — role, duration, instrument, legal outcome — are the least reported in the abstract, but they are not missing from the papers. A paired reading of abstracts against full texts raises the standardised-instrument rate from 0% to 28.6%, and the legal-outcome rate from 16.7% to 66.7%. The deficit sits at the reading interface rather than in the scholarship, and a ten-item minimum reporting set is proposed for that interface, framed as a disclosure instrument a regulator could impose at low cost.
+**Background.** High-control groups sit at the junction of social psychology, group dynamics and criminal conduct. Mental manipulation, coercive control and indoctrination shape how courts and clinicians attribute agency, and therefore findings of criminal responsibility. The relation between these mechanisms and criminal outcomes is widely discussed and rarely compared. **Objective.** To map what the literature on cultic influence and crime demonstrates, what it measures and what it leaves unreported, and to derive a minimum reporting set from that map. **Methods.** Scoping review following PRISMA-ScR and JBI guidance, specified before searching. Six bibliographic sources were searched from 1994 to November 2026 with a base block requiring a high-control-group term and a crime term in title or abstract. Records were screened against four criteria by a fixed open-weight language model, with every verdict, supporting span and confidence retained; reporting completeness was then measured by twelve documented lexical detectors, each returning its matched span so that every count can be re-derived. No effect size was pooled and no significance test was computed. **Results.** 163 records met the inclusion criteria, 142 of which carried an abstract; full text was obtainable for 42 of them (29.6%). Among the measurable abstracts, 7.0% stated how the group was operationally identified, 15.5% distinguished participant roles, 4.9% reported involvement or exit duration, 1.4% named a standardised instrument and 19.7% reported a legal outcome. The evidence map is sparse. Most mechanism–outcome cells are empty. **Conclusions.** The variables that carry the causal claim — role, duration, instrument, legal outcome — are the least reported in the abstract, but they are not missing from the papers. A paired reading of abstracts against full texts raises the standardised-instrument rate from 0% to 28.6%, and the legal-outcome rate from 16.7% to 66.7%. The deficit sits at the reading interface rather than in the scholarship, and a ten-item minimum reporting set is proposed for that interface, framed as a disclosure instrument a regulator could impose at low cost.
 
 ---
 
@@ -121,7 +121,9 @@ Four criteria were applied to titles and abstracts: **I1** the record concerns a
 cult or high-control group as an actual organised group; **I2** it concerns criminal
 conduct or the criminal-justice process; **I3** a manipulation mechanism is
 analysed rather than merely named; **I4** it carries empirical or documentary
-material. The four are conjunctive. I1 is what excludes the large metaphorical
+material. The four are conjunctive. A record that satisfied fewer than four entered
+only where a documented rule re-decided it on the group criterion together with a
+lexical crime anchor; how many, and on what terms, is stated in §2.4. I1 is what excludes the large metaphorical
 literature — "cult" films, the "cult of the double-blind trial" — that any keyword
 search on this topic retrieves in quantity, and I2 is what implements the target
 topic's own boundary, which excludes non-criminal cult activity.
@@ -182,6 +184,17 @@ Third, automatic exclusion requires EXCLUDE with confidence of at least 0.90, an
 overridden for any record whose own title carries both a group term and a crime
 term.
 
+The three gates decide the first pass. Records that neither passed on all four flags
+nor met the auto-exclusion rule went to a second pass, which admitted a record when
+the model's own I1 verdict was positive and the text carried both a group term and a
+crime term. That test is weaker than the conjunction — a lexical crime anchor stands
+in for I2, I3 and I4 — and it admitted 110 of the
+135 records it received,
+2 of them on the keyword rule alone because the
+model returned no output. With the
+81 that passed on all four flags, the machine set was
+191 records.
+
 A validation read tested this. Fifty records — twenty-five included and
 twenty-five auto-excluded — were read against the four criteria. Of the twenty-five
 inclusions, 11 were clearly on topic, 5 were
@@ -190,21 +203,33 @@ records where "cult" is a metaphor (veneration, fashion, film criticism) or wher
 criminal organisation is not a high-control group. Of the twenty-five auto-exclusions,
 23 were correctly excluded and 2 were arguably retrievable, both legal analyses
 sitting at the cult/crime boundary. Two consequences follow, and both are carried into
-the reading of the results. First, the 9 non-qualifying records are not inert
+the reading of the results. First, of the 9 judged not
+on topic, 6 remain in the audited corpus —
+the rest fell inside the audit exclusion set — and they are not inert
 denominator: they report a mean of 1.67 constructs
-against a corpus mean of 2.08, and
-3 of them report a jurisdiction, which is
+against a corpus mean of 2.11, and
+2 of them report a jurisdiction, which is
 one of the two largest bars in Figure 3. Removing them would move offence type from
-48.8% to 48.4% and
-jurisdiction from 52.4% to
-53.4% — in both directions, and by about a
+48.6% to 47.8% and
+jurisdiction from 52.8% to
+53.7% — in both directions, and by about a
 percentage point. The
 profile therefore does not depend on the screen's precision, but the direction of the
 error is not the one that would flatter the paper: the corpus is not biased towards
 over-reporting, and it is not biased towards under-reporting either. Second, no
-precision claim is made for the screen; the sample is small, the reader is the executing agent, not an independent reviewer, and the operative check will be the
-author adjudication of the full table, which has not yet been performed.
-Supplementary Table S7 gives the verdicts record by record.
+precision claim is made for the screen; the sample is small and the reader was the
+executing agent, not an independent reviewer. The check that was performed is
+narrower than the full table and broader than the sample: a full-corpus audit
+(Supplementary Table S9) replayed every decision from the stored fields and flagged
+the included records whose title and quoted I1 evidence named no group, together
+with those whose only group term was metaphorical. It flagged
+30 records. The first author read all of
+them against I1–I4 (the filled worksheet is Supplementary Table S10) and judged
+28 not to meet the criteria; those were removed before
+analysis. The audit covers the records the machine could not confirm, not the whole
+set, so it bounds the worst case rather than estimating precision, and the remaining
+machine decisions were not individually re-read.
+Supplementary Table S7 gives the validation verdicts record by record.
 
 Two disclosures belong here. No double
 independent screening by two human reviewers was performed; what replaces the
@@ -212,15 +237,17 @@ inter-rater statistic is the full decision trail, a prompt-perturbation re-run t
 measures how far decisions move when the criterion wording is paraphrased, and a
 count of how many auto-excluded records a more permissive reading would have
 rescued. These are stability and sensitivity, and none of them is an estimate of
-human agreement. The second pass was rule-based rather than human: adjudication by
-the named authors remains outstanding, and the numbers here are the machine record,
-not a claim of human review. In the pilot the model's residual errors were
+human agreement. The second pass was rule-based rather than human, and no
+independent human screening of the full corpus was performed: the audit covers the
+records the machine could not confirm, not the rest. The numbers are therefore the
+machine record corrected where the audit found error, and the correction moves no
+headline percentage by more than 1.1 points
+(Supplementary Table S9b). In the pilot the model's residual errors were
 concentrated in one direction — it over-admitted intimate-partner-violence records
 before the I1 gate was made explicit, and over-rejected when asked to judge twelve
 constructs at once — and both are recorded in the repository's deviation log. The
-validation sample will be read blind by a second author, and the two readings will be
-reported side by side in Supplementary Table S7, completed together with the author
-adjudication in Table S3.
+validation verdicts are given record by record in Supplementary Table S7, and the
+filled audit worksheet is Supplementary Table S10.
 
 ### 2.5 Measurement of reporting completeness
 
@@ -245,9 +272,9 @@ the reported percentages are lower bounds, and that the *distance* between a
 high-recall and a low-recall construct is partly a measurement effect rather than a
 property of the literature. Where the argument depends on the ordering, the paper
 therefore leans on the comparison that survives the correction: the two least
-reported constructs are named in 1.2% and 2.4% of records
+reported constructs are named in 1.4% and 2.1% of records
 (standardised instrument, Table 2; offence severity), and even if their recall matched the best-observed
-construct (0.62) they would rise only to about 1.9% and 3.9% — still an order of
+construct (0.62) they would rise only to about 2.3% and 3.4% — still an order of
 magnitude below offence type and jurisdiction. The same
 read gives precision by construct between 0.73 and 1.00 where it can be estimated,
 so the error runs in the direction of under-counting, not over-counting.
@@ -306,12 +333,12 @@ differences between papers; the matched window is the control that distinguishes
 document that *states* a construct from a document that merely *contains* the words
 for it.
 
-Full text was obtainable for 42 of 170
-measurable records (24.7%), a figure that is itself a
+Full text was obtainable for 42 of 142
+measurable records (29.6%), a figure that is itself a
 finding about the accessibility of this literature: the rest sit behind paywalls that
 neither Unpaywall nor CORE could reach. Two checks on the subset: its abstract-level
 profile drifts from the corpus by no more than
-8.3
+8.1
 percentage points, and the matched window reports *no more* than the abstract for
 nine of the twelve constructs, so the lift reported below is not a length effect.
 
@@ -347,7 +374,7 @@ distinguishes four domains of control — behaviour, information, thought and em
 [10]. Each record was coded for the domains it names or squarely
 describes, and for whether it names a mechanism term at all.
 
-25 of 170 records name a manipulation mechanism explicitly;
+21 of 142 records name a manipulation mechanism explicitly;
 2 name a standardised instrument of any kind. That ratio is the
 design space in miniature. The vocabulary of influence is widely shared; the
 apparatus for measuring it is nearly absent. A record can therefore assert that
@@ -361,11 +388,11 @@ describe technique in detail are case-based and rarely comparative [11,12].
 Where a group's ideology is treated as a mechanism, the analysis is
 usually produced by outside observers reconstructing the group's culture, and not through the study's own measurement [13,14].
 
-The four domains are not equally visible. Of the 61
+The four domains are not equally visible. Of the 51
 records coded to at least one domain, 5 were
-coded to behavioural control, 38 to
-information control, 18 to thought control and
-14 to emotional control. The ordering matters for
+coded to behavioural control, 33 to
+information control, 13 to thought control and
+12 to emotional control. The ordering matters for
 forensic use. Behavioural restriction — movement, contact, dress, work — leaves
 documentary traces that case records can cite, so it is the domain most easily
 evidenced. The legal argument, however, usually turns on the informational and
@@ -385,11 +412,11 @@ practice, an assessment of capacity under constraint. The instruments that exist
 for that task were built for neighbouring questions, and the distance between the
 question and the instrument is measurable in this corpus.
 
-2 of 170 records name a standardised instrument at all
+2 of 142 records name a standardised instrument at all
 (Figure 2). That number is the central fact of this section. A field that argues about
 responsibility and reports no measurement of the mechanism that is said to
 displace it cannot, as a field, put its argument in front of a court in a form the
-court can test. 35 records report a legal outcome of any kind.
+court can test. 28 records report a legal outcome of any kind.
 
 Where instruments appear, they tend to be instruments for adjacent constructs.
 Risk-assessment frameworks estimate the probability of future violence; they do
@@ -424,7 +451,7 @@ The three guiding questions were fixed before searching. Their answers here are
 counts, not tests.
 
 **A-1: do involvement intensity and duration relate to criminal role or
-severity?** 4 of 170 records
+severity?** 4 of 142 records
 distinguish participant roles and report a duration. The pre-specified bar for a
 directional reading was three independent studies reporting involvement parameters
 in comparable form alongside a graded outcome; that bar is not met in this corpus.
@@ -434,11 +461,11 @@ report.
 
 **A-2: does standardised measurement make comparison possible?** The bar was a
 record that names an instrument and reports its score with the administration
-context. 2 of 170 records name an instrument at all, so the second
+context. 2 of 142 records name an instrument at all, so the second
 clause is not reached and the gap is the near-absence of measurement.
 
 **A-3: is there a statable relation between quantified manipulation and judicial
-outcomes?** 5 of 170 records
+outcomes?** 5 of 142 records
 report both a named mechanism and a legal outcome. The pre-specified bar was
 documentable pairs of manipulation assessment and subsequent legal outcome; it is
 not met. Records do discuss both in one paper — a case is narrated and the court's reasoning
@@ -476,10 +503,10 @@ Figure 1 places each included record in a grid of manipulation domain against
 criminal outcome type. The grid is sparse, and its sparsity is the result rather
 than a shortcoming of the search.
 
-Of the 61 records that could be assigned to a manipulation
+Of the 51 records that could be assigned to a manipulation
 domain, the counts by domain are behavioural 5,
-informational 38, thought
-18 and emotional 14;
+informational 33, thought
+13 and emotional 12;
 a record can carry more than one. Most cells are empty. The densest is
 informational control against homicide, which is what a case-record literature would
 suggest: the cases that get written up are the ones with a body, and the mechanism
@@ -487,13 +514,13 @@ that gets described is the one the court files contain — who was told what, wh
 deceived, who was watched.
 
 The reporting profile in Figure 3 is the more consequential result. Offence type
-is reported in 83 of 170 records; jurisdiction in
-89; data source in 55; legal outcome in
-35. The variables that carry the comparative claim are reported far
-less often: participant role in 25, involvement or exit duration in
-7, sample size in 12, a named mechanism in
-25, a standardised instrument in 2, a comparison
-or an explicit statement that none was used in 6, and a group
+is reported in 69 of 142 records; jurisdiction in
+75; data source in 47; legal outcome in
+28. The variables that carry the comparative claim are reported far
+less often: participant role in 22, involvement or exit duration in
+7, sample size in 11, a named mechanism in
+21, a standardised instrument in 2, a comparison
+or an explicit statement that none was used in 5, and a group
 operational definition in 10.
 
 Read as lower bounds, as the validation in Section 2.5 requires. The detector
@@ -603,21 +630,21 @@ This section opens with the investigative modules M8–M10 that
 Section 3.4 introduced; the second half reports the regulatory layer and reads both
 in governance terms.
 
-**The investigative layer.** Of 170 measurable records,
-39 identify a victim or complainant
-as an interview subject, 23 an
+**The investigative layer.** Of 142 measurable records,
+35 identify a victim or complainant
+as an interview subject, 22 an
 ordinary member and 2 a leader.
 Confession reliability is discussed in
-8 records. Interrogation method — whether
+6 records. Interrogation method — whether
 information-gathering or accusatorial — is named in
 0 and
 0 records respectively, which
 is a striking absence given how well established the effect of method on true and false
 confessions is [23,24] and how unreliable demeanour-based deception detection has proved
 [25]. In the digital layer, online recruitment appears in
-5 records and organisational
+3 records and organisational
 structure inferred from digital traces in
-3; financial records appear in
+2; financial records appear in
 1, and communications evidence and
 seized devices in 0 and
 0. Case-linking appears as
@@ -633,13 +660,13 @@ side: there the information was in the paper and not in the abstract, here the p
 is in the file and not in the paper.
 
 **The regulatory layer.** Regulatory instruments are named even less often. Of
-170 records, 19
-(11.2%) name any instrument of this kind, and only
+142 records, 14
+(9.9%) name any instrument of this kind, and only
 3 name more than one. Criminal prosecution
 dominates the small set that is named
-(14, 8.2%),
+(10, 7%),
 followed by immigration law
-(4), trafficking law
+(3), trafficking law
 (2), family and marriage law
 (2) and financial regulation
 (1); charity and religious-organisation
@@ -683,7 +710,7 @@ said is narrower. A regime that requires nothing but a comparable sentence is ch
 enough to try, and comparable enough to be evaluated.
 
 One count points the same way. Online recruitment appears in
-5 of 170 records, and
+3 of 142 records, and
 the study of internet manipulation by sect members [12] is one of the few that treats
 the channel as an object of analysis; most records treat it as a setting. Platforms are
 the natural site of an ex-ante disclosure duty, and the corpus is close to silent about
@@ -714,28 +741,28 @@ anything new, and it does not ask any journal to change its peer review. It asks
 one sentence per item in the place a reader actually looks. Each item below exists
 because its measured frequency is low, and each is stated in the minimum form that
 would make the next study comparable, measured as described in Section 2.5 over
-170 records.
+142 records.
 
 **Table 2.** Minimum reporting set (MRS-CI): the ten items, the minimum acceptable
-form of each, and the frequency with which the corpus reports it (n/170 records
+form of each, and the frequency with which the corpus reports it (n/142 records
 with an abstract).
 
 | # | Item | Minimum acceptable form | Measured | Why it is necessary |
 |:---|:-----------|:------------------------|:-----------|:--------------------------------|
-| 1 | Group operational definition | the criterion used to classify the group, and its source, in one sentence | 10/170 (5.9%) | "cult" means different things in different jurisdictions; without a definition the inclusion boundary cannot be audited |
-| 2 | Participant role | leader / core executor / ordinary member / victim / former member, with the basis for the classification | 25/170 (14.7%) | "cult member" collapses the different levels of agency that the legal question is about |
-| 3 | Involvement and exit duration | month-level start and end, or years; an explicit "unknown" is acceptable | 7/170 (4.1%) | duration is the closest available proxy for dose, and dose is what a mechanism claim needs |
-| 4 | Named manipulation mechanism | the term actually used, from a checkable list | 25/170 (14.7%) | mechanism statements are currently rhetorical enumerations; without a term list they cannot be counted across studies |
-| 5 | Standardised instrument | name, score, and administration context (who administered, when, in what setting) | 2/170 (1.2%) | a score without its method is not comparable; a negative statement ("no instrument used") also satisfies the item |
-| 6 | Offence type | offence category under a named classification (statutory or study-internal) | 83/170 (48.8%) | "involved in crime" cannot carry a comparison across jurisdictions |
-| 7 | Offence severity | a statutory grade, a study-internal grade, or a sentence length | 4/170 (2.4%) | severity is the outcome variable a dose-response claim would use |
-| 8 | Legal outcome | charge, conviction, sentence, responsibility finding or ruling, with the date | 35/170 (20.6%) | this is the interface between the psychological literature and legal practice; absent, the two cannot be joined |
-| 9 | Jurisdiction | country and the applicable responsibility framework | 89/170 (52.4%) | responsibility standards differ between jurisdictions; the difference is itself a boundary condition |
-| 10 | Data source and recruitment | clinical / forensic / self-report / media / court file, and how participants entered the study | 55/170 (32.4%) | the source type bounds the causal claim that can be made |
+| 1 | Group operational definition | the criterion used to classify the group, and its source, in one sentence | 10/142 (7%) | "cult" means different things in different jurisdictions; without a definition the inclusion boundary cannot be audited |
+| 2 | Participant role | leader / core executor / ordinary member / victim / former member, with the basis for the classification | 22/142 (15.5%) | "cult member" collapses the different levels of agency that the legal question is about |
+| 3 | Involvement and exit duration | month-level start and end, or years; an explicit "unknown" is acceptable | 7/142 (4.9%) | duration is the closest available proxy for dose, and dose is what a mechanism claim needs |
+| 4 | Named manipulation mechanism | the term actually used, from a checkable list | 21/142 (14.8%) | mechanism statements are currently rhetorical enumerations; without a term list they cannot be counted across studies |
+| 5 | Standardised instrument | name, score, and administration context (who administered, when, in what setting) | 2/142 (1.4%) | a score without its method is not comparable; a negative statement ("no instrument used") also satisfies the item |
+| 6 | Offence type | offence category under a named classification (statutory or study-internal) | 69/142 (48.6%) | "involved in crime" cannot carry a comparison across jurisdictions |
+| 7 | Offence severity | a statutory grade, a study-internal grade, or a sentence length | 3/142 (2.1%) | severity is the outcome variable a dose-response claim would use |
+| 8 | Legal outcome | charge, conviction, sentence, responsibility finding or ruling, with the date | 28/142 (19.7%) | this is the interface between the psychological literature and legal practice; absent, the two cannot be joined |
+| 9 | Jurisdiction | country and the applicable responsibility framework | 75/142 (52.8%) | responsibility standards differ between jurisdictions; the difference is itself a boundary condition |
+| 10 | Data source and recruitment | clinical / forensic / self-report / media / court file, and how participants entered the study | 47/142 (33.1%) | the source type bounds the causal claim that can be made |
 
 Two further requirements belong to general reporting hygiene and not to this domain and are recommended alongside the ten: a comparison group, a baseline, or an
-explicit statement that none was used (6/170); and a sample
-size for the persons, cases or documents analysed (12/170). Their
+explicit statement that none was used (5/142); and a sample
+size for the persons, cases or documents analysed (11/142). Their
 measured frequency is among the lowest of anything counted, which is why they are
 named here even though they are not specific to cultic influence.
 
@@ -775,7 +802,7 @@ description in another case.
 *Reviewability is the second condition: the assessment must be recorded in a form that can be reviewed.* The legal
 question is about the person's state at the time of the act; forensic practice
 records the person's state at the time of assessment. Where records do report a
-legal outcome (35/170), the assessment that preceded it is rarely
+legal outcome (28/142), the assessment that preceded it is rarely
 recoverable from the same text, so the reasoning cannot be audited even in
 principle.
 
@@ -833,7 +860,7 @@ it lacks is the ability to tell which of them the data support.
 ## 5. Conclusion
 
 Cultic influence on crime, as a literature, measures more than its abstracts say.
-Offence type appears in 83 of 170 abstracts and a standardised
+Offence type appears in 69 of 142 abstracts and a standardised
 instrument in 2; on the subset whose full text could be read, the
 instrument figure rises from 0%
 to 28.6% and the legal-outcome
@@ -870,9 +897,14 @@ original draft. Yongjin Chen: data curation, validation, visualization. Songze Z
 conceptualization, methodology, correspondence. All three authors contributed to
 writing — review and editing.
 
-Adjudication of the screening table (Supplementary Table S3) remains outstanding. The
-worksheet is complete and blank for the author's decisions, and the numbers reported
-here are the machine record; Section 2.4 says how they should be read in consequence.
+Screening was performed by a single fixed model; no independent human screening of
+the full corpus was performed. The first author read the
+30 records that the full-corpus audit
+(Supplementary Table S9) could not confirm and excluded
+28 of them (Supplementary Table S10); the corpus
+analysed here is the machine set with those exclusions applied. The whole screening
+table is provided as Supplementary Table S3 with every model verdict, flag and
+supporting span.
 
 
 **Ethics.** No human participants and no personal data were involved; the corpus
@@ -971,7 +1003,7 @@ at each step.
 
 ## Table 1. Theory integration: psychological mechanisms and criminological theories
 
-Across 170 included records, 5 name a psychological mechanism theory (coercive control, bounded choice, cognitive dissonance, groupthink, trauma bonding, obedience to authority), 2 name a criminological theory (differential association, social control, neutralisation, strain, routine activity, labelling, social learning), and 0 name both. The cells that a theoretical integration would need to fill — a named forensic-psychological mechanism paired with a named criminological explanation in the same record — are therefore empty in this corpus.
+Across 142 included records, 5 name a psychological mechanism theory (coercive control, bounded choice, cognitive dissonance, groupthink, trauma bonding, obedience to authority), 2 name a criminological theory (differential association, social control, neutralisation, strain, routine activity, labelling, social learning), and 0 name both. The cells that a theoretical integration would need to fill — a named forensic-psychological mechanism paired with a named criminological explanation in the same record — are therefore empty in this corpus.
 
 ## Supplementary material
 

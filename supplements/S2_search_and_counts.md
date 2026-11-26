@@ -15,11 +15,11 @@ Query specification sha256: `20b159a4e8c9322e3201d5f02db54d43b7832b43425cffbccf7
 - raw_rows_total: 1154
 - unique_per_source: {'core': 269, 'crossref': 49, 'doaj': 141, 'europepmc': 143, 'pubmed': 49, 's2': 410}
 - unique_cross_db_pre: 1061
-- unique_after_dedup: 833
-- after_year_1994_2026: 814
-- after_language: 745
-- language_breakdown: {'declared_en': 146, 'inferred_en': 599, 'declared_other_pl': 13, 'inferred_not_en': 37, 'declared_other_id': 1, 'declared_other_es': 6, 'declared_other_it': 1, 'declared_other_ger': 7, 'declared_other_pol': 1, 'declared_other_spa': 1, 'declared_other_dut': 1, 'declared_other_kor': 1}
-- tierP: 535
+- unique_after_dedup: 832
+- after_year_1994_2026: 813
+- after_language: 744
+- language_breakdown: {'declared_en': 146, 'inferred_en': 598, 'declared_other_pl': 13, 'inferred_not_en': 37, 'declared_other_id': 1, 'declared_other_es': 6, 'declared_other_it': 1, 'declared_other_ger': 7, 'declared_other_pol': 1, 'declared_other_spa': 1, 'declared_other_dut': 1, 'declared_other_kor': 1}
+- tierP: 534
 - tierS_only: 94
-- with_abstract: 605
+- with_abstract: 604
 - without_abstract: 24

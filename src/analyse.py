@@ -19,6 +19,7 @@ else:
     if not os.path.isdir(P):
         P = os.path.join(ROOT, "out", "server_snapshot", "data", "processed")
 OUT_JSON = os.environ.get("ANALYSIS_OUT", os.path.join(P, "analysis.json"))
+P = os.environ.get("PROCESSED_DIR", P)
 CONS = ["C1_group_def", "C2_role", "C3_duration", "C4_mechanism", "C5_instrument",
         "C6_offence", "C7_severity", "C8_legal", "C9_jurisdiction", "C10_source",
         "C11_comparison", "C12_n"]
@@ -286,6 +287,15 @@ def main():
         out["recall_corrected"]["best_recall"] = best_recall
     out["extraction_audit"] = ext_stats
     out["adjudication"] = adj
+
+    # the screening audit and the author's verdicts on it, so that every number in
+    # the audit paragraph is substituted from an artefact rather than typed
+    ad = os.path.join(ROOT, "out", "data", "screening_audit.json")
+    if os.path.exists(ad):
+        out["screening_audit"] = json.load(open(ad, encoding="utf8"))
+    au = os.path.join(ROOT, "out", "data", "author_audit.json")
+    if os.path.exists(au):
+        out["author_audit"] = json.load(open(au, encoding="utf8"))
 
     os.makedirs(os.path.dirname(OUT_JSON), exist_ok=True)
     json.dump(out, open(OUT_JSON, "w", encoding="utf8"), indent=1, ensure_ascii=False)

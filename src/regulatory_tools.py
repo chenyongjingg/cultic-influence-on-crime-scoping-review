@@ -14,6 +14,7 @@ ROOT = "/root/cultcrime"
 if not os.path.exists(ROOT):
     ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 P = os.path.join(ROOT, "data", "processed")
+P = os.environ.get("PROCESSED_DIR", P)
 if not os.path.isdir(P):
     P = os.path.join(ROOT, "out", "server_snapshot", "data", "processed")
 

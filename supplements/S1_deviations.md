@@ -40,14 +40,21 @@ one record per prompt, N concurrent sequences, N recorded in every output file.
 This changes throughput only; each record is still judged independently and
 greedily, so no record's decision depends on its neighbours.
 
-## D-4  Adjudication is not performed by a human author
+## D-4  Adjudication is partial: an audit of the 30 least-confirmable records
 Protocol §3.3 and §7.3 assign adjudication to the first author and forbid double
-independent screening. Neither was executed by a person in this run. What was
-executed is: (i) model screening with structured output and the pre-specified
-auto-exclusion rule; (ii) a rule-based second pass for records the model left
-uncertain. Both are recorded per record and both are reproducible. The manuscript
-must state that human adjudication by the named authors is outstanding before
-submission; the numbers here are the machine record, not a claim of human review.
+independent screening. No independent human screening of the full corpus was
+performed. What was executed is: (i) model screening with structured output and the
+pre-specified auto-exclusion rule; (ii) a rule-based second pass for records the
+model left uncertain, which admitted records on I1 plus a lexical crime anchor and
+is therefore weaker than the four-criterion conjunction the protocol specifies;
+(iii) a full-corpus audit (S9) that replayed every decision from the stored fields
+and flagged the included records whose title and quoted I1 evidence named no group,
+or whose only group term was metaphorical; (iv) the first author read all 30 flagged
+records and excluded 28 (S10). The analysed corpus is therefore the machine set of
+191 minus those 28, i.e. 163. The audit covers the records the machine could not
+confirm, not the other 161, so it bounds the worst case rather than estimating
+precision; the correction moves no headline percentage by more than 1.1 points
+(S9b). The manuscript states both the procedure and this limit.
 
 ## D-5  No Scopus / Web of Science
 No institutional access on the execution host. The limitation on recall is

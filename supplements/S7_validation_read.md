@@ -3,7 +3,7 @@
 Reader: the executing agent (not an independent human reviewer). Blind to group
 membership is not possible here — the sample file names the pipeline decision — so
 this read estimates *plausibility*, not agreement between two blind raters. The
-author adjudication in S3 remains the operative check.
+audit of the 30 least-confirmable records (S9, S10) is the operative check.
 
 Verdict scale: **Y** = satisfies I1–I4 on the abstract; **M** = arguable, one
 criterion doubtful; **N** = does not satisfy.

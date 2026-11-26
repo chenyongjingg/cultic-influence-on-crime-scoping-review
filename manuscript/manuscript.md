@@ -121,7 +121,9 @@ Four criteria were applied to titles and abstracts: **I1** the record concerns a
 cult or high-control group as an actual organised group; **I2** it concerns criminal
 conduct or the criminal-justice process; **I3** a manipulation mechanism is
 analysed rather than merely named; **I4** it carries empirical or documentary
-material. The four are conjunctive. I1 is what excludes the large metaphorical
+material. The four are conjunctive. A record that satisfied fewer than four entered
+only where a documented rule re-decided it on the group criterion together with a
+lexical crime anchor; how many, and on what terms, is stated in §2.4. I1 is what excludes the large metaphorical
 literature — "cult" films, the "cult of the double-blind trial" — that any keyword
 search on this topic retrieves in quantity, and I2 is what implements the target
 topic's own boundary, which excludes non-criminal cult activity.
@@ -182,6 +184,17 @@ Third, automatic exclusion requires EXCLUDE with confidence of at least 0.90, an
 overridden for any record whose own title carries both a group term and a crime
 term.
 
+The three gates decide the first pass. Records that neither passed on all four flags
+nor met the auto-exclusion rule went to a second pass, which admitted a record when
+the model's own I1 verdict was positive and the text carried both a group term and a
+crime term. That test is weaker than the conjunction — a lexical crime anchor stands
+in for I2, I3 and I4 — and it admitted {{adjudication.second_pass_included}} of the
+{{adjudication.advanced_to_second_pass}} records it received,
+{{adjudication.screen_parse_failures}} of them on the keyword rule alone because the
+model returned no output. With the
+{{adjudication.model_INCLUDE}} that passed on all four flags, the machine set was
+{{adjudication.machine_included}} records.
+
 A validation read tested this. Fifty records — twenty-five included and
 twenty-five auto-excluded — were read against the four criteria. Of the twenty-five
 inclusions, {{validation_numbers.tally.Y}} were clearly on topic, {{validation_numbers.tally.M}} were
@@ -190,7 +203,9 @@ records where "cult" is a metaphor (veneration, fashion, film criticism) or wher
 criminal organisation is not a high-control group. Of the twenty-five auto-exclusions,
 23 were correctly excluded and 2 were arguably retrievable, both legal analyses
 sitting at the cult/crime boundary. Two consequences follow, and both are carried into
-the reading of the results. First, the {{validation_numbers.nonqualifying_matched}} non-qualifying records are not inert
+the reading of the results. First, of the {{validation_numbers.tally.N}} judged not
+on topic, {{validation_numbers.nonqualifying_matched}} remain in the audited corpus —
+the rest fell inside the audit exclusion set — and they are not inert
 denominator: they report a mean of {{validation_numbers.nonqualifying_mean_constructs}} constructs
 against a corpus mean of {{validation_numbers.corpus_mean_constructs}}, and
 {{validation_numbers.nonqualifying_jurisdiction_n}} of them report a jurisdiction, which is
@@ -202,9 +217,19 @@ percentage point. The
 profile therefore does not depend on the screen's precision, but the direction of the
 error is not the one that would flatter the paper: the corpus is not biased towards
 over-reporting, and it is not biased towards under-reporting either. Second, no
-precision claim is made for the screen; the sample is small, the reader is the executing agent, not an independent reviewer, and the operative check will be the
-author adjudication of the full table, which has not yet been performed.
-Supplementary Table S7 gives the verdicts record by record.
+precision claim is made for the screen; the sample is small and the reader was the
+executing agent, not an independent reviewer. The check that was performed is
+narrower than the full table and broader than the sample: a full-corpus audit
+(Supplementary Table S9) replayed every decision from the stored fields and flagged
+the included records whose title and quoted I1 evidence named no group, together
+with those whose only group term was metaphorical. It flagged
+{{screening_audit.flagged_for_human_read.n}} records. The first author read all of
+them against I1–I4 (the filled worksheet is Supplementary Table S10) and judged
+{{author_audit.author_excluded}} not to meet the criteria; those were removed before
+analysis. The audit covers the records the machine could not confirm, not the whole
+set, so it bounds the worst case rather than estimating precision, and the remaining
+machine decisions were not individually re-read.
+Supplementary Table S7 gives the validation verdicts record by record.
 
 Two disclosures belong here. No double
 independent screening by two human reviewers was performed; what replaces the
@@ -212,15 +237,17 @@ inter-rater statistic is the full decision trail, a prompt-perturbation re-run t
 measures how far decisions move when the criterion wording is paraphrased, and a
 count of how many auto-excluded records a more permissive reading would have
 rescued. These are stability and sensitivity, and none of them is an estimate of
-human agreement. The second pass was rule-based rather than human: adjudication by
-the named authors remains outstanding, and the numbers here are the machine record,
-not a claim of human review. In the pilot the model's residual errors were
+human agreement. The second pass was rule-based rather than human, and no
+independent human screening of the full corpus was performed: the audit covers the
+records the machine could not confirm, not the rest. The numbers are therefore the
+machine record corrected where the audit found error, and the correction moves no
+headline percentage by more than {{author_audit.max_abs_delta_pp}} points
+(Supplementary Table S9b). In the pilot the model's residual errors were
 concentrated in one direction — it over-admitted intimate-partner-violence records
 before the I1 gate was made explicit, and over-rejected when asked to judge twelve
 constructs at once — and both are recorded in the repository's deviation log. The
-validation sample will be read blind by a second author, and the two readings will be
-reported side by side in Supplementary Table S7, completed together with the author
-adjudication in Table S3.
+validation verdicts are given record by record in Supplementary Table S7, and the
+filled audit worksheet is Supplementary Table S10.
 
 ### 2.5 Measurement of reporting completeness
 
@@ -385,9 +412,14 @@ original draft. Yongjin Chen: data curation, validation, visualization. Songze Z
 conceptualization, methodology, correspondence. All three authors contributed to
 writing — review and editing.
 
-Adjudication of the screening table (Supplementary Table S3) remains outstanding. The
-worksheet is complete and blank for the author's decisions, and the numbers reported
-here are the machine record; Section 2.4 says how they should be read in consequence.
+Screening was performed by a single fixed model; no independent human screening of
+the full corpus was performed. The first author read the
+{{screening_audit.flagged_for_human_read.n}} records that the full-corpus audit
+(Supplementary Table S9) could not confirm and excluded
+{{author_audit.author_excluded}} of them (Supplementary Table S10); the corpus
+analysed here is the machine set with those exclusions applied. The whole screening
+table is provided as Supplementary Table S3 with every model verdict, flag and
+supporting span.
 
 
 **Ethics.** No human participants and no personal data were involved; the corpus

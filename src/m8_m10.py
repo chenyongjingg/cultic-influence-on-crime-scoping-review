@@ -22,6 +22,7 @@ if os.path.isdir("/root/cultcrime"):
 else:
     ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     P = os.path.join(ROOT, "out", "server_snapshot", "data", "processed")
+P = os.environ.get("PROCESSED_DIR", P)
 
 SCHEMES = {
     "M8_interrogation": {
