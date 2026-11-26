@@ -1,6 +1,6 @@
 Dear Editors of the Research Topic *Understanding Cultic Influence on Crime: Psychological Manipulation, Group Dynamics, and Forensic Implications*,
 
-We submit "Cultic influence on crime: a PRISMA-ScR scoping review of mechanisms, criminal outcomes and reporting practices" for consideration as a Systematic Review.
+We submit "Cultic influence on crime: a PRISMA-ScR scoping review of mechanisms, criminal outcomes and reporting practices" for consideration as a Systematic Review in *Frontiers in Psychology*.
 
 The manuscript sits where the Research Topic places the problem: at the junction of the psychology of influence and the criminal-justice process. Its contribution is not another narrative synthesis but a measurement of what this literature actually makes accessible to the reader who has to act on it.
 
