@@ -1,0 +1,42 @@
+{
+ "raw_rows_per_file": {
+  "core": 269,
+  "crossref": 87,
+  "doaj": 150,
+  "europepmc": 46,
+  "europepmc_tierS": 143,
+  "pubmed": 49,
+  "s2": 410
+ },
+ "raw_rows_total": 1154,
+ "unique_per_source": {
+  "core": 269,
+  "crossref": 49,
+  "doaj": 141,
+  "europepmc": 143,
+  "pubmed": 49,
+  "s2": 410
+ },
+ "unique_cross_db_pre": 1061,
+ "unique_after_dedup": 833,
+ "after_year_1994_2026": 814,
+ "after_language": 745,
+ "language_breakdown": {
+  "declared_en": 146,
+  "inferred_en": 599,
+  "declared_other_pl": 13,
+  "inferred_not_en": 37,
+  "declared_other_id": 1,
+  "declared_other_es": 6,
+  "declared_other_it": 1,
+  "declared_other_ger": 7,
+  "declared_other_pol": 1,
+  "declared_other_spa": 1,
+  "declared_other_dut": 1,
+  "declared_other_kor": 1
+ },
+ "tierP": 535,
+ "tierS_only": 94,
+ "with_abstract": 605,
+ "without_abstract": 24
+}

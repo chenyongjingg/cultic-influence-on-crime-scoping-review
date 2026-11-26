@@ -1,0 +1,4871 @@
+{
+ "summary": {
+  "N": 171,
+  "modules": {
+   "M8_interrogation": {
+    "methods_accusatorial": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "methods_information": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "reliability": {
+     "n": 8,
+     "pct": 4.7
+    },
+    "subject_core": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "subject_leader": {
+     "n": 2,
+     "pct": 1.2
+    },
+    "subject_member": {
+     "n": 23,
+     "pct": 13.5
+    },
+    "subject_victim": {
+     "n": 39,
+     "pct": 22.8
+    }
+   },
+   "M9_digital_forensics": {
+    "communications": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "devices": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "financial": {
+     "n": 1,
+     "pct": 0.6
+    },
+    "recruitment_online": {
+     "n": 5,
+     "pct": 2.9
+    },
+    "structure_link": {
+     "n": 3,
+     "pct": 1.8
+    }
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": {
+     "n": 2,
+     "pct": 1.2
+    },
+    "modus_operandi": {
+     "n": 3,
+     "pct": 1.8
+    },
+    "rescue_risk": {
+     "n": 1,
+     "pct": 0.6
+    },
+    "ringleader_id": {
+     "n": 1,
+     "pct": 0.6
+    },
+    "victim_id": {
+     "n": 0,
+     "pct": 0.0
+    }
+   }
+  }
+ },
+ "records": [
+  {
+   "id": "310783923",
+   "title": "Mental Manipulation, Religious Cults and Role of Criminal Law",
+   "year": 2025,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "72635f8ce3134f7484eb14f119dd3539",
+   "title": "Maschinengewehre und ein Wettbewerb der Revolutionsprojekte: Der Prozess gegen Ėduard Limonov",
+   "year": 2011,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "cd0d4707c6ebccc3878ad94e4f7df5a09e5db19a",
+   "title": "Homeland Security",
+   "year": 2011,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "yo subway system. Twelve victims died in the attack, but experts say thousan",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "bc4dbb2c96a24f3797d28e90ebea079e",
+   "title": "\"Võõras\" usk ja verepatt",
+   "year": 2004,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "o be associated with the followers of Khristovschina for the next 150 years, n",
+    "subject_victim": "",
+    "reliability": "tations, the majority of confessions recorded by the second commission were obta",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "07cbb2a61c42ab69ad58521bbcface95b0577411",
+   "title": "The Ritualistic Crimes and Criminal Code of Albania",
+   "year": 2022,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "y secret sects. All four victims were attached to alternative rituals and be",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "153883176",
+   "title": "The Devil's Justice: Tacit Aesthetic Knowledge and the Absence of Evidence in the West\nMemphis Three Murder Trial",
+   "year": 2023,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "ert themselves as ‘legal witnesses’ for a period of prolonged activism. I sit",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "10.21202/2782-2923.2023.3.602-629",
+   "title": "Destructive social movements “Maniacs. Killing cult” and the “World of maniacs and serial killers”: forming a criminal i",
+   "year": 2023,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "gust and empathy for the victim in teenagers. The study showed that the form",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "384744929",
+   "title": "Cult of the ‘Urka’: criminal subculture in the Gulag, 1924-1953",
+   "year": 2015,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "344622488",
+   "title": "AN ANALYSIS OF CHRISTIAN UNION STUDENTS’ PERCEPTIONS OF FACTORS INFLUENCING CULTISM IN PUBLIC UNIVERSITIES IN KENYA",
+   "year": 2024,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "lical instruction may be recruited into cults, and cults use peers to source",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "04d3de27b6ee4278bd5ccc318b86ed22",
+   "title": "The Role of Church Leaders in the Rise of Moral Decay in Malawian Society: A Case Study of Selected Urban Churches in Bl",
+   "year": 2025,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "16c9daa01137d2d2009f2cf814d5c76b446bc050",
+   "title": "Evaluation of Youth Vulnerability to Community Cultism in Selected States in the Niger Delta Region of Nigeria",
+   "year": 2020,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "57218951",
+   "title": "Ritualni i kultni zločini i karakteristike njihovih izvršilaca",
+   "year": 2015,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "656896ac02454fceb9f70ff717353ebf",
+   "title": "Discipline, Punishment, and Buddhist Chaplaincy at Lüshun Prison During Japan’s Colonial Rule, 1905–1945",
+   "year": 2026,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "645771da9d3e67f8fdebf3bd9f93dfdcf6c11c4d",
+   "title": "Journalism, populism, and the International Criminal Court in Global South environments: insights from the Philippines",
+   "year": 2026,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "scourse, particularly on social media, reflected social imaginaries of justice and",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "2e5e0fbf45f69672d7321b2a33922daa7f61ba09",
+   "title": "Intervention of Iranian Criminal Law in Harmful Cultism, with Emphasis on Preventing Recruitment and Psychological Domin",
+   "year": 2026,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "d victimization of their followers. Using a descriptive-analytical method and",
+    "subject_victim": "hidden and multilayered victimization of their followers. Using a descripti",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "82fbb5d452a6840af3fd357b98a634b944907825",
+   "title": "PREVENTION OF TAKING UP THE HIGHEST POSITION IN THE CRIMINAL HIERARCHY: CULTURAL ASPECT",
+   "year": 2021,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": "POSITION IN THE CRIMINAL HIERARCHY: CULTURAL ASPECT. The paper analyzes the fea"
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "a0421c882cf71f27e3951b0dc5f02390aae64a3a",
+   "title": "DESTRUCTIVE NATURE OF MANIPULATIVE CONTENT, CREATED BY CRIMINAL LEADERS OF TOTALITARIAN PSEUDO-RELIGIOUS CULTS WITH MODE",
+   "year": 2020,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "418ebeda6cccde9feccf8fab37b3eccc9a1fa9bc",
+   "title": "Cultism and Violence in Nigerian Universities: A Paradigm for Achieving Religious Academic Excellence",
+   "year": 2019,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "weapons by cult groups, victimization and regime of terror against fellow s",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "e6e5fdea7fd57261d66bef9c60b9ec9a1d60be06",
+   "title": "Hate Conspiracy",
+   "year": 2018,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "6d29664704122afabecd5842118f33de347dabed",
+   "title": "Jesus Built My Strawman: The Church of the Ecumenical Redemption International and “Minister” Edward Jay Robin Belanger",
+   "year": 2023,
+   "M8_interrogation": {
+    "subject_leader": "ganized around a central guru figure: “minister” Edward Jay Robin Belanger",
+    "subject_core": "",
+    "subject_member": "elop a profile of CERI’s followers, CERI litigation tactics, and to explore th",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "10.2139/ssrn.6569818",
+   "title": "The Domestic Urban Cult: Immigration Exploitation, Coercive Control, and Multi-State Criminal Networks in a U.S.-Based H",
+   "year": 2026,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "ollege. The organization recruited primarily among undocumented Mexican immig",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "ugh street preaching and cross-border smuggling operations, charging members $1,80",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "16d173756cef8950e0c4332d1386fccfdc493ecb",
+   "title": "The Prevention of Cult-Religious II Victimization",
+   "year": 2023,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "ion of Cult-Religious II Victimization. Cult or Cultic religious organizatio",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "PPR1285548",
+   "title": "The Double Minority Penalty? Ethnicity, Sect and the Criminalisation of Border Livelihoods in Iran",
+   "year": 2026,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "al employment and lawful cross-border exchange convert ordinary survival strategie",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "1f8790eabcc5cf595fb0a94d3993673fec8ab710",
+   "title": "When Good Kids Kill",
+   "year": 1998,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "fd608b212b40319513cd8ef338b5d711d1664888",
+   "title": "THE FORMATION AND ACTIVITIES OF THE NATIONAL SOCIALIST LABOR PARTY OF RUSSIA: FROM THE HISTORY OF THE EMERGENCE OF RUSSI",
+   "year": 2025,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "10.1016/j.eurpsy.2016.01.2149",
+   "title": "The cremation of care ritual: Burning of effigies or human sacrifice murder? The importance of differentiating complex t",
+   "year": 2016,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "abuse survivors who bore witness to and believe disclosures of extreme abuse",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "353857088",
+   "title": "Charismatic Leaders of Destructive Religious Cults: An Examination into the Unidentified Culprits of Sexual Homicide",
+   "year": 2020,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "96631682",
+   "title": "Police Perception and Decision Making Related to Cult Activities in Rivers State,Nigeria",
+   "year": 2020,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "fbfe6ee99c82eed2cbce5f832cc9d103a647a6de",
+   "title": "Problems Of Countering The Ideology Of Religious Extremism Among Young People",
+   "year": 2019,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "bfa0bca0ef5f9dca915795ffe3bcc02e0125baae",
+   "title": "CULTISM AND PEACEFUL/SAFE CAMPUSES IN NIGERIAN TERTIARY INSTITUTIONS",
+   "year": 2022,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "147129068",
+   "title": "Narcissism: Groundwork for Sectarian Misdemeanors",
+   "year": 2020,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "and guidance to troubled followers, cult followers are strongly controlled and",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "120185676",
+   "title": "Satanic Ritual Abuse From Then to Now: The Impact of the Controversies of the 1980s and 1990s on the Treatment for Survi",
+   "year": 2021,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "1 million children were victims of forced sexual exploitation worldwide, 99",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": "niques. TIm Ballard of OURescue.org, an organization that in conjunction wit"
+   }
+  },
+  {
+   "id": "9e9ede4812880ae38fd320442befb7b77eaf3f3d",
+   "title": "Newgate Novels, Confessions of a Thug and the Narrative of Oriental Criminality",
+   "year": 2023,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "Newgate Novels, Confessions of a Thug and the Narrative of Oriental Cri",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "344622398",
+   "title": "THE CHRISTIAN UNION STUDENTS’ PERCEPTION OF THE INFLUENCE OF THEOLOGICAL GROUNDING ON CULTISM IN PUBLIC UNIVERSITIES IN ",
+   "year": 2023,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "to shield them from cult recruiters. University Chaplains and C.U. Patrons sh",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "123650170",
+   "title": "‘I loved to be included’ (Proverbs 1:8–19) : the church and Tiv Christian youth development",
+   "year": 2021,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "10.1108/jfc-01-2024-0054",
+   "title": "Crypto collapse: the cult of personality and the normalisation of fraud in FTX and Celsius",
+   "year": 2024,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "83937845",
+   "title": "An assessment of black axe confraternity cult in Nigeria:\n\nIts impact on the university educational system",
+   "year": 2017,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "actice. Every year newly recruited members were initiated into the cult group",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "12321343",
+   "title": "Women in the Maharaj libel case: a re-examination.",
+   "year": 1997,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "559a0e578ab76d936f15b29646c1545b0f5361bb",
+   "title": "A (NÃO) CONTRIBUIÇÃO DA TIPIFICAÇÃO DO CRIME DE CURANDEIRISMO PARA A DEMONIZAÇÃO DAS RELIGIÕES DE MATRIZES AFRICANAS",
+   "year": 2021,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "6dfcb544a2a6c05da0c9a5221fb2e10060d036fd",
+   "title": "Sexual abuse and charismatic cults",
+   "year": 2018,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "35249400",
+   "title": "Occultism and playing with the dead: When rituals go wrong.",
+   "year": 2022,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "iles of perpetrators and victims.The first case involved two deaths: a mothe",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "83503620",
+   "title": "Preventing Predatory Alienation by High-Control Groups: The Application of Human Trafficking Laws to Groups Popularly Kn",
+   "year": 2021,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "s, to pursue justice for victims of high-demand groups. Second, the number o",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "11863233",
+   "title": "Prisoners of hate.",
+   "year": 2002,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "313315853",
+   "title": "Legal aspects of psychological manipulation in new religious movement",
+   "year": 2025,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "10.5040/9798400634796",
+   "title": "Cult and Ritual Abuse",
+   "year": 2014,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "s personality shifts for victims even many years after the abuse has stopped",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "fde4a7cfb1d524420ccb6dcea8e3d7ff4aee71e7",
+   "title": "Cybernetic Hive Minds: A Review",
+   "year": 2022,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "sks in coordination. The social media and smartphone revolution have helped people",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "d530da805309492d403f1e64d39a6efde8c29cef",
+   "title": "From the Shadow of the Blues",
+   "year": 2025,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "ly. Drug addiction and a series of crimes landed Junior in and out of jails and prison",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "095c277ababd064eaf3ec6e3560fef3d61f80708",
+   "title": "From Campuses to Communities: Community-Based Cultism and Local Responses in the Niger Delta Region, Nigeria",
+   "year": 2016,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "400919532",
+   "title": "Employing Trafficking Laws to Capture Elusive Leaders of Destructive Cults",
+   "year": 2016,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "news, they continued to recruit adults and raise children born into the grou",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "7960286",
+   "title": "Satanism, ritual abuse, and multiple personality disorder: a sociohistorical perspective.",
+   "year": 1994,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "tigations have failed to corroborate patients' therapeutically constructed accou",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "122569376",
+   "title": "Cultism and Democracy Made Easy: The Cabal Theory in the Nigerian Politics, 1999-2009",
+   "year": 2011,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "10.1353/ijsr.2026.a995247",
+   "title": "Nefarious Play: Satanic Board Games and Performative Evil",
+   "year": 2026,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "100992414",
+   "title": "Between Belief and Delusion: Cult Members and the Insanity Plea",
+   "year": 2016,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "54e400d58d8ac76ef864d8d63f2323aaa0e9cd67",
+   "title": "The “Triumph of Imbecile Institutions Over Life”: Death Cults as an Enabling Myth of Late Neoliberalism",
+   "year": 2024,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "64667022",
+   "title": "Cultos y fraternidades en Nigeria: de la universidad al crimen organizado",
+   "year": 2018,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "25eb10143cfbbb361f54b482b331281369cede89",
+   "title": "Deadly Cults",
+   "year": 2003,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "on how to avoid falling victim to cult indoctrination, concluding with chap",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "291132848",
+   "title": "Organized crime in lithuania - criminological analysis of the criminal organization \"agurkiniai\".",
+   "year": 2022,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "26227027",
+   "title": "Aum Shinrikyo's Chemical and Biological Weapons: More Than Sarin.",
+   "year": 2014,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "cf7d6cb6d7a040fd8b149bbc8750e084",
+   "title": "Academia as a Cult: Knowledge, Power, and Abuse in Donna Tartt’s The Secret History",
+   "year": 2025,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "20529993",
+   "title": "Charles Manson and the family: the application of sociological theories to multiple murder.",
+   "year": 2011,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "nson and his \"Family\" of followers killed innocent people in an attempt to sta",
+    "subject_victim": "hat took place and their victims are briefly summarized, and several crimino",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "406973726",
+   "title": "An Application of the Coercive Control Framework to Cults",
+   "year": 2023,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "295249392",
+   "title": "Deadly cults the crimes of true believers",
+   "year": 2003,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "es their danger, appeal, recruitment, and indoctrination and how to combat th",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "10.1111/j.1440-1819.2006.01454.x",
+   "title": "The Aum Cult leader Asahara's mental deviation and its social relations",
+   "year": 2006,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "and that reparations for victims of Asahara‐Aum crimes are urgent from the s",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "115482645",
+   "title": "Ritual and cult crimes and the characteristics of their perpetrators",
+   "year": 2015,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "c60ab100b7d2a760c46af639b3267808872fa26d",
+   "title": "Impact of Modern Cultism and Governance in Akwa Ibom State, Nigeria",
+   "year": 2024,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "5f3b092b690449eca0d0751eda15525f",
+   "title": "Witchcraft, territories and marginal resistances in Rio de Janeiro",
+   "year": 2010,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "e2d28a72b6a4dc56ac13fcbe2d851005a6cc94bb",
+   "title": "Dismissed, Displayed, and Disposed of: Political Violence Against the Male Body in the South American Polycrisis",
+   "year": 2025,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "cient, and a man becomes victim to hombres con armas. Ultimately, this paper",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "d26d140f36325d4c5eb05c1078e5056acf45cb66",
+   "title": "‘They Smashed the Heads of Their Victims with Grinding Stone’: Badoo Cult Gang and Victimization Experiences in Lagos St",
+   "year": 2022,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "ashed the Heads of Their Victims with Grinding Stone’: Badoo Cult Gang and V",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": ", victim experiences and modus operandi of this violent cult gang in Lagos State, Ni",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "12353557",
+   "title": "A father marries his daughters: a case of incestuous polygamy.",
+   "year": 2002,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "interviewed the primary victim and reviewed extensive evidence, including v",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "b3e4ba201490ea9eed60b3a89e95afa4d424becd",
+   "title": "Protecting the Tsar's Honor and Insulting the Supreme Authority: Power Scenarios and Social Practices in the Late 19th a",
+   "year": 2026,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "92f84486ae4feba08c82336927091e732cf14a3b",
+   "title": "Psycho-social correlates of students’ involvement in secret cults and counselling role in tertiary institutions in south",
+   "year": 2018,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "9316162",
+   "title": "Two cases of pseudologia phantastica: consideration from the viewpoint of forensic psychiatry.",
+   "year": 1997,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "of Aum Shinrikyo and his followers, as well as the founder's comments and his",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "c8ede8ed88dd42a96bb5e5ea4b29e8808b5f20e3",
+   "title": "Krivičnopravni aspekt delovanja satanističkih sekti",
+   "year": 2024,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "rian activities and help victims and comparative-legal analysis of oppositio",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "112ad25fa897e9c83218d0b8dc30fbc9c2d48a79",
+   "title": "Cyber-Cultism: A Paradigm Shift from a Physical Warfare to an Economic Warfare.",
+   "year": 2025,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "ssfully defraud internet victims. There is a need for effective reorientatio",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "bcc0243054adc037fae21a1870370ddd4a639415",
+   "title": "Cult Apologists or Objective Social Scientists?",
+   "year": 2026,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "0c442dea4d16de86b3ad3d8fcaccc68f3c1e9df3",
+   "title": "Kings, Priests, and Power in the Neo-Assyrian Period",
+   "year": 2019,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "414543946",
+   "title": "Comparing Bernie Madoff and Sam Bankman-Fried Across Four Decades",
+   "year": 2026,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "osed almost instantly by social media and a market panic. Ultimately, Bankman-Frie",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "1431c7e58a19155e6bf826fce86dbacca6ab4caa",
+   "title": "“Defacing the Leader’s Portrait and Quotations”: An Archival Study of Four Cases",
+   "year": 2019,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "295854751",
+   "title": "Bibles and Guns: A Criminological Exploration of Cults",
+   "year": 2024,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "aders achieve over their followers seem capable of transforming ordinary peopl",
+    "subject_victim": "tors, and even “willing” victims. Thus, this dissertation offers an initial",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "15335568",
+   "title": "Satanic abuse, with focus on the situation in Finland.",
+   "year": 1997,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "ntal harm to members and victims and luring young people into criminal activ",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "298797548",
+   "title": "Human trafficking ::emerging legal issues and applications /",
+   "year": 2017,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "o court when trafficking victims find themselves on the wrong side of a pros",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "356503221",
+   "title": "Cult Behavior and the Effects on Society",
+   "year": 2013,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "299340136",
+   "title": "L'ORGANIZZAZIONE CRIMINALE NIGERIANA IN ITALIA: MODELLI DI INTERAZIONE CON LE MAFIE AUTOCTONE TRA DIMENSIONI LOCALI E TR",
+   "year": 2023,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "views with observers and witnesses. The 'mafia group-entrepreneurs' model of",
+    "reliability": "iminali?). La ricerca ha corroborato l’ipotesi elaborata. Sono stati individuati",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "0f2a950f301216e902e5eec4be908a4cf7d77389",
+   "title": "Nigerian Television Authority (NTA) and channels television coverage of the war against Boko haram terrorism in north-ea",
+   "year": 2023,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "at ritually strangle its victims (usually travellers chosen at random) as an",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "1303e4df5c82785fa381789234143364acf4fb9b",
+   "title": "Features of the situation of crimes against life and health committed by members of youth informal groups (associations)",
+   "year": 2024,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": "degree of organization, hierarchy and structure of the group itself; thirdly,"
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "10.17223/22253513/46/2",
+   "title": "Socio-cultural preconditions for the cult of aggression and destructive processes among young people",
+   "year": 2023,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "8d25db198c97c678569ff03a7461f4087ec54047",
+   "title": "Criminal law qualification of violations of sanitary rules and regulations on the prevention of infectious diseases duri",
+   "year": 2025,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "uring religious beliefs, confessions or the performance of religious rites. The",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "f6c44276b5ade1b3d2246577599390ff4868e7bb",
+   "title": "Reproducing a Trial: Evidence and Its Assessment in Paradise Lost",
+   "year": 2005,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "6d3104ce12ea4de9a6d7dac3c25d637c",
+   "title": "Terrorism as a Threat for Economic Development in Nigeria",
+   "year": 2022,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "0a187860bad84a6b95d203f53d9028f9",
+   "title": "Genesis of the Institute of Complicity in the Indian Criminal Law in XIX Century",
+   "year": 2018,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": "of traditional exclusive hierarchy and collective ideology in British India. Re"
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "b9ae6544e6058ca8ae1d9b52623c13bfa1fce4bb",
+   "title": "Socio-philosophical insight into the role of elites in modern military escalation",
+   "year": 2025,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "f6b921613e806b973f77e4245f1b71cf0c0d545e",
+   "title": "Addressing Cultism to Strengthen Maritime Security in the Niger Delta Region of Nigeria",
+   "year": 2025,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "rruption, exacerbate the recruitment of youth into cult organisations. This s",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "10.1177/0094582x13509787",
+   "title": "The Cult of Jesús Malverde",
+   "year": 2013,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "345a38ae3e9fd02630427c81a1fa105b2622ed48",
+   "title": "HOW NOT TO THINK ABOUT ISIS",
+   "year": 2019,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "nal reportage on Western recruits to ISIS, especially the so-called “jihadi b",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "1cf1fc9fba4e436aa898b8c0e9196798",
+   "title": "Feitiçarias, territórios e resistências marginais",
+   "year": 2009,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "48130616",
+   "title": "The meaning of  “religion” in Belgian Case Law",
+   "year": 2017,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "4dcd92bd11ca4ab817ada2dbcb1e97eff303a5e4",
+   "title": "Pierre y Michel, dos hombres lobo de Besançon: religión, tortura y ciencia en la Francia del siglo XVI",
+   "year": 2016,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "310783738",
+   "title": "Psychological Manipulation Techniques in Cults",
+   "year": 2025,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "factors that facilitate recruitment, to the consequences of continued involv",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "de23cfd201a647ebe5c34753d673f1a63f80545c",
+   "title": "Drowning Security Apparatus; the Nexus of a Failing State of Nigeria, Threats to Lives and Properties in Anambra State i",
+   "year": 2022,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "136612905",
+   "title": "I crimini nelle sette sataniche: un’analisi “sistemica” della scena del crimine / Les sectes sataniques et leurs crimes ",
+   "year": 2013,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "9d415eea03555e3cc48ce0495c21d5cec0d9a9a0",
+   "title": "THE CHARACTERISTICS OF PSEUDO-RELIGION",
+   "year": 2023,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "s interviews with former followers of four sects in South Korea, namely Jesus",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "1c50a73e6178468b81f1df7b40c76506",
+   "title": "Insecurity and socio-economic development in Osun state (Nigeria)",
+   "year": 2025,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "surgency or militancy as witnessed in the northeast and south-south regions o",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "34529805",
+   "title": "Chemical Warfare Agents in Terrorist Attacks: An Interregional Comparison, Tactical Response Implications, and the Emerg",
+   "year": 2021,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "0c2490817bc74daea577f2c46652bf24",
+   "title": "St. Paul of Constantinople and Emperor Paul I",
+   "year": 2025,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "455b2a88b148a53e4ebd71d171a0591bd2e05b7b",
+   "title": "AMNESTY AT THE PRE-TRIAL AND JUDICIAL STAGES OF CRIMINAL PROCEEDINGS: PROBLEMS AND CONSEQUENCES (USING EXAMPLES OF CRIMI",
+   "year": 2022,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "42980773",
+   "title": "Modern targeted nerve agent incidents: toxicokinetic complexity, biomarker interpretation and forensic uncertainty.",
+   "year": 2026,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "c1aa36841845d98df943a7d7a512c1229fe04a4b",
+   "title": "CULTURES OF DESPERATION: EXPLORING GANGSTERISM AND CULTISM IN THE MODERN DIGITAL AGE",
+   "year": 2024,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "ing that could flag cult recruitment, while grassroots initiatives like codin",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "itualistic violence with social media propaganda, offering marginalized youth a se",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "df3a0ccc9852855013633b13c1e7e839af09d76a",
+   "title": "Overcoming Heretical Sects Through Fatwa of the Ulama Consultative Council and Qanun",
+   "year": 2018,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "f7c5fc316f97a626238f069685dbca899b321ece",
+   "title": "Heresy and Hypocrisy of the Church: A Marxist Analysis of Okezie Nwoka's God of Mercy",
+   "year": 2024,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "mild sheep to delusional followers, leaving them with guilt, shame, and spirit",
+    "subject_victim": "ategies to deceive their victims. Furthermore, the false priests are trying",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "4bd3cb5b71ac42f6b5c7a25b2c2aa854",
+   "title": "Injury-related deaths in Enugu, Nigeria from 2010 to 2016: a descriptive review",
+   "year": 2020,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "o was 5.2:1. Mean age of victims was 34.2 ± 14.3years and range was 8 months",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "86004363",
+   "title": "Spiritual Abuse Among Cult Ex-members: A Descriptive Phenomenological Psychological Inquiry",
+   "year": 2019,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "hobias, guilt, shame and confession, physical and psychological abuse, excommuni",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "0a62cd6624f0e188b8a47cca1b9e42707c142b04",
+   "title": "Holy Entrepreneurship and the Commodification of the Sacred: A Critical Synthetic Realist Analysis of Faith, Markets, an",
+   "year": 2026,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "moral evaluation beyond confessional boundaries. Through a comparative Global S",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "394980815",
+   "title": "The cult of King Charles the martyr : the rise and fall of a political theology, ca.1640-1859",
+   "year": 1999,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "0afc9b83968a4f02947a86b1869c3ed67d3ac4da",
+   "title": "Cultural trauma, counter-narratives, and dialogical intellectuals: the works of Murakami Haruki and Mori Tatsuya in the ",
+   "year": 2016,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "udy of the Aum Affair, a series of crimes and terrorist attacks committed by the Japan",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "193f0da8910f4e6184b4e080297e05f4",
+   "title": "The Religious Element of the Myth of Napoleon in the Novel Crime and Punishment: The Image of “Napoleon-Prophet” and the",
+   "year": 2022,
+   "M8_interrogation": {
+    "subject_leader": ": The Image of “Napoleon-Prophet” and the Mystic Sects of Russian Schismatics",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "3134c67f24cf87fdcc45001dac901e69b04d85ff",
+   "title": "Serial Murderers In Japan (1882-2017): A Narrative Analysis",
+   "year": 2024,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "2a654128dd19adc4a5b139a6808975731b57da1b",
+   "title": "Arms proliferation and the crisis of cult supremacy and insecurity in Ogoniland Nigeria",
+   "year": 2018,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "tors in the area equally mastermind cult related crisis for the purpose of polit",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "ffc85be3eba71a456e29cfd09e909a583d03f13e",
+   "title": "DİNİ CEMAATLERİN ÜYE KAZANMA STRATEJİLERİ BEYİN YIKAMA OLARAK DEĞERLENDİRİLEBİLİR Mİ : KULLANDIKLARI TEOLOJİK ARGÜMANLAR",
+   "year": 2016,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "connecting bond of their followers. As a concept, brainwashing is defined as a",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "00f9774666a60c9bb6de8d069bf0ebf1a0284985",
+   "title": "Annals of Gullibility",
+   "year": 2008,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "e gullible who are their victims, and how the gullible can become less likel",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "407584552",
+   "title": "Critical Communication Theory and Social Issue Representation in Taxi Driver II",
+   "year": 2026,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "24b91013819d26b0b95049e4046b126a4a7fee4c",
+   "title": "The Wolf in Sheep’s Skin: The Discrepancy between the Promises of Religious Freedom in the Constitution of the People’s ",
+   "year": 2025,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "9278323",
+   "title": "Trauma Bonding and Interpersonal Violence",
+   "year": 2013,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "ator elicits fear in the victim that is experienced as venerating gratitude",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "10954803",
+   "title": "RESEARCH: Triage Law Enforcement: Societal Impacts on National Forests in the West.",
+   "year": 2000,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "26221c09cb5f1a96dba5a14dd1b6f24061d5a0d7",
+   "title": "Taken No More",
+   "year": 2025,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "icked, and anyone can be recruited into a cult. So how do we keep our childre",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "baf823285e64591bc36d253c2529332137ad953e",
+   "title": "Myth, Power, and the Architecture of Modern Conspiracy: The Baal Cult Allegations and the Epstein Files",
+   "year": 2026,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "ffrey Epstein included a wire transfer label reading “Baal name”—a typographical an",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "2543172f76a3ae5846288922ae24172934a8fe9a",
+   "title": "MEDICO LEGAL IMPLICATIONS OF HOMICIDE FOLLOWED BY SUICIDE",
+   "year": 2019,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "r after killing a single victim. The perpetrator is most often a man in his",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "ad57b4fb5c994263bfaef657f0be527f",
+   "title": "Fatwa Institutions in Handling Religious Blasphemy Crimes in Indonesia and Malaysia",
+   "year": 2024,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "99d855606f2648349f4c6e92e230892e",
+   "title": "On the issue of legal status of spiritual Christians Molokans in the Russian Empire",
+   "year": 2020,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "82c8200460d446e469deac5c8e2fa3bbc10fa751",
+   "title": "Public Perception Study of the Problems of Cultism on Socio-Economic Activities in Agenebode Community, Edo State, Niger",
+   "year": 2025,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "5a1e598cc070e3db3d0751567f765300f04332ef",
+   "title": "Viewpoint: existential education in the era of personal cybernetics",
+   "year": 2000,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "24161170",
+   "title": "If I could just stop loving you: anti-love biotechnology and the ethics of a chemical breakup.",
+   "year": 2013,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "9ee6323dfe9daa2dd7e03d079e65aaa057792f29",
+   "title": "Imperial cult vs Afro-Asian and Afro-Diasporic Ancestral Cult. An Intertextual reading of Jezebel in the Bible and in Po",
+   "year": 2026,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "9638560",
+   "title": "The power of confession: the role of the criminal law and courtpractices in the production of knowledge concerning sexua",
+   "year": 1998,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "The power of confession: the role of the criminal law and courtpract",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "86d341899a874ad1a463b8b4960d9981",
+   "title": "Pureté et impureté des Vestales",
+   "year": 2022,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "f017739ec12941e28c19529034224eb8bfad860f",
+   "title": "Exploitation of Scheduled Caste Women: A Devadasi Cult",
+   "year": 2007,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "312570743",
+   "title": "Criminal Law",
+   "year": 1998,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "a0c5110fb2cd6a878bc80199dd7f8e3602fb8e9a",
+   "title": "“F*cking politeness” and “staying sexy” while doing it: intimacy, interactivity and the feminist politics of true crime ",
+   "year": 2022,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "n’s fear of violence and victimization. Examining how the issue of violent c",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "tions. Intersecting with social media spaces, these connections provide for the fo",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "392588157",
+   "title": "Narcissistic Fraud in the Ancient World: Lucian\\u27s Account of Alexander of Abonuteichos and the Cult of Glycon",
+   "year": 2007,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "65a4399d1a5951cf9112194e5b733a62ea3dbad7",
+   "title": "Condemned by Communists as the “Vatican’s spy”: the Biography of Catholic Priest Ștefan Tătaru",
+   "year": 2024,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "7d388553e1c46afc78007142c2786d1fa0c486dc",
+   "title": "A Recent Trend of Racketeering Prosecutions and Civil Suits Against New Religious Movements and \"Cults\"",
+   "year": 2025,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "299068058",
+   "title": "Criminology of Poisoning Contexts ::Warfare, Terrorism, Assassination and Other Homicides /",
+   "year": 2020,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "ocation, and perpetrator-victim relationship is examined. This accessible bo",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "06e2967a5b8b847a8ff405b6a92e947b4be4950a",
+   "title": "Judicial Dilemma and Improvement Path of Non-Prosecution or Non-Penalization for Cult Crimes A Perspective on Article 9,",
+   "year": 2024,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "06cc9b8bf864118b54b99163aec59c8a5860bdc9",
+   "title": "Violence, Politics, and Food Insecurity in Nigeria",
+   "year": 2020,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "31b87713a7ea4b90a91846b69fe80d16",
+   "title": "Studi Komparatif terhadap Qanun Aceh tentang Hukum Jinayat dan Enakmen Jenayah Syariah Selangor Malaysia",
+   "year": 2014,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "fec914a1ee6bca5b4fbf415244f116d13944807d",
+   "title": "China’s Struggle against the Xie Jiao",
+   "year": 2020,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "d2b70185e6d9c9e08f870751cc42b1cda6538ad5",
+   "title": "Charles Manson and his Family: ‘Human monsters, human mutants’",
+   "year": 2022,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "37919826",
+   "title": "A classification of combined homicide-suicide: An update-Part III: Extrafamilial homicide-suicide.",
+   "year": 2024,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "tween actor and homicide victims, further divided according to the role of t",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "10.1093/9780197679951.003.0014",
+   "title": "Exorcizing\n                    <i>Devilsdorp</i>",
+   "year": 2024,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "ff47a58ea7cd4055817c49c18d41b1f7",
+   "title": "Manipulative influence strategy used by totalitarian sect members on the Internet",
+   "year": 2015,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "e methods and tactics of recruiting so this topic is relevant. The paper desc",
+    "subject_victim": "the individual to form a victimization installation. In addition, each NRO h",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "130066707",
+   "title": "Introduction: Global vigilantes: perspectives on justice and violence",
+   "year": 2017,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "c0047cf04776650332f339d1a115b597fad7c712",
+   "title": "Crime, Cults, and Informal Security",
+   "year": 2018,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "fically at their mode of recruitment, funding sources, mode of operations, an",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "b5d245464e1f466e95f405d66b1be136",
+   "title": "Nordkoreanske migranter i Kina. Konversion og socialt pres.",
+   "year": 2015,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "0883d21d711dbf737b5a183ffd6c6c1e9272e132",
+   "title": "Fake News",
+   "year": 2020,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "03e3b4fb131d61356c5a95597e6b5a4993be2965",
+   "title": "Rhetoric and realities of magic",
+   "year": 2020,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "315416075",
+   "title": "Tindak Pidana Penistaan Agama oleh Kelompok Aliran di Indonesia",
+   "year": 2012,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "02544deb407ef2272f8370e727387a3f250656bf",
+   "title": "Fetishes and Monuments",
+   "year": 2007,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "2894214bedd94688b34010dbc80456cd",
+   "title": "Die tirolische Legende vom „Anderl von Rinn“. Andreaskult und Wallfahrtskirche",
+   "year": 2018,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "10.54208/1000/0008/005",
+   "title": "Charles Manson: Cult Leader, Counterculture Hero, and Psychopath",
+   "year": 2025,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "29589292",
+   "title": "The \"Bestie of Satana\" murders",
+   "year": 2013,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "355585907",
+   "title": "An Occult Primer: Investigating Goth, Satanic, & Other Alternative Belief System Related Crimes",
+   "year": 2015,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "10.2307/1389563",
+   "title": "Moral Panics and the Social Construction of Deviant Behavior: A Theory and Application to the Case of Ritual Child Abuse",
+   "year": 1998,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "131424175",
+   "title": "Boko Haram: A Race between Amnesty and Criminal Tribunal",
+   "year": 2014,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "3bc83b6db3ce4c35bd41ded1384ea2ee",
+   "title": "Karr’s Kill Cult: Virtual Cults and Pseudo-Killing in the Digital Age",
+   "year": 2012,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "and again with different victims, Karr is compelled to repeat the singular m",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "eeab33b2d1efa9834c43aad47e12edb233156c4a",
+   "title": "La compétence judiciaire pénale personnelle pour les prêtres militaires",
+   "year": 2025,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "4ff8f342e67745048508844c0afd6f56",
+   "title": "Prawnokarna ocena samobójstw popełnianych z motywów religijnych",
+   "year": 2019,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "333261990",
+   "title": "Common Denominators in White Collar Crime: I'm Special, You're Special, Let's Fleece them in Style",
+   "year": 2008,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "trator to his alter ego, victim or partner-in-crime, wherein are forged the",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "83503480",
+   "title": "Current Status of Federal Law Concerning Violent Crimes Against Women and Children: Implications for Cult Victims",
+   "year": 2002,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "n: Implications for Cult Victims. The author presents key provisions of The",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "1fddb4d9acd14a78934732d06ff0152b",
+   "title": "ALIRAN SESAT DALAM PERSPEKTIF HUKUM PIDANA ISLAM DAN HUKUM PIDANA NASIONAL",
+   "year": 2008,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "viant’s sects are only a victim, so the process of law enforcement must be a",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "53d85c42a0c84d15a25e8778bc8e62bc",
+   "title": "American Mormon fundamentalists and the tradition of “historical” polygamy in the 19th and early 20th centuries",
+   "year": 2018,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "10.12737/2306-1731-2026-15-2-130-133",
+   "title": "The Content of Concepts and Characteristics: Sect, Cult, Religious Community of a Destructive Nature and Religious Crime",
+   "year": 2026,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  },
+  {
+   "id": "233755417",
+   "title": "Preventing Predatory Alienation by High-Control Groups: The Application of Human Trafficking Laws to Groups Popularly Kn",
+   "year": 2021,
+   "M8_interrogation": {
+    "subject_leader": "",
+    "subject_core": "",
+    "subject_member": "",
+    "subject_victim": "",
+    "reliability": "",
+    "methods_information": "",
+    "methods_accusatorial": ""
+   },
+   "M9_digital_forensics": {
+    "communications": "",
+    "financial": "",
+    "devices": "",
+    "recruitment_online": "",
+    "structure_link": ""
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": "",
+    "modus_operandi": "",
+    "ringleader_id": "",
+    "victim_id": "",
+    "rescue_risk": ""
+   }
+  }
+ ]
+}

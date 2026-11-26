@@ -1,0 +1,22 @@
+{
+ "0.90": {
+  "clusters": 10,
+  "records_absorbed": 10
+ },
+ "0.93": {
+  "clusters": 8,
+  "records_absorbed": 8
+ },
+ "0.95": {
+  "clusters": 8,
+  "records_absorbed": 8
+ },
+ "0.97": {
+  "clusters": 6,
+  "records_absorbed": 6
+ },
+ "0.99": {
+  "clusters": 1,
+  "records_absorbed": 1
+ }
+}

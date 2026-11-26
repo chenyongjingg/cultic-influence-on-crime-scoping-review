@@ -1,0 +1,100 @@
+{
+ "E1_confidence_threshold": {
+  "n": 627,
+  "sweep": [
+   {
+    "threshold": 0.6,
+    "auto_excluded": 443,
+    "advanced": 184,
+    "advanced_pct": 29.3
+   },
+   {
+    "threshold": 0.7,
+    "auto_excluded": 443,
+    "advanced": 184,
+    "advanced_pct": 29.3
+   },
+   {
+    "threshold": 0.8,
+    "auto_excluded": 443,
+    "advanced": 184,
+    "advanced_pct": 29.3
+   },
+   {
+    "threshold": 0.85,
+    "auto_excluded": 443,
+    "advanced": 184,
+    "advanced_pct": 29.3
+   },
+   {
+    "threshold": 0.9,
+    "auto_excluded": 443,
+    "advanced": 184,
+    "advanced_pct": 29.3
+   },
+   {
+    "threshold": 0.95,
+    "auto_excluded": 439,
+    "advanced": 188,
+    "advanced_pct": 30.0
+   },
+   {
+    "threshold": 1.0,
+    "auto_excluded": 0,
+    "advanced": 627,
+    "advanced_pct": 100.0
+   }
+  ]
+ },
+ "E2_i1_conjunction": {
+  "conjunctive_n": 236,
+  "disjunctive_n": 234,
+  "extra_if_disjunctive": 0,
+  "extra_composition": {}
+ },
+ "E3_source_contribution": {
+  "records_per_source_raw": {
+   "core": 189,
+   "crossref": 49,
+   "doaj": 141,
+   "europepmc": 46,
+   "europepmc_tierS": 143,
+   "pubmed": 49,
+   "s2": 406
+  },
+  "source_exclusive_records": {
+   "core": 166,
+   "crossref": 33,
+   "doaj": 103,
+   "europepmc": 0,
+   "europepmc_tierS": 97,
+   "pubmed": 10,
+   "s2": 344
+  },
+  "n_unique_overall": 860
+ },
+ "E4_restriction_sensitivity": {
+  "unique_after_dedup": 833,
+  "after_year_1994_2026": 814,
+  "after_language": 745,
+  "excluded_year": null,
+  "excluded_language": null,
+  "language_breakdown": {
+   "declared_en": 146,
+   "inferred_en": 599,
+   "declared_other_pl": 13,
+   "inferred_not_en": 37,
+   "declared_other_id": 1,
+   "declared_other_es": 6,
+   "declared_other_it": 1,
+   "declared_other_ger": 7,
+   "declared_other_pol": 1,
+   "declared_other_spa": 1,
+   "declared_other_dut": 1,
+   "declared_other_kor": 1
+  },
+  "tierP": 535,
+  "tierS_only": 94,
+  "without_abstract": 24
+ }
+}

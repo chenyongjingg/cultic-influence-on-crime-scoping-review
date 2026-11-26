@@ -1,0 +1,44 @@
+{
+ "sources": {
+  "europepmc": {
+   "query": "(TITLE_ABS:\"cult\" OR TITLE_ABS:\"cults\" OR TITLE_ABS:\"sect\" OR TITLE_ABS:\"sects\" OR TITLE_ABS:\"new religious movement\" OR TITLE_ABS:\"new religious movements\" OR TITLE_ABS:\"high-control group\" OR TITLE_ABS:\"high-control groups\" OR TITLE_ABS:\"high demand group\" OR TITLE_ABS:\"high-demand group\" OR TITLE_ABS:\"destructive cult\" OR TITLE_ABS:\"destructive cults\" OR TITLE_ABS:\"cultic\" OR TITLE_ABS:\"charismatic group\" OR TITLE_ABS:\"charismatic groups\" OR TITLE_ABS:\"totalistic group\") AND (TITLE_ABS:\"crime\" OR TITLE_ABS:\"crimes\" OR TITLE_ABS:\"criminal\" OR TITLE_ABS:\"offence\" OR TITLE_ABS:\"offenses\" OR TITLE_ABS:\"offense\" OR TITLE_ABS:\"offences\" OR TITLE_ABS:\"victimization\" OR TITLE_ABS:\"victimisation\" OR TITLE_ABS:\"fraud\" OR TITLE_ABS:\"homicide\" OR TITLE_ABS:\"murder\" OR TITLE_ABS:\"trafficking\") AND PUB_YEAR:[1994 TO 2026]",
+   "reported_total": 46,
+   "retrieved": 46,
+   "seconds": 50.1
+  },
+  "europepmc_tierS": {
+   "query": "((TITLE_ABS:\"cult\" OR TITLE_ABS:\"cults\" OR TITLE_ABS:\"sect\" OR TITLE_ABS:\"sects\" OR TITLE_ABS:\"new religious movement\" OR TITLE_ABS:\"new religious movements\" OR TITLE_ABS:\"high-control group\" OR TITLE_ABS:\"high-control groups\" OR TITLE_ABS:\"high demand group\" OR TITLE_ABS:\"high-demand group\" OR TITLE_ABS:\"destructive cult\" OR TITLE_ABS:\"destructive cults\" OR TITLE_ABS:\"cultic\" OR TITLE_ABS:\"charismatic group\" OR TITLE_ABS:\"charismatic groups\" OR TITLE_ABS:\"totalistic group\") OR (TITLE_ABS:\"coercive control\" OR TITLE_ABS:\"thought reform\" OR TITLE_ABS:\"mind control\" OR TITLE_ABS:\"brainwashing\")) AND (TITLE_ABS:\"crime\" OR TITLE_ABS:\"crimes\" OR TITLE_ABS:\"criminal\" OR TITLE_ABS:\"offence\" OR TITLE_ABS:\"offenses\" OR TITLE_ABS:\"offense\" OR TITLE_ABS:\"offences\" OR TITLE_ABS:\"victimization\" OR TITLE_ABS:\"victimisation\" OR TITLE_ABS:\"fraud\" OR TITLE_ABS:\"homicide\" OR TITLE_ABS:\"murder\" OR TITLE_ABS:\"trafficking\") AND PUB_YEAR:[1994 TO 2026]",
+   "reported_total": 143,
+   "retrieved": 143
+  },
+  "pubmed": {
+   "query": "(cult[tiab] OR cults[tiab] OR sect[tiab] OR sects[tiab] OR new religious movement[tiab] OR new religious movements[tiab] OR high-control group[tiab] OR high-control groups[tiab] OR high demand group[tiab] OR high-demand group[tiab] OR destructive cult[tiab] OR destructive cults[tiab] OR cultic[tiab] OR charismatic group[tiab] OR charismatic groups[tiab] OR totalistic group[tiab]) AND (crime[tiab] OR crimes[tiab] OR criminal[tiab] OR offence[tiab] OR offenses[tiab] OR offense[tiab] OR offences[tiab] OR victimization[tiab] OR victimisation[tiab] OR fraud[tiab] OR homicide[tiab] OR murder[tiab] OR trafficking[tiab]) AND 1994:2026[dp]",
+   "reported_total": 50,
+   "retrieved": 49,
+   "seconds": 4.4
+  },
+  "doaj": {
+   "per_term_reported": {
+    "cult": 76,
+    "cults": 13,
+    "sect": 27,
+    "sects": 27,
+    "new religious movement": 1,
+    "new religious movements": 1,
+    "high-control group": 0,
+    "high-control groups": 0,
+    "high demand group": 0,
+    "high-demand group": 0,
+    "destructive cult": 0,
+    "destructive cults": 0,
+    "cultic": 5,
+    "charismatic group": 0,
+    "charismatic groups": 0,
+    "totalistic group": 0
+   },
+   "retrieved": 150,
+   "note": "DOAJ has no boolean block syntax; group terms queried one at a time, local composer enforces the base block."
+  }
+ },
+ "query_spec_sha256": "20b159a4e8c9322e3201d5f02db54d43b7832b43425cffbccf7154219d52330b"
+}

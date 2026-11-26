@@ -1,0 +1,40 @@
+{
+ "N": 171,
+ "constructs": {
+  "C4_mechanism": {
+   "base_n": 26,
+   "strict_n": 15,
+   "base_pct": 15.2,
+   "strict_pct": 8.8,
+   "delta_pp": -6.4
+  },
+  "C6_offence": {
+   "base_n": 84,
+   "strict_n": 74,
+   "base_pct": 49.1,
+   "strict_pct": 43.3,
+   "delta_pp": -5.8
+  },
+  "C8_legal": {
+   "base_n": 35,
+   "strict_n": 21,
+   "base_pct": 20.5,
+   "strict_pct": 12.3,
+   "delta_pp": -8.2
+  },
+  "C9_jurisdiction": {
+   "base_n": 89,
+   "strict_n": 63,
+   "base_pct": 52.0,
+   "strict_pct": 36.8,
+   "delta_pp": -15.2
+  },
+  "C10_source": {
+   "base_n": 55,
+   "strict_n": 19,
+   "base_pct": 32.2,
+   "strict_pct": 11.1,
+   "delta_pp": -21.1
+  }
+ }
+}

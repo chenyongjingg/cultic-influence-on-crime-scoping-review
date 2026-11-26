@@ -1,0 +1,45 @@
+{
+ "n": 50,
+ "overlap_available": 638,
+ "decision": {
+  "agree_pct": 74.0,
+  "kappa": 0.35
+ },
+ "decision_confusion": {
+  "EXCLUDE->EXCLUDE": 32,
+  "EXCLUDE->UNCERTAIN": 8,
+  "INCLUDE->INCLUDE": 4,
+  "UNCERTAIN->EXCLUDE": 3,
+  "EXCLUDE->INCLUDE": 1,
+  "INCLUDE->UNCERTAIN": 1,
+  "UNCERTAIN->UNCERTAIN": 1
+ },
+ "I1": {
+  "agree_pct": 86.0,
+  "kappa": 0.706,
+  "both_true": 15,
+  "both_false": 28
+ },
+ "I2": {
+  "agree_pct": 66.0,
+  "kappa": 0.309,
+  "both_true": 13,
+  "both_false": 20
+ },
+ "I3": {
+  "agree_pct": 90.0,
+  "kappa": 0.646,
+  "both_true": 6,
+  "both_false": 39
+ },
+ "I4": {
+  "agree_pct": 76.0,
+  "kappa": 0.342,
+  "both_true": 32,
+  "both_false": 6
+ },
+ "include_counts": {
+  "7B": 5,
+  "14B": 5
+ }
+}

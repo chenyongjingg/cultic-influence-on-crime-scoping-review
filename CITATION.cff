@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+title: "Cultic influence on crime: a PRISMA-ScR scoping review of mechanisms, criminal outcomes and reporting practices"
+message: "If you use this package or the MRS-CI reporting set, please cite the article above."
+type: software
+authors:
+  - family-names: Zhu
+    given-names: Songze
+  - family-names: Xue
+    given-names: Ziying
+  - family-names: Chen
+    given-names: Yongjin
+version: 1.0.0
+date-released: 2026-11-26
+license: MIT

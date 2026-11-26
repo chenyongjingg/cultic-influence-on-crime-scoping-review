@@ -1,0 +1,118 @@
+{
+ "name": "MRS-CI",
+ "full_name": "Minimum Reporting Set for Cultic Influence on Crime",
+ "version": "1.0",
+ "date": "2026-11-26",
+ "scope": "one sentence per item in the abstract of a study on cultic influence and crime",
+ "measurement": "title+abstract, twelve lexical detectors, 171 records with an abstract",
+ "items": [
+  {
+   "item": 1,
+   "name": "Group operational definition",
+   "minimum_form": "the criterion used to classify the group, and its source, in one sentence",
+   "detector_key": "C1_group_def",
+   "measured_n": 10,
+   "measured_N": 171,
+   "measured_pct": 5.8
+  },
+  {
+   "item": 2,
+   "name": "Participant role",
+   "minimum_form": "leader / core executor / ordinary member / victim / former member, with the basis",
+   "detector_key": "C2_role",
+   "measured_n": 25,
+   "measured_N": 171,
+   "measured_pct": 14.6
+  },
+  {
+   "item": 3,
+   "name": "Involvement and exit duration",
+   "minimum_form": "month-level start and end, or years; an explicit 'unknown' is acceptable",
+   "detector_key": "C3_duration",
+   "measured_n": 7,
+   "measured_N": 171,
+   "measured_pct": 4.1
+  },
+  {
+   "item": 4,
+   "name": "Named manipulation mechanism",
+   "minimum_form": "the term actually used, from a checkable list",
+   "detector_key": "C4_mechanism",
+   "measured_n": 26,
+   "measured_N": 171,
+   "measured_pct": 15.2
+  },
+  {
+   "item": 5,
+   "name": "Standardised instrument",
+   "minimum_form": "name, score, and administration context; a negative statement also satisfies",
+   "detector_key": "C5_instrument",
+   "measured_n": 2,
+   "measured_N": 171,
+   "measured_pct": 1.2
+  },
+  {
+   "item": 6,
+   "name": "Offence type",
+   "minimum_form": "offence category under a named classification",
+   "detector_key": "C6_offence",
+   "measured_n": 84,
+   "measured_N": 171,
+   "measured_pct": 49.1
+  },
+  {
+   "item": 7,
+   "name": "Offence severity",
+   "minimum_form": "a statutory grade, a study-internal grade, or a sentence length",
+   "detector_key": "C7_severity",
+   "measured_n": 4,
+   "measured_N": 171,
+   "measured_pct": 2.3
+  },
+  {
+   "item": 8,
+   "name": "Legal outcome",
+   "minimum_form": "charge, conviction, sentence, responsibility finding or ruling, with the date",
+   "detector_key": "C8_legal",
+   "measured_n": 35,
+   "measured_N": 171,
+   "measured_pct": 20.5
+  },
+  {
+   "item": 9,
+   "name": "Jurisdiction",
+   "minimum_form": "country and the applicable responsibility framework",
+   "detector_key": "C9_jurisdiction",
+   "measured_n": 89,
+   "measured_N": 171,
+   "measured_pct": 52.0
+  },
+  {
+   "item": 10,
+   "name": "Data source and recruitment",
+   "minimum_form": "clinical / forensic / self-report / media / court file, and how participants entered",
+   "detector_key": "C10_source",
+   "measured_n": 55,
+   "measured_N": 171,
+   "measured_pct": 32.2
+  }
+ ],
+ "recommended_in_addition": [
+  {
+   "name": "Comparison or baseline",
+   "minimum_form": "a comparison group, a baseline, or an explicit 'none'",
+   "detector_key": "C11_comparison",
+   "measured_n": 6,
+   "measured_N": 171,
+   "measured_pct": 3.5
+  },
+  {
+   "name": "Sample size",
+   "minimum_form": "n for persons, cases or documents, stated explicitly",
+   "detector_key": "C12_n",
+   "measured_n": 12,
+   "measured_N": 171,
+   "measured_pct": 7.0
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+# third-party content: reconstructed by the search scripts, never redistributed
+data/raw/
+data/fulltext/
+data/*.tgz
+models/
+*.safetensors
+*.bin
+*.pt
+
+# local working artefacts
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+out/server_snapshot/

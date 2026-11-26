@@ -1,0 +1,22 @@
+{
+ "records": 171,
+ "by_construct": {
+  "C4_mechanism": 26,
+  "C8_legal": 35,
+  "C6_offence": 84,
+  "C7_severity": 4,
+  "C9_jurisdiction": 89,
+  "C10_source": 55,
+  "C2_role": 25,
+  "C3_duration": 7,
+  "C1_group_def": 10,
+  "C12_n": 12,
+  "C5_instrument": 2,
+  "C11_comparison": 6
+ },
+ "records_no_abstract": 21,
+ "flags_true": 355,
+ "verified": 355,
+ "unverified": 0,
+ "instrument": "rule-based lexical detectors (measure.py)"
+}

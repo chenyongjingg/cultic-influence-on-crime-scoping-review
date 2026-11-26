@@ -1,0 +1,2360 @@
+{
+ "prisma": {
+  "identification": {
+   "core": {
+    "retrieved": 269,
+    "reported_total": null
+   },
+   "crossref": {
+    "retrieved": 87,
+    "reported_total": null
+   },
+   "doaj": {
+    "retrieved": 150,
+    "reported_total": null
+   },
+   "europepmc": {
+    "retrieved": 46,
+    "reported_total": 46
+   },
+   "europepmc_tierS": {
+    "retrieved": 143,
+    "reported_total": 143
+   },
+   "pubmed": {
+    "retrieved": 49,
+    "reported_total": 50
+   },
+   "s2": {
+    "retrieved": 410,
+    "reported_total": null
+   }
+  },
+  "records_retrieved_total": 1154,
+  "unique_per_source": {
+   "core": 269,
+   "crossref": 49,
+   "doaj": 141,
+   "europepmc": 143,
+   "pubmed": 49,
+   "s2": 410
+  },
+  "unique_after_cross_db_dedup": 833,
+  "excluded_year": 19,
+  "excluded_language": 69,
+  "excluded_no_base_block": 116,
+  "model_scored_rows": 643,
+  "duplicates_removed_after_screening": 14,
+  "screened": 629,
+  "auto_excluded_conf_ge_090": 412,
+  "advanced_to_second_pass": 134,
+  "second_pass_included": 109,
+  "final_included": 192,
+  "second_pass_excluded": 25
+ },
+ "construct_table": [
+  {
+   "construct": "C1_group_def",
+   "n_reported_verified": 10,
+   "n_anchor_unverified": 0,
+   "N": 171,
+   "pct": 5.8
+  },
+  {
+   "construct": "C2_role",
+   "n_reported_verified": 25,
+   "n_anchor_unverified": 0,
+   "N": 171,
+   "pct": 14.6
+  },
+  {
+   "construct": "C3_duration",
+   "n_reported_verified": 7,
+   "n_anchor_unverified": 0,
+   "N": 171,
+   "pct": 4.1
+  },
+  {
+   "construct": "C4_mechanism",
+   "n_reported_verified": 26,
+   "n_anchor_unverified": 0,
+   "N": 171,
+   "pct": 15.2
+  },
+  {
+   "construct": "C5_instrument",
+   "n_reported_verified": 2,
+   "n_anchor_unverified": 0,
+   "N": 171,
+   "pct": 1.2
+  },
+  {
+   "construct": "C6_offence",
+   "n_reported_verified": 84,
+   "n_anchor_unverified": 0,
+   "N": 171,
+   "pct": 49.1
+  },
+  {
+   "construct": "C7_severity",
+   "n_reported_verified": 4,
+   "n_anchor_unverified": 0,
+   "N": 171,
+   "pct": 2.3
+  },
+  {
+   "construct": "C8_legal",
+   "n_reported_verified": 35,
+   "n_anchor_unverified": 0,
+   "N": 171,
+   "pct": 20.5
+  },
+  {
+   "construct": "C9_jurisdiction",
+   "n_reported_verified": 89,
+   "n_anchor_unverified": 0,
+   "N": 171,
+   "pct": 52.0
+  },
+  {
+   "construct": "C10_source",
+   "n_reported_verified": 55,
+   "n_anchor_unverified": 0,
+   "N": 171,
+   "pct": 32.2
+  },
+  {
+   "construct": "C11_comparison",
+   "n_reported_verified": 6,
+   "n_anchor_unverified": 0,
+   "N": 171,
+   "pct": 3.5
+  },
+  {
+   "construct": "C12_n",
+   "n_reported_verified": 12,
+   "n_anchor_unverified": 0,
+   "N": 171,
+   "pct": 7.0
+  }
+ ],
+ "construct_by_source": {
+  "core": {
+   "N": 45,
+   "C1_group_def": 7,
+   "C2_role": 9,
+   "C3_duration": 2,
+   "C4_mechanism": 12,
+   "C5_instrument": 1,
+   "C6_offence": 28,
+   "C7_severity": 1,
+   "C8_legal": 12,
+   "C9_jurisdiction": 24,
+   "C10_source": 17,
+   "C11_comparison": 1,
+   "C12_n": 4
+  },
+  "crossref": {
+   "N": 13,
+   "C1_group_def": 0,
+   "C2_role": 1,
+   "C3_duration": 1,
+   "C4_mechanism": 2,
+   "C5_instrument": 1,
+   "C6_offence": 6,
+   "C7_severity": 1,
+   "C8_legal": 3,
+   "C9_jurisdiction": 2,
+   "C10_source": 3,
+   "C11_comparison": 1,
+   "C12_n": 1
+  },
+  "doaj": {
+   "N": 24,
+   "C1_group_def": 0,
+   "C2_role": 3,
+   "C3_duration": 2,
+   "C4_mechanism": 4,
+   "C5_instrument": 0,
+   "C6_offence": 10,
+   "C7_severity": 1,
+   "C8_legal": 3,
+   "C9_jurisdiction": 13,
+   "C10_source": 6,
+   "C11_comparison": 2,
+   "C12_n": 0
+  },
+  "europepmc": {
+   "N": 15,
+   "C1_group_def": 0,
+   "C2_role": 2,
+   "C3_duration": 1,
+   "C4_mechanism": 0,
+   "C5_instrument": 0,
+   "C6_offence": 11,
+   "C7_severity": 0,
+   "C8_legal": 4,
+   "C9_jurisdiction": 9,
+   "C10_source": 6,
+   "C11_comparison": 0,
+   "C12_n": 2
+  },
+  "pubmed": {
+   "N": 1,
+   "C1_group_def": 0,
+   "C2_role": 0,
+   "C3_duration": 0,
+   "C4_mechanism": 0,
+   "C5_instrument": 0,
+   "C6_offence": 1,
+   "C7_severity": 0,
+   "C8_legal": 0,
+   "C9_jurisdiction": 0,
+   "C10_source": 0,
+   "C11_comparison": 0,
+   "C12_n": 0
+  },
+  "s2": {
+   "N": 73,
+   "C1_group_def": 3,
+   "C2_role": 10,
+   "C3_duration": 1,
+   "C4_mechanism": 8,
+   "C5_instrument": 0,
+   "C6_offence": 28,
+   "C7_severity": 1,
+   "C8_legal": 13,
+   "C9_jurisdiction": 41,
+   "C10_source": 23,
+   "C11_comparison": 2,
+   "C12_n": 5
+  }
+ },
+ "evidence_map": [
+  {
+   "bite_domain": "behaviour",
+   "crime_type": "homicide/murder",
+   "n": 2
+  },
+  {
+   "bite_domain": "behaviour",
+   "crime_type": "sexual abuse",
+   "n": 2
+  },
+  {
+   "bite_domain": "behaviour",
+   "crime_type": "child abuse",
+   "n": 0
+  },
+  {
+   "bite_domain": "behaviour",
+   "crime_type": "trafficking",
+   "n": 0
+  },
+  {
+   "bite_domain": "behaviour",
+   "crime_type": "fraud/financial",
+   "n": 3
+  },
+  {
+   "bite_domain": "behaviour",
+   "crime_type": "drug",
+   "n": 0
+  },
+  {
+   "bite_domain": "behaviour",
+   "crime_type": "assault/violence",
+   "n": 1
+  },
+  {
+   "bite_domain": "behaviour",
+   "crime_type": "terrorism",
+   "n": 1
+  },
+  {
+   "bite_domain": "behaviour",
+   "crime_type": "kidnapping",
+   "n": 0
+  },
+  {
+   "bite_domain": "behaviour",
+   "crime_type": "exploitation",
+   "n": 0
+  },
+  {
+   "bite_domain": "behaviour",
+   "crime_type": "other/unspecified",
+   "n": 0
+  },
+  {
+   "bite_domain": "information",
+   "crime_type": "homicide/murder",
+   "n": 7
+  },
+  {
+   "bite_domain": "information",
+   "crime_type": "sexual abuse",
+   "n": 4
+  },
+  {
+   "bite_domain": "information",
+   "crime_type": "child abuse",
+   "n": 1
+  },
+  {
+   "bite_domain": "information",
+   "crime_type": "trafficking",
+   "n": 3
+  },
+  {
+   "bite_domain": "information",
+   "crime_type": "fraud/financial",
+   "n": 5
+  },
+  {
+   "bite_domain": "information",
+   "crime_type": "drug",
+   "n": 1
+  },
+  {
+   "bite_domain": "information",
+   "crime_type": "assault/violence",
+   "n": 0
+  },
+  {
+   "bite_domain": "information",
+   "crime_type": "terrorism",
+   "n": 5
+  },
+  {
+   "bite_domain": "information",
+   "crime_type": "kidnapping",
+   "n": 0
+  },
+  {
+   "bite_domain": "information",
+   "crime_type": "exploitation",
+   "n": 0
+  },
+  {
+   "bite_domain": "information",
+   "crime_type": "other/unspecified",
+   "n": 19
+  },
+  {
+   "bite_domain": "thought",
+   "crime_type": "homicide/murder",
+   "n": 4
+  },
+  {
+   "bite_domain": "thought",
+   "crime_type": "sexual abuse",
+   "n": 4
+  },
+  {
+   "bite_domain": "thought",
+   "crime_type": "child abuse",
+   "n": 0
+  },
+  {
+   "bite_domain": "thought",
+   "crime_type": "trafficking",
+   "n": 2
+  },
+  {
+   "bite_domain": "thought",
+   "crime_type": "fraud/financial",
+   "n": 3
+  },
+  {
+   "bite_domain": "thought",
+   "crime_type": "drug",
+   "n": 0
+  },
+  {
+   "bite_domain": "thought",
+   "crime_type": "assault/violence",
+   "n": 1
+  },
+  {
+   "bite_domain": "thought",
+   "crime_type": "terrorism",
+   "n": 4
+  },
+  {
+   "bite_domain": "thought",
+   "crime_type": "kidnapping",
+   "n": 0
+  },
+  {
+   "bite_domain": "thought",
+   "crime_type": "exploitation",
+   "n": 0
+  },
+  {
+   "bite_domain": "thought",
+   "crime_type": "other/unspecified",
+   "n": 7
+  },
+  {
+   "bite_domain": "emotion",
+   "crime_type": "homicide/murder",
+   "n": 6
+  },
+  {
+   "bite_domain": "emotion",
+   "crime_type": "sexual abuse",
+   "n": 1
+  },
+  {
+   "bite_domain": "emotion",
+   "crime_type": "child abuse",
+   "n": 1
+  },
+  {
+   "bite_domain": "emotion",
+   "crime_type": "trafficking",
+   "n": 2
+  },
+  {
+   "bite_domain": "emotion",
+   "crime_type": "fraud/financial",
+   "n": 3
+  },
+  {
+   "bite_domain": "emotion",
+   "crime_type": "drug",
+   "n": 1
+  },
+  {
+   "bite_domain": "emotion",
+   "crime_type": "assault/violence",
+   "n": 0
+  },
+  {
+   "bite_domain": "emotion",
+   "crime_type": "terrorism",
+   "n": 2
+  },
+  {
+   "bite_domain": "emotion",
+   "crime_type": "kidnapping",
+   "n": 0
+  },
+  {
+   "bite_domain": "emotion",
+   "crime_type": "exploitation",
+   "n": 0
+  },
+  {
+   "bite_domain": "emotion",
+   "crime_type": "other/unspecified",
+   "n": 2
+  }
+ ],
+ "instruments_named": [
+  [
+   "(named, form not extracted)",
+   2
+  ]
+ ],
+ "corpus_profile": {
+  "n_included": 171,
+  "years": {
+   "1994": 1,
+   "1997": 3,
+   "1998": 4,
+   "1999": 1,
+   "2000": 2,
+   "2002": 3,
+   "2003": 2,
+   "2004": 1,
+   "2005": 1,
+   "2006": 1,
+   "2007": 3,
+   "2008": 3,
+   "2009": 1,
+   "2010": 1,
+   "2011": 4,
+   "2012": 2,
+   "2013": 6,
+   "2014": 4,
+   "2015": 6,
+   "2016": 7,
+   "2017": 4,
+   "2018": 10,
+   "2019": 8,
+   "2020": 12,
+   "2021": 7,
+   "2022": 13,
+   "2023": 11,
+   "2024": 15,
+   "2025": 20,
+   "2026": 15
+  },
+  "top_sources": [
+   [
+    "unknown",
+    36
+   ],
+   [
+    "St. John\\u27s Law Scholarship Repository",
+    3
+   ],
+   [
+    "Mana",
+    2
+   ],
+   [
+    "Journal of forensic sciences",
+    2
+   ],
+   [
+    "International journal of research and innovation in social science",
+    2
+   ],
+   [
+    "Slavica TerGestina",
+    1
+   ],
+   [
+    "Congress and the Nation 2013-2016, Volume XIV: Politics and Policy in the 113th and 114th Congresses",
+    1
+   ],
+   [
+    "Mäetagused",
+    1
+   ],
+   [
+    "Interdisciplinary journal of research and development",
+    1
+   ],
+   [
+    "Russian Journal of Economics and Law",
+    1
+   ],
+   [
+    "University of East Anglia. School of History",
+    1
+   ],
+   [
+    "Journal of Comparative Study of Religions",
+    1
+   ],
+   [
+    "Kriminalističko- policijska akademija, Beograd",
+    1
+   ],
+   [
+    "Religions",
+    1
+   ],
+   [
+    "Legal Studies in Digital Age",
+    1
+   ]
+  ],
+  "n_distinct_sources": 131,
+  "open_access_share": 40.9
+ },
+ "mrs_ci_frequencies": [
+  {
+   "item": "1. Group operational definition",
+   "n": 10,
+   "N": 171,
+   "pct": 5.8
+  },
+  {
+   "item": "2. Participant role",
+   "n": 25,
+   "N": 171,
+   "pct": 14.6
+  },
+  {
+   "item": "3. Involvement / exit duration",
+   "n": 7,
+   "N": 171,
+   "pct": 4.1
+  },
+  {
+   "item": "4. Named manipulation mechanism",
+   "n": 26,
+   "N": 171,
+   "pct": 15.2
+  },
+  {
+   "item": "5. Standardised instrument",
+   "n": 2,
+   "N": 171,
+   "pct": 1.2
+  },
+  {
+   "item": "6. Offence type",
+   "n": 84,
+   "N": 171,
+   "pct": 49.1
+  },
+  {
+   "item": "7. Offence severity",
+   "n": 4,
+   "N": 171,
+   "pct": 2.3
+  },
+  {
+   "item": "8. Legal outcome",
+   "n": 35,
+   "N": 171,
+   "pct": 20.5
+  },
+  {
+   "item": "9. Jurisdiction",
+   "n": 89,
+   "N": 171,
+   "pct": 52.0
+  },
+  {
+   "item": "10. Data source",
+   "n": 55,
+   "N": 171,
+   "pct": 32.2
+  },
+  {
+   "item": "10b. Comparison / baseline",
+   "n": 6,
+   "N": 171,
+   "pct": 3.5
+  },
+  {
+   "item": "n. Sample size",
+   "n": 12,
+   "N": 171,
+   "pct": 7.0
+  }
+ ],
+ "domain_counts": {
+  "per_domain": {
+   "behaviour": 5,
+   "information": 38,
+   "thought": 18,
+   "emotion": 14
+  },
+  "any_domain": 61,
+  "N": 171
+ },
+ "guiding_questions": {
+  "A1_role_and_duration": {
+   "n": 4,
+   "N": 171
+  },
+  "A1_duration_and_legal": {
+   "n": 2,
+   "N": 171
+  },
+  "A2_instrument_any": {
+   "n": 2,
+   "N": 171
+  },
+  "A3_mechanism_and_legal": {
+   "n": 5,
+   "N": 171
+  },
+  "A3_mechanism_and_jurisdiction": {
+   "n": 9,
+   "N": 171
+  },
+  "mechanism_only_no_legal": {
+   "n": 21,
+   "N": 171
+  }
+ },
+ "tool_families": {
+  "N": 171,
+  "counts": {
+   "Risk assessment (HCR-20, SVR-20, VRAG, Static-99, LSI-R)": 0,
+   "General psychopathology (MMPI, PAI, SCL-90, BPRS, SCID)": 0,
+   "Cult-specific (GPA, BITE)": 1,
+   "Trauma / PTSD (PCL, CAPS, CTQ)": 0,
+   "Responsibility / fitness (none standardised)": 0
+  },
+  "any_instrument": 2
+ },
+ "theory_matrix": {
+  "records_with_psychological_theory": 5,
+  "records_with_criminological_theory": 2,
+  "records_with_both": 0,
+  "N": 171,
+  "detail": [
+   {
+    "title": "AN ANALYSIS OF CHRISTIAN UNION STUDENTS’ PERCEPTIONS OF FACTORS INFLUENCING CULTISM IN PUB",
+    "psychological": [
+     "bounded choice"
+    ],
+    "criminological": []
+   },
+   {
+    "title": "The Domestic Urban Cult: Immigration Exploitation, Coercive Control, and Multi-State Crimi",
+    "psychological": [
+     "coercive control"
+    ],
+    "criminological": []
+   },
+   {
+    "title": "THE CHRISTIAN UNION STUDENTS’ PERCEPTION OF THE INFLUENCE OF THEOLOGICAL GROUNDING ON CULT",
+    "psychological": [
+     "bounded choice"
+    ],
+    "criminological": []
+   },
+   {
+    "title": "An Application of the Coercive Control Framework to Cults",
+    "psychological": [
+     "coercive control"
+    ],
+    "criminological": []
+   },
+   {
+    "title": "Overcoming Heretical Sects Through Fatwa of the Ulama Consultative Council and Qanun",
+    "psychological": [],
+    "criminological": [
+     "social control"
+    ]
+   },
+   {
+    "title": "Trauma Bonding and Interpersonal Violence",
+    "psychological": [
+     "trauma bond"
+    ],
+    "criminological": []
+   },
+   {
+    "title": "A Recent Trend of Racketeering Prosecutions and Civil Suits Against New Religious Movement",
+    "psychological": [],
+    "criminological": [
+     "social control"
+    ]
+   }
+  ]
+ },
+ "embed_dedup_summary": {
+  "clusters_095": 8,
+  "absorbed_095": 8,
+  "clusters_090": 10
+ },
+ "fulltext_lift": {
+  "n_pairs": 42,
+  "corpus_n": 171,
+  "per_construct": {
+   "C1_group_def": {
+    "abstract_n": 2,
+    "window_n": 2,
+    "fulltext_n": 15,
+    "abstract_pct": 4.8,
+    "window_pct": 4.8,
+    "fulltext_pct": 35.7,
+    "lift_window_pp": 0.0,
+    "lift_full_pp": 31.0,
+    "corpus_abstract_pct": 5.8,
+    "subset_drift_pp": -1.1
+   },
+   "C2_role": {
+    "abstract_n": 4,
+    "window_n": 1,
+    "fulltext_n": 22,
+    "abstract_pct": 9.5,
+    "window_pct": 2.4,
+    "fulltext_pct": 52.4,
+    "lift_window_pp": -7.1,
+    "lift_full_pp": 42.9,
+    "corpus_abstract_pct": 14.6,
+    "subset_drift_pp": -5.1
+   },
+   "C3_duration": {
+    "abstract_n": 2,
+    "window_n": 4,
+    "fulltext_n": 13,
+    "abstract_pct": 4.8,
+    "window_pct": 9.5,
+    "fulltext_pct": 31.0,
+    "lift_window_pp": 4.8,
+    "lift_full_pp": 26.2,
+    "corpus_abstract_pct": 4.1,
+    "subset_drift_pp": 0.7
+   },
+   "C4_mechanism": {
+    "abstract_n": 4,
+    "window_n": 3,
+    "fulltext_n": 17,
+    "abstract_pct": 9.5,
+    "window_pct": 7.1,
+    "fulltext_pct": 40.5,
+    "lift_window_pp": -2.4,
+    "lift_full_pp": 31.0,
+    "corpus_abstract_pct": 15.2,
+    "subset_drift_pp": -5.7
+   },
+   "C5_instrument": {
+    "abstract_n": 0,
+    "window_n": 0,
+    "fulltext_n": 12,
+    "abstract_pct": 0.0,
+    "window_pct": 0.0,
+    "fulltext_pct": 28.6,
+    "lift_window_pp": 0.0,
+    "lift_full_pp": 28.6,
+    "corpus_abstract_pct": 1.2,
+    "subset_drift_pp": -1.2
+   },
+   "C6_offence": {
+    "abstract_n": 17,
+    "window_n": 5,
+    "fulltext_n": 27,
+    "abstract_pct": 40.5,
+    "window_pct": 11.9,
+    "fulltext_pct": 64.3,
+    "lift_window_pp": -28.6,
+    "lift_full_pp": 23.8,
+    "corpus_abstract_pct": 49.1,
+    "subset_drift_pp": -8.6
+   },
+   "C7_severity": {
+    "abstract_n": 1,
+    "window_n": 0,
+    "fulltext_n": 11,
+    "abstract_pct": 2.4,
+    "window_pct": 0.0,
+    "fulltext_pct": 26.2,
+    "lift_window_pp": -2.4,
+    "lift_full_pp": 23.8,
+    "corpus_abstract_pct": 2.3,
+    "subset_drift_pp": 0.0
+   },
+   "C8_legal": {
+    "abstract_n": 7,
+    "window_n": 4,
+    "fulltext_n": 28,
+    "abstract_pct": 16.7,
+    "window_pct": 9.5,
+    "fulltext_pct": 66.7,
+    "lift_window_pp": -7.1,
+    "lift_full_pp": 50.0,
+    "corpus_abstract_pct": 20.5,
+    "subset_drift_pp": -3.8
+   },
+   "C9_jurisdiction": {
+    "abstract_n": 24,
+    "window_n": 11,
+    "fulltext_n": 34,
+    "abstract_pct": 57.1,
+    "window_pct": 26.2,
+    "fulltext_pct": 81.0,
+    "lift_window_pp": -31.0,
+    "lift_full_pp": 23.8,
+    "corpus_abstract_pct": 52.0,
+    "subset_drift_pp": 5.1
+   },
+   "C10_source": {
+    "abstract_n": 15,
+    "window_n": 5,
+    "fulltext_n": 29,
+    "abstract_pct": 35.7,
+    "window_pct": 11.9,
+    "fulltext_pct": 69.0,
+    "lift_window_pp": -23.8,
+    "lift_full_pp": 33.3,
+    "corpus_abstract_pct": 32.2,
+    "subset_drift_pp": 3.6
+   },
+   "C11_comparison": {
+    "abstract_n": 1,
+    "window_n": 3,
+    "fulltext_n": 15,
+    "abstract_pct": 2.4,
+    "window_pct": 7.1,
+    "fulltext_pct": 35.7,
+    "lift_window_pp": 4.8,
+    "lift_full_pp": 33.3,
+    "corpus_abstract_pct": 3.5,
+    "subset_drift_pp": -1.1
+   },
+   "C12_n": {
+    "abstract_n": 3,
+    "window_n": 5,
+    "fulltext_n": 19,
+    "abstract_pct": 7.1,
+    "window_pct": 11.9,
+    "fulltext_pct": 45.2,
+    "lift_window_pp": 4.8,
+    "lift_full_pp": 38.1,
+    "corpus_abstract_pct": 7.0,
+    "subset_drift_pp": 0.1
+   }
+  },
+  "availability_pct": 24.6,
+  "median_fulltext_chars": 43313
+ },
+ "llm_construct_read": {
+  "9278323": {
+   "C1_group_def": false,
+   "C2_role": false,
+   "C3_duration": false,
+   "C4_mechanism": true,
+   "C5_instrument": false,
+   "C6_offence": false,
+   "C7_severity": false,
+   "C8_legal": false,
+   "C9_jurisdiction": false,
+   "C10_source": false,
+   "C11_comparison": false,
+   "C12_n": false
+  },
+  "0afc9b83968a4f02947a86b1869c3ed67d3ac4da": {
+   "C1_group_def": false,
+   "C2_role": false,
+   "C3_duration": false,
+   "C4_mechanism": false,
+   "C5_instrument": false,
+   "C6_offence": false,
+   "C7_severity": false,
+   "C8_legal": false,
+   "C9_jurisdiction": false,
+   "C10_source": false,
+   "C11_comparison": false,
+   "C12_n": false
+  },
+  "344622488": {
+   "C1_group_def": false,
+   "C2_role": false,
+   "C3_duration": false,
+   "C4_mechanism": true,
+   "C5_instrument": false,
+   "C6_offence": false,
+   "C7_severity": false,
+   "C8_legal": false,
+   "C9_jurisdiction": true,
+   "C10_source": false,
+   "C11_comparison": false,
+   "C12_n": true
+  },
+  "355585907": {
+   "C1_group_def": false,
+   "C2_role": false,
+   "C3_duration": false,
+   "C4_mechanism": false,
+   "C5_instrument": false,
+   "C6_offence": false,
+   "C7_severity": false,
+   "C8_legal": false,
+   "C9_jurisdiction": false,
+   "C10_source": false,
+   "C11_comparison": false,
+   "C12_n": false
+  },
+  "10.2139/ssrn.6569818": {
+   "C1_group_def": false,
+   "C2_role": false,
+   "C3_duration": false,
+   "C4_mechanism": true,
+   "C5_instrument": false,
+   "C6_offence": false,
+   "C7_severity": false,
+   "C8_legal": false,
+   "C9_jurisdiction": true,
+   "C10_source": false,
+   "C11_comparison": false,
+   "C12_n": false
+  },
+  "bcc0243054adc037fae21a1870370ddd4a639415": {
+   "C1_group_def": false,
+   "C2_role": false,
+   "C3_duration": false,
+   "C4_mechanism": false,
+   "C5_instrument": false,
+   "C6_offence": false,
+   "C7_severity": false,
+   "C8_legal": false,
+   "C9_jurisdiction": false,
+   "C10_source": false,
+   "C11_comparison": false,
+   "C12_n": false
+  },
+  "0f2a950f301216e902e5eec4be908a4cf7d77389": {
+   "C1_group_def": false,
+   "C2_role": false,
+   "C3_duration": false,
+   "C4_mechanism": false,
+   "C5_instrument": false,
+   "C6_offence": false,
+   "C7_severity": false,
+   "C8_legal": false,
+   "C9_jurisdiction": false,
+   "C10_source": false,
+   "C11_comparison": false,
+   "C12_n": false
+  },
+  "eeab33b2d1efa9834c43aad47e12edb233156c4a": {
+   "C1_group_def": false,
+   "C2_role": false,
+   "C3_duration": false,
+   "C4_mechanism": false,
+   "C5_instrument": false,
+   "C6_offence": false,
+   "C7_severity": false,
+   "C8_legal": false,
+   "C9_jurisdiction": true,
+   "C10_source": false,
+   "C11_comparison": false,
+   "C12_n": false
+  },
+  "26227027": {
+   "C1_group_def": false,
+   "C2_role": false,
+   "C3_duration": false,
+   "C4_mechanism": false,
+   "C5_instrument": false,
+   "C6_offence": true,
+   "C7_severity": false,
+   "C8_legal": false,
+   "C9_jurisdiction": true,
+   "C10_source": false,
+   "C11_comparison": false,
+   "C12_n": false
+  },
+  "131424175": {
+   "C1_group_def": false,
+   "C2_role": false,
+   "C3_duration": false,
+   "C4_mechanism": false,
+   "C5_instrument": false,
+   "C6_offence": false,
+   "C7_severity": false,
+   "C8_legal": false,
+   "C9_jurisdiction": true,
+   "C10_source": false,
+   "C11_comparison": false,
+   "C12_n": false
+  },
+  "10.2307/1389563": {
+   "C1_group_def": false,
+   "C2_role": false,
+   "C3_duration": false,
+   "C4_mechanism": false,
+   "C5_instrument": false,
+   "C6_offence": false,
+   "C7_severity": false,
+   "C8_legal": false,
+   "C9_jurisdiction": false,
+   "C10_source": false,
+   "C11_comparison": false,
+   "C12_n": false
+  },
+  "0c442dea4d16de86b3ad3d8fcaccc68f3c1e9df3": {
+   "C1_group_def": false,
+   "C2_role": false,
+   "C3_duration": false,
+   "C4_mechanism": false,
+   "C5_instrument": false,
+   "C6_offence": false,
+   "C7_severity": false,
+   "C8_legal": false,
+   "C9_jurisdiction": false,
+   "C10_source": false,
+   "C11_comparison": false,
+   "C12_n": false
+  },
+  "353857088": {
+   "C1_group_def": false,
+   "C2_role": false,
+   "C3_duration": false,
+   "C4_mechanism": false,
+   "C5_instrument": false,
+   "C6_offence": false,
+   "C7_severity": false,
+   "C8_legal": false,
+   "C9_jurisdiction": false,
+   "C10_source": false,
+   "C11_comparison": false,
+   "C12_n": false
+  },
+  "455b2a88b148a53e4ebd71d171a0591bd2e05b7b": {
+   "C1_group_def": false,
+   "C2_role": false,
+   "C3_duration": false,
+   "C4_mechanism": false,
+   "C5_instrument": false,
+   "C6_offence": false,
+   "C7_severity": false,
+   "C8_legal": false,
+   "C9_jurisdiction": true,
+   "C10_source": false,
+   "C11_comparison": false,
+   "C12_n": false
+  },
+  "6d3104ce12ea4de9a6d7dac3c25d637c": {
+   "C1_group_def": false,
+   "C2_role": false,
+   "C3_duration": false,
+   "C4_mechanism": false,
+   "C5_instrument": false,
+   "C6_offence": false,
+   "C7_severity": false,
+   "C8_legal": false,
+   "C9_jurisdiction": false,
+   "C10_source": false,
+   "C11_comparison": false,
+   "C12_n": false
+  },
+  "115482645": {
+   "C1_group_def": false,
+   "C2_role": false,
+   "C3_duration": false,
+   "C4_mechanism": false,
+   "C5_instrument": false,
+   "C6_offence": false,
+   "C7_severity": false,
+   "C8_legal": false,
+   "C9_jurisdiction": false,
+   "C10_source": false,
+   "C11_comparison": false,
+   "C12_n": false
+  },
+  "7d388553e1c46afc78007142c2786d1fa0c486dc": {
+   "C1_group_def": false,
+   "C2_role": false,
+   "C3_duration": false,
+   "C4_mechanism": false,
+   "C5_instrument": false,
+   "C6_offence": false,
+   "C7_severity": false,
+   "C8_legal": false,
+   "C9_jurisdiction": true,
+   "C10_source": false,
+   "C11_comparison": false,
+   "C12_n": false
+  },
+  "9e9ede4812880ae38fd320442befb7b77eaf3f3d": {
+   "C1_group_def": false,
+   "C2_role": false,
+   "C3_duration": false,
+   "C4_mechanism": false,
+   "C5_instrument": false,
+   "C6_offence": false,
+   "C7_severity": false,
+   "C8_legal": false,
+   "C9_jurisdiction": false,
+   "C10_source": false,
+   "C11_comparison": true,
+   "C12_n": false
+  },
+  "392588157": {
+   "C1_group_def": false,
+   "C2_role": false,
+   "C3_duration": false,
+   "C4_mechanism": false,
+   "C5_instrument": false,
+   "C6_offence": false,
+   "C7_severity": false,
+   "C8_legal": false,
+   "C9_jurisdiction": false,
+   "C10_source": false,
+   "C11_comparison": false,
+   "C12_n": false
+  },
+  "d2b70185e6d9c9e08f870751cc42b1cda6538ad5": {
+   "C1_group_def": false,
+   "C2_role": false,
+   "C3_duration": false,
+   "C4_mechanism": true,
+   "C5_instrument": false,
+   "C6_offence": true,
+   "C7_severity": false,
+   "C8_legal": false,
+   "C9_jurisdiction": true,
+   "C10_source": false,
+   "C11_comparison": false,
+   "C12_n": false
+  },
+  "0c2490817bc74daea577f2c46652bf24": {
+   "C1_group_def": false,
+   "C2_role": false,
+   "C3_duration": false,
+   "C4_mechanism": false,
+   "C5_instrument": false,
+   "C6_offence": false,
+   "C7_severity": false,
+   "C8_legal": false,
+   "C9_jurisdiction": true,
+   "C10_source": false,
+   "C11_comparison": false,
+   "C12_n": false
+  },
+  "9d415eea03555e3cc48ce0495c21d5cec0d9a9a0": {
+   "C1_group_def": false,
+   "C2_role": false,
+   "C3_duration": false,
+   "C4_mechanism": true,
+   "C5_instrument": false,
+   "C6_offence": false,
+   "C7_severity": false,
+   "C8_legal": false,
+   "C9_jurisdiction": false,
+   "C10_source": true,
+   "C11_comparison": false,
+   "C12_n": false
+  },
+  "1cf1fc9fba4e436aa898b8c0e9196798": {
+   "C1_group_def": false,
+   "C2_role": false,
+   "C3_duration": false,
+   "C4_mechanism": false,
+   "C5_instrument": false,
+   "C6_offence": false,
+   "C7_severity": false,
+   "C8_legal": false,
+   "C9_jurisdiction": false,
+   "C10_source": false,
+   "C11_comparison": false,
+   "C12_n": false
+  },
+  "48130616": {
+   "C1_group_def": false,
+   "C2_role": false,
+   "C3_duration": false,
+   "C4_mechanism": false,
+   "C5_instrument": false,
+   "C6_offence": false,
+   "C7_severity": false,
+   "C8_legal": false,
+   "C9_jurisdiction": true,
+   "C10_source": false,
+   "C11_comparison": false,
+   "C12_n": false
+  },
+  "100992414": {
+   "C1_group_def": false,
+   "C2_role": false,
+   "C3_duration": false,
+   "C4_mechanism": false,
+   "C5_instrument": false,
+   "C6_offence": false,
+   "C7_severity": false,
+   "C8_legal": false,
+   "C9_jurisdiction": false,
+   "C10_source": false,
+   "C11_comparison": false,
+   "C12_n": false
+  },
+  "ad57b4fb5c994263bfaef657f0be527f": {
+   "C1_group_def": false,
+   "C2_role": false,
+   "C3_duration": false,
+   "C4_mechanism": false,
+   "C5_instrument": false,
+   "C6_offence": false,
+   "C7_severity": false,
+   "C8_legal": false,
+   "C9_jurisdiction": true,
+   "C10_source": false,
+   "C11_comparison": false,
+   "C12_n": false
+  },
+  "6d29664704122afabecd5842118f33de347dabed": {
+   "C1_group_def": false,
+   "C2_role": false,
+   "C3_duration": false,
+   "C4_mechanism": false,
+   "C5_instrument": false,
+   "C6_offence": false,
+   "C7_severity": false,
+   "C8_legal": false,
+   "C9_jurisdiction": true,
+   "C10_source": false,
+   "C11_comparison": false,
+   "C12_n": false
+  },
+  "406973726": {
+   "C1_group_def": false,
+   "C2_role": false,
+   "C3_duration": false,
+   "C4_mechanism": true,
+   "C5_instrument": false,
+   "C6_offence": false,
+   "C7_severity": false,
+   "C8_legal": false,
+   "C9_jurisdiction": false,
+   "C10_source": true,
+   "C11_comparison": false,
+   "C12_n": true
+  },
+  "96631682": {
+   "C1_group_def": false,
+   "C2_role": false,
+   "C3_duration": false,
+   "C4_mechanism": false,
+   "C5_instrument": false,
+   "C6_offence": false,
+   "C7_severity": false,
+   "C8_legal": false,
+   "C9_jurisdiction": true,
+   "C10_source": false,
+   "C11_comparison": false,
+   "C12_n": false
+  },
+  "b9ae6544e6058ca8ae1d9b52623c13bfa1fce4bb": {
+   "C1_group_def": false,
+   "C2_role": false,
+   "C3_duration": false,
+   "C4_mechanism": false,
+   "C5_instrument": false,
+   "C6_offence": false,
+   "C7_severity": false,
+   "C8_legal": false,
+   "C9_jurisdiction": false,
+   "C10_source": false,
+   "C11_comparison": false,
+   "C12_n": false
+  }
+ },
+ "detector_validation": {
+  "n_records": 29,
+  "records_missing": 0,
+  "per_construct": {
+   "C1_group_def": {
+    "both": 5,
+    "manual_only": 16,
+    "det_only": 0,
+    "neither": 8,
+    "precision": 1.0,
+    "recall": 0.24,
+    "agreement": 0.45
+   },
+   "C2_role": {
+    "both": 2,
+    "manual_only": 6,
+    "det_only": 3,
+    "neither": 18,
+    "precision": 0.4,
+    "recall": 0.25,
+    "agreement": 0.69
+   },
+   "C3_duration": {
+    "both": 1,
+    "manual_only": 1,
+    "det_only": 2,
+    "neither": 25,
+    "precision": 0.33,
+    "recall": 0.5,
+    "agreement": 0.9
+   },
+   "C4_mechanism": {
+    "both": 5,
+    "manual_only": 3,
+    "det_only": 0,
+    "neither": 21,
+    "precision": 1.0,
+    "recall": 0.62,
+    "agreement": 0.9
+   },
+   "C5_instrument": {
+    "both": 0,
+    "manual_only": 0,
+    "det_only": 1,
+    "neither": 28,
+    "precision": 0.0,
+    "recall": null,
+    "agreement": 0.97
+   },
+   "C6_offence": {
+    "both": 15,
+    "manual_only": 14,
+    "det_only": 0,
+    "neither": 0,
+    "precision": 1.0,
+    "recall": 0.52,
+    "agreement": 0.52
+   },
+   "C7_severity": {
+    "both": 0,
+    "manual_only": 1,
+    "det_only": 0,
+    "neither": 28,
+    "precision": null,
+    "recall": 0.0,
+    "agreement": 0.97
+   },
+   "C8_legal": {
+    "both": 5,
+    "manual_only": 6,
+    "det_only": 1,
+    "neither": 17,
+    "precision": 0.83,
+    "recall": 0.45,
+    "agreement": 0.76
+   },
+   "C9_jurisdiction": {
+    "both": 12,
+    "manual_only": 8,
+    "det_only": 1,
+    "neither": 8,
+    "precision": 0.92,
+    "recall": 0.6,
+    "agreement": 0.69
+   },
+   "C10_source": {
+    "both": 8,
+    "manual_only": 8,
+    "det_only": 3,
+    "neither": 10,
+    "precision": 0.73,
+    "recall": 0.5,
+    "agreement": 0.62
+   },
+   "C11_comparison": {
+    "both": 0,
+    "manual_only": 1,
+    "det_only": 3,
+    "neither": 25,
+    "precision": 0.0,
+    "recall": 0.0,
+    "agreement": 0.86
+   },
+   "C12_n": {
+    "both": 3,
+    "manual_only": 4,
+    "det_only": 0,
+    "neither": 22,
+    "precision": 1.0,
+    "recall": 0.43,
+    "agreement": 0.86
+   }
+  },
+  "overall": {
+   "precision": 0.8,
+   "recall": 0.452,
+   "cells": 460
+  }
+ },
+ "term_sensitivity": {
+  "N": 171,
+  "constructs": {
+   "C4_mechanism": {
+    "base_n": 26,
+    "strict_n": 15,
+    "base_pct": 15.2,
+    "strict_pct": 8.8,
+    "delta_pp": -6.4
+   },
+   "C6_offence": {
+    "base_n": 84,
+    "strict_n": 74,
+    "base_pct": 49.1,
+    "strict_pct": 43.3,
+    "delta_pp": -5.8
+   },
+   "C8_legal": {
+    "base_n": 35,
+    "strict_n": 21,
+    "base_pct": 20.5,
+    "strict_pct": 12.3,
+    "delta_pp": -8.2
+   },
+   "C9_jurisdiction": {
+    "base_n": 89,
+    "strict_n": 63,
+    "base_pct": 52.0,
+    "strict_pct": 36.8,
+    "delta_pp": -15.2
+   },
+   "C10_source": {
+    "base_n": 55,
+    "strict_n": 19,
+    "base_pct": 32.2,
+    "strict_pct": 11.1,
+    "delta_pp": -21.1
+   }
+  }
+ },
+ "strata": {
+  "by_decade": {
+   "19900s": {
+    "N": 9,
+    "C1_group_def": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C2_role": {
+     "n": 1,
+     "pct": 11.1
+    },
+    "C3_duration": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C4_mechanism": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C5_instrument": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C6_offence": {
+     "n": 5,
+     "pct": 55.6
+    },
+    "C7_severity": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C8_legal": {
+     "n": 3,
+     "pct": 33.3
+    },
+    "C9_jurisdiction": {
+     "n": 3,
+     "pct": 33.3
+    },
+    "C10_source": {
+     "n": 5,
+     "pct": 55.6
+    },
+    "C11_comparison": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C12_n": {
+     "n": 0,
+     "pct": 0.0
+    }
+   },
+   "20000s": {
+    "N": 17,
+    "C1_group_def": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C2_role": {
+     "n": 7,
+     "pct": 41.2
+    },
+    "C3_duration": {
+     "n": 1,
+     "pct": 5.9
+    },
+    "C4_mechanism": {
+     "n": 2,
+     "pct": 11.8
+    },
+    "C5_instrument": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C6_offence": {
+     "n": 9,
+     "pct": 52.9
+    },
+    "C7_severity": {
+     "n": 1,
+     "pct": 5.9
+    },
+    "C8_legal": {
+     "n": 4,
+     "pct": 23.5
+    },
+    "C9_jurisdiction": {
+     "n": 7,
+     "pct": 41.2
+    },
+    "C10_source": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C11_comparison": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C12_n": {
+     "n": 0,
+     "pct": 0.0
+    }
+   },
+   "20100s": {
+    "N": 52,
+    "C1_group_def": {
+     "n": 5,
+     "pct": 9.6
+    },
+    "C2_role": {
+     "n": 5,
+     "pct": 9.6
+    },
+    "C3_duration": {
+     "n": 2,
+     "pct": 3.8
+    },
+    "C4_mechanism": {
+     "n": 6,
+     "pct": 11.5
+    },
+    "C5_instrument": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C6_offence": {
+     "n": 27,
+     "pct": 51.9
+    },
+    "C7_severity": {
+     "n": 1,
+     "pct": 1.9
+    },
+    "C8_legal": {
+     "n": 10,
+     "pct": 19.2
+    },
+    "C9_jurisdiction": {
+     "n": 31,
+     "pct": 59.6
+    },
+    "C10_source": {
+     "n": 13,
+     "pct": 25.0
+    },
+    "C11_comparison": {
+     "n": 2,
+     "pct": 3.8
+    },
+    "C12_n": {
+     "n": 1,
+     "pct": 1.9
+    }
+   },
+   "20200s": {
+    "N": 93,
+    "C1_group_def": {
+     "n": 5,
+     "pct": 5.4
+    },
+    "C2_role": {
+     "n": 12,
+     "pct": 12.9
+    },
+    "C3_duration": {
+     "n": 4,
+     "pct": 4.3
+    },
+    "C4_mechanism": {
+     "n": 18,
+     "pct": 19.4
+    },
+    "C5_instrument": {
+     "n": 2,
+     "pct": 2.2
+    },
+    "C6_offence": {
+     "n": 43,
+     "pct": 46.2
+    },
+    "C7_severity": {
+     "n": 2,
+     "pct": 2.2
+    },
+    "C8_legal": {
+     "n": 18,
+     "pct": 19.4
+    },
+    "C9_jurisdiction": {
+     "n": 48,
+     "pct": 51.6
+    },
+    "C10_source": {
+     "n": 37,
+     "pct": 39.8
+    },
+    "C11_comparison": {
+     "n": 4,
+     "pct": 4.3
+    },
+    "C12_n": {
+     "n": 11,
+     "pct": 11.8
+    }
+   }
+  },
+  "by_jurisdiction": {
+   "not stated": {
+    "N": 90,
+    "C1_group_def": {
+     "n": 5,
+     "pct": 5.6
+    },
+    "C2_role": {
+     "n": 12,
+     "pct": 13.3
+    },
+    "C3_duration": {
+     "n": 2,
+     "pct": 2.2
+    },
+    "C4_mechanism": {
+     "n": 19,
+     "pct": 21.1
+    },
+    "C5_instrument": {
+     "n": 2,
+     "pct": 2.2
+    },
+    "C6_offence": {
+     "n": 45,
+     "pct": 50.0
+    },
+    "C7_severity": {
+     "n": 1,
+     "pct": 1.1
+    },
+    "C8_legal": {
+     "n": 20,
+     "pct": 22.2
+    },
+    "C9_jurisdiction": {
+     "n": 10,
+     "pct": 11.1
+    },
+    "C10_source": {
+     "n": 28,
+     "pct": 31.1
+    },
+    "C11_comparison": {
+     "n": 2,
+     "pct": 2.2
+    },
+    "C12_n": {
+     "n": 7,
+     "pct": 7.8
+    }
+   },
+   "Nigeria": {
+    "N": 24,
+    "C1_group_def": {
+     "n": 1,
+     "pct": 4.2
+    },
+    "C2_role": {
+     "n": 1,
+     "pct": 4.2
+    },
+    "C3_duration": {
+     "n": 2,
+     "pct": 8.3
+    },
+    "C4_mechanism": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C5_instrument": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C6_offence": {
+     "n": 14,
+     "pct": 58.3
+    },
+    "C7_severity": {
+     "n": 1,
+     "pct": 4.2
+    },
+    "C8_legal": {
+     "n": 1,
+     "pct": 4.2
+    },
+    "C9_jurisdiction": {
+     "n": 24,
+     "pct": 100.0
+    },
+    "C10_source": {
+     "n": 10,
+     "pct": 41.7
+    },
+    "C11_comparison": {
+     "n": 1,
+     "pct": 4.2
+    },
+    "C12_n": {
+     "n": 3,
+     "pct": 12.5
+    }
+   },
+   "United States": {
+    "N": 10,
+    "C1_group_def": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C2_role": {
+     "n": 5,
+     "pct": 50.0
+    },
+    "C3_duration": {
+     "n": 2,
+     "pct": 20.0
+    },
+    "C4_mechanism": {
+     "n": 2,
+     "pct": 20.0
+    },
+    "C5_instrument": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C6_offence": {
+     "n": 9,
+     "pct": 90.0
+    },
+    "C7_severity": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C8_legal": {
+     "n": 3,
+     "pct": 30.0
+    },
+    "C9_jurisdiction": {
+     "n": 10,
+     "pct": 100.0
+    },
+    "C10_source": {
+     "n": 1,
+     "pct": 10.0
+    },
+    "C11_comparison": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C12_n": {
+     "n": 0,
+     "pct": 0.0
+    }
+   },
+   "Russia": {
+    "N": 5,
+    "C1_group_def": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C2_role": {
+     "n": 1,
+     "pct": 20.0
+    },
+    "C3_duration": {
+     "n": 1,
+     "pct": 20.0
+    },
+    "C4_mechanism": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C5_instrument": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C6_offence": {
+     "n": 3,
+     "pct": 60.0
+    },
+    "C7_severity": {
+     "n": 1,
+     "pct": 20.0
+    },
+    "C8_legal": {
+     "n": 2,
+     "pct": 40.0
+    },
+    "C9_jurisdiction": {
+     "n": 5,
+     "pct": 100.0
+    },
+    "C10_source": {
+     "n": 2,
+     "pct": 40.0
+    },
+    "C11_comparison": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C12_n": {
+     "n": 0,
+     "pct": 0.0
+    }
+   },
+   "China": {
+    "N": 5,
+    "C1_group_def": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C2_role": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C3_duration": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C4_mechanism": {
+     "n": 1,
+     "pct": 20.0
+    },
+    "C5_instrument": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C6_offence": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C7_severity": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C8_legal": {
+     "n": 1,
+     "pct": 20.0
+    },
+    "C9_jurisdiction": {
+     "n": 5,
+     "pct": 100.0
+    },
+    "C10_source": {
+     "n": 1,
+     "pct": 20.0
+    },
+    "C11_comparison": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C12_n": {
+     "n": 0,
+     "pct": 0.0
+    }
+   },
+   "Japan": {
+    "N": 4,
+    "C1_group_def": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C2_role": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C3_duration": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C4_mechanism": {
+     "n": 1,
+     "pct": 25.0
+    },
+    "C5_instrument": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C6_offence": {
+     "n": 3,
+     "pct": 75.0
+    },
+    "C7_severity": {
+     "n": 1,
+     "pct": 25.0
+    },
+    "C8_legal": {
+     "n": 2,
+     "pct": 50.0
+    },
+    "C9_jurisdiction": {
+     "n": 4,
+     "pct": 100.0
+    },
+    "C10_source": {
+     "n": 4,
+     "pct": 100.0
+    },
+    "C11_comparison": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C12_n": {
+     "n": 2,
+     "pct": 50.0
+    }
+   },
+   "America": {
+    "N": 4,
+    "C1_group_def": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C2_role": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C3_duration": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C4_mechanism": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C5_instrument": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C6_offence": {
+     "n": 2,
+     "pct": 50.0
+    },
+    "C7_severity": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C8_legal": {
+     "n": 1,
+     "pct": 25.0
+    },
+    "C9_jurisdiction": {
+     "n": 2,
+     "pct": 50.0
+    },
+    "C10_source": {
+     "n": 1,
+     "pct": 25.0
+    },
+    "C11_comparison": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C12_n": {
+     "n": 0,
+     "pct": 0.0
+    }
+   },
+   "Serbia": {
+    "N": 3,
+    "C1_group_def": {
+     "n": 2,
+     "pct": 66.7
+    },
+    "C2_role": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C3_duration": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C4_mechanism": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C5_instrument": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C6_offence": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C7_severity": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C8_legal": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C9_jurisdiction": {
+     "n": 3,
+     "pct": 100.0
+    },
+    "C10_source": {
+     "n": 2,
+     "pct": 66.7
+    },
+    "C11_comparison": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "C12_n": {
+     "n": 0,
+     "pct": 0.0
+    }
+   }
+  }
+ },
+ "experiments": {
+  "E1_confidence_threshold": {
+   "n": 627,
+   "sweep": [
+    {
+     "threshold": 0.6,
+     "auto_excluded": 443,
+     "advanced": 184,
+     "advanced_pct": 29.3
+    },
+    {
+     "threshold": 0.7,
+     "auto_excluded": 443,
+     "advanced": 184,
+     "advanced_pct": 29.3
+    },
+    {
+     "threshold": 0.8,
+     "auto_excluded": 443,
+     "advanced": 184,
+     "advanced_pct": 29.3
+    },
+    {
+     "threshold": 0.85,
+     "auto_excluded": 443,
+     "advanced": 184,
+     "advanced_pct": 29.3
+    },
+    {
+     "threshold": 0.9,
+     "auto_excluded": 443,
+     "advanced": 184,
+     "advanced_pct": 29.3
+    },
+    {
+     "threshold": 0.95,
+     "auto_excluded": 439,
+     "advanced": 188,
+     "advanced_pct": 30.0
+    },
+    {
+     "threshold": 1.0,
+     "auto_excluded": 0,
+     "advanced": 627,
+     "advanced_pct": 100.0
+    }
+   ]
+  },
+  "E2_i1_conjunction": {
+   "conjunctive_n": 236,
+   "disjunctive_n": 234,
+   "extra_if_disjunctive": 0,
+   "extra_composition": {}
+  },
+  "E3_source_contribution": {
+   "records_per_source_raw": {
+    "core": 189,
+    "crossref": 49,
+    "doaj": 141,
+    "europepmc": 46,
+    "europepmc_tierS": 143,
+    "pubmed": 49,
+    "s2": 406
+   },
+   "source_exclusive_records": {
+    "core": 166,
+    "crossref": 33,
+    "doaj": 103,
+    "europepmc": 0,
+    "europepmc_tierS": 97,
+    "pubmed": 10,
+    "s2": 344
+   },
+   "n_unique_overall": 860
+  },
+  "E4_restriction_sensitivity": {
+   "unique_after_dedup": 833,
+   "after_year_1994_2026": 814,
+   "after_language": 745,
+   "excluded_year": null,
+   "excluded_language": null,
+   "language_breakdown": {
+    "declared_en": 146,
+    "inferred_en": 599,
+    "declared_other_pl": 13,
+    "inferred_not_en": 37,
+    "declared_other_id": 1,
+    "declared_other_es": 6,
+    "declared_other_it": 1,
+    "declared_other_ger": 7,
+    "declared_other_pol": 1,
+    "declared_other_spa": 1,
+    "declared_other_dut": 1,
+    "declared_other_kor": 1
+   },
+   "tierP": 535,
+   "tierS_only": 94,
+   "without_abstract": 24
+  }
+ },
+ "e5": {
+  "n": 50,
+  "overlap_available": 638,
+  "decision": {
+   "agree_pct": 74.0,
+   "kappa": 0.35
+  },
+  "decision_confusion": {
+   "EXCLUDE->EXCLUDE": 32,
+   "EXCLUDE->UNCERTAIN": 8,
+   "INCLUDE->INCLUDE": 4,
+   "UNCERTAIN->EXCLUDE": 3,
+   "EXCLUDE->INCLUDE": 1,
+   "INCLUDE->UNCERTAIN": 1,
+   "UNCERTAIN->UNCERTAIN": 1
+  },
+  "I1": {
+   "agree_pct": 86.0,
+   "kappa": 0.706,
+   "both_true": 15,
+   "both_false": 28
+  },
+  "I2": {
+   "agree_pct": 66.0,
+   "kappa": 0.309,
+   "both_true": 13,
+   "both_false": 20
+  },
+  "I3": {
+   "agree_pct": 90.0,
+   "kappa": 0.646,
+   "both_true": 6,
+   "both_false": 39
+  },
+  "I4": {
+   "agree_pct": 76.0,
+   "kappa": 0.342,
+   "both_true": 32,
+   "both_false": 6
+  },
+  "include_counts": {
+   "7B": 5,
+   "14B": 5
+  }
+ },
+ "m8_m10": {
+  "N": 171,
+  "modules": {
+   "M8_interrogation": {
+    "methods_accusatorial": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "methods_information": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "reliability": {
+     "n": 8,
+     "pct": 4.7
+    },
+    "subject_core": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "subject_leader": {
+     "n": 2,
+     "pct": 1.2
+    },
+    "subject_member": {
+     "n": 23,
+     "pct": 13.5
+    },
+    "subject_victim": {
+     "n": 39,
+     "pct": 22.8
+    }
+   },
+   "M9_digital_forensics": {
+    "communications": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "devices": {
+     "n": 0,
+     "pct": 0.0
+    },
+    "financial": {
+     "n": 1,
+     "pct": 0.6
+    },
+    "recruitment_online": {
+     "n": 5,
+     "pct": 2.9
+    },
+    "structure_link": {
+     "n": 3,
+     "pct": 1.8
+    }
+   },
+   "M10_case_linking": {
+    "cross_jurisdiction": {
+     "n": 2,
+     "pct": 1.2
+    },
+    "modus_operandi": {
+     "n": 3,
+     "pct": 1.8
+    },
+    "rescue_risk": {
+     "n": 1,
+     "pct": 0.6
+    },
+    "ringleader_id": {
+     "n": 1,
+     "pct": 0.6
+    },
+    "victim_id": {
+     "n": 0,
+     "pct": 0.0
+    }
+   }
+  }
+ },
+ "extraction_audit": {
+  "records": 171,
+  "by_construct": {
+   "C4_mechanism": 26,
+   "C8_legal": 35,
+   "C6_offence": 84,
+   "C7_severity": 4,
+   "C9_jurisdiction": 89,
+   "C10_source": 55,
+   "C2_role": 25,
+   "C3_duration": 7,
+   "C1_group_def": 10,
+   "C12_n": 12,
+   "C5_instrument": 2,
+   "C11_comparison": 6
+  },
+  "records_no_abstract": 21,
+  "flags_true": 355,
+  "verified": 355,
+  "unverified": 0,
+  "instrument": "rule-based lexical detectors (measure.py)"
+ },
+ "adjudication": {
+  "screened": 629,
+  "screen_parse_failures": 2,
+  "model_INCLUDE": 83,
+  "model_INCLUDE_kept": 83,
+  "model_INCLUDE_dropped_by_gate": 0,
+  "model_EXCLUDE_conf_ge_090_auto_excluded": 412,
+  "advanced_to_second_pass": 134,
+  "second_pass_included": 109,
+  "second_pass_excluded": 25,
+  "final_included": 192,
+  "chain_check": {
+   "auto_plus_advanced_plus_kept": 629,
+   "screened": 629,
+   "kept_plus_secondpass": 192,
+   "final": 192
+  },
+  "sensitivity_auto_excluded_would_have_survived_second_pass": 2,
+  "title_anchor_override": 31
+ }
+}

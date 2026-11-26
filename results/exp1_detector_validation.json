@@ -1,0 +1,119 @@
+{
+ "n_records": 29,
+ "records_missing": 0,
+ "per_construct": {
+  "C1_group_def": {
+   "both": 5,
+   "manual_only": 16,
+   "det_only": 0,
+   "neither": 8,
+   "precision": 1.0,
+   "recall": 0.24,
+   "agreement": 0.45
+  },
+  "C2_role": {
+   "both": 2,
+   "manual_only": 6,
+   "det_only": 3,
+   "neither": 18,
+   "precision": 0.4,
+   "recall": 0.25,
+   "agreement": 0.69
+  },
+  "C3_duration": {
+   "both": 1,
+   "manual_only": 1,
+   "det_only": 2,
+   "neither": 25,
+   "precision": 0.33,
+   "recall": 0.5,
+   "agreement": 0.9
+  },
+  "C4_mechanism": {
+   "both": 5,
+   "manual_only": 3,
+   "det_only": 0,
+   "neither": 21,
+   "precision": 1.0,
+   "recall": 0.62,
+   "agreement": 0.9
+  },
+  "C5_instrument": {
+   "both": 0,
+   "manual_only": 0,
+   "det_only": 1,
+   "neither": 28,
+   "precision": 0.0,
+   "recall": null,
+   "agreement": 0.97
+  },
+  "C6_offence": {
+   "both": 15,
+   "manual_only": 14,
+   "det_only": 0,
+   "neither": 0,
+   "precision": 1.0,
+   "recall": 0.52,
+   "agreement": 0.52
+  },
+  "C7_severity": {
+   "both": 0,
+   "manual_only": 1,
+   "det_only": 0,
+   "neither": 28,
+   "precision": null,
+   "recall": 0.0,
+   "agreement": 0.97
+  },
+  "C8_legal": {
+   "both": 5,
+   "manual_only": 6,
+   "det_only": 1,
+   "neither": 17,
+   "precision": 0.83,
+   "recall": 0.45,
+   "agreement": 0.76
+  },
+  "C9_jurisdiction": {
+   "both": 12,
+   "manual_only": 8,
+   "det_only": 1,
+   "neither": 8,
+   "precision": 0.92,
+   "recall": 0.6,
+   "agreement": 0.69
+  },
+  "C10_source": {
+   "both": 8,
+   "manual_only": 8,
+   "det_only": 3,
+   "neither": 10,
+   "precision": 0.73,
+   "recall": 0.5,
+   "agreement": 0.62
+  },
+  "C11_comparison": {
+   "both": 0,
+   "manual_only": 1,
+   "det_only": 3,
+   "neither": 25,
+   "precision": 0.0,
+   "recall": 0.0,
+   "agreement": 0.86
+  },
+  "C12_n": {
+   "both": 3,
+   "manual_only": 4,
+   "det_only": 0,
+   "neither": 22,
+   "precision": 1.0,
+   "recall": 0.43,
+   "agreement": 0.86
+  }
+ },
+ "overall": {
+  "precision": 0.8,
+  "recall": 0.452,
+  "cells": 460
+ }
+}

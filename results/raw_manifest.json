@@ -1,0 +1,30 @@
+{
+ "core.jsonl": {
+  "bytes": 508552,
+  "sha256": "3e4aa0df66fa73d6e26db01048b4864437fb462763ebde60ca95ee5f92922c6a"
+ },
+ "crossref.jsonl": {
+  "bytes": 90451,
+  "sha256": "4109e465bdfdbadac188a5c5cb153b07821d81759995957c6b52ae454412d557"
+ },
+ "doaj.jsonl": {
+  "bytes": 377632,
+  "sha256": "661277ec8c7ef8fcc3149c2040fa5eb45e7b0e7f184459d6910b83ef38ccdb4c"
+ },
+ "europepmc.jsonl": {
+  "bytes": 80657,
+  "sha256": "ba5f5b0b6f32a9de9f74c5a974fd4d5c6b0724b03b911d0bf5937cf2b8400cbc"
+ },
+ "europepmc_tierS.jsonl": {
+  "bytes": 285810,
+  "sha256": "a5a98070ae1ea709fbc08b79a135cbea2193ab2a9c47bdff2ea63b14c1b7db63"
+ },
+ "pubmed.jsonl": {
+  "bytes": 90042,
+  "sha256": "7048624032b1c3da758fa71ae5a11d84bcb94c57cf3aaf102b6a2badf35b0c46"
+ },
+ "s2.jsonl": {
+  "bytes": 921787,
+  "sha256": "b6e42766962c9941c4a7b388725d23ac2713cd5e537176f183e024cc7238129b"
+ }
+}

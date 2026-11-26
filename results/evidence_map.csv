@@ -1,0 +1,45 @@
+bite_domain,crime_type,n
+behaviour,homicide/murder,2
+behaviour,sexual abuse,2
+behaviour,child abuse,0
+behaviour,trafficking,0
+behaviour,fraud/financial,3
+behaviour,drug,0
+behaviour,assault/violence,1
+behaviour,terrorism,1
+behaviour,kidnapping,0
+behaviour,exploitation,0
+behaviour,other/unspecified,0
+information,homicide/murder,7
+information,sexual abuse,4
+information,child abuse,1
+information,trafficking,3
+information,fraud/financial,5
+information,drug,1
+information,assault/violence,0
+information,terrorism,5
+information,kidnapping,0
+information,exploitation,0
+information,other/unspecified,19
+thought,homicide/murder,4
+thought,sexual abuse,4
+thought,child abuse,0
+thought,trafficking,2
+thought,fraud/financial,3
+thought,drug,0
+thought,assault/violence,1
+thought,terrorism,4
+thought,kidnapping,0
+thought,exploitation,0
+thought,other/unspecified,7
+emotion,homicide/murder,6
+emotion,sexual abuse,1
+emotion,child abuse,1
+emotion,trafficking,2
+emotion,fraud/financial,3
+emotion,drug,1
+emotion,assault/violence,0
+emotion,terrorism,2
+emotion,kidnapping,0
+emotion,exploitation,0
+emotion,other/unspecified,2

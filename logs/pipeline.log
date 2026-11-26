@@ -1,0 +1,494 @@
+[2026-11-26T06:05:34Z] driver started (pid 6403)
+[2026-11-26T06:05:34Z] waiting for OpenAlex window (1079 min left)
+[2026-11-26T06:20:34Z] waiting for OpenAlex window (1064 min left)
+[2026-11-26T07:22:58Z] ================ pipeline start ================
+[2026-11-26T07:22:58Z] preflight
+gpu: 24564 MiB
+models present
+[2026-11-26T07:22:58Z] preflight ok
+[2026-11-26T07:22:58Z] SKIP screen_14b (complete)
+[2026-11-26T07:22:58Z] SKIP screen_7b (complete)
+[2026-11-26T07:22:58Z] START dedup_screened
+{
+ "input": 643,
+ "kept": 629,
+ "dropped": 14,
+ "dropped_examples": [
+  "Availability of opioid agonist treatment and critical incidents in Forensic Clinics for De",
+  "Modern targeted nerve agent incidents: toxicokinetic complexity, biomarker interpretation ",
+  "Medication for opioid use disorder service delivery in carceral facilities: update and sum",
+  "The Christian union students’ perception of the influence of theological grounding on cult",
+  "An Assessment of Black Axe Confraternity Cult in Nigeria: Its Impact on the University Edu",
+  "‘I loved to be included’ (Proverbs 1:8–19): The Church and Tiv Christian Youth Development",
+  "Factors for Perceived Helpfulness of Support Sources Among Survivors of Intimate Partner V",
+  "Temporary Imprisonment Sentence for the Debtor Claiming Insolvency from the Perspective of",
+  "If I could just stop loving you: anti-love biotechnology and the ethics of a chemical brea",
+  "The cult of the double-blind placebo-controlled trial."
+ ]
+}
+[2026-11-26T07:22:58Z] OK    dedup_screened
+[2026-11-26T07:22:58Z] START embed_dedup
+[transformers] The tokenizer you are loading from '/root/cultcrime/models/bge-m3' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+Traceback (most recent call last):
+  File "/root/cultcrime/src/embed_dedup.py", line 114, in <module>
+    main()
+  File "/root/cultcrime/src/embed_dedup.py", line 32, in main
+    model = AutoModel.from_pretrained(args.model, torch_dtype=torch.float16).cuda().eval()
+  File "/usr/local/lib/python3.10/dist-packages/transformers/models/auto/auto_factory.py", line 345, in from_pretrained
+    config, kwargs = AutoConfig.from_pretrained(
+  File "/usr/local/lib/python3.10/dist-packages/transformers/models/auto/configuration_auto.py", line 442, in from_pretrained
+    raise ValueError(
+ValueError: Unrecognized model in /root/cultcrime/models/bge-m3. Should have a `model_type` key in its config.json.
+[2026-11-26T07:23:06Z] WARN embed_dedup failed (non-blocking)
+[2026-11-26T07:23:06Z] START adjudicate
+screened                                             629
+screen_parse_failures                                2
+model_INCLUDE                                        83
+model_INCLUDE_kept                                   83
+model_INCLUDE_dropped_by_gate                        0
+model_EXCLUDE_conf_ge_090_auto_excluded              412
+advanced_to_second_pass                              134
+second_pass_included                                 109
+second_pass_excluded                                 25
+final_included                                       192
+chain_check                                          {'auto_plus_advanced_plus_kept': 629, 'screened': 629, 'kept_plus_secondpass': 192, 'final': 192}
+sensitivity_auto_excluded_would_have_survived_second_pass 2
+title_anchor_override                                31
+ADJUDICATE_DONE
+[2026-11-26T07:23:06Z] OK    adjudicate
+[2026-11-26T07:23:06Z] START measure
+C1_group_def     10/171
+C2_role          25/171
+C3_duration      7/171
+C4_mechanism     26/171
+C5_instrument    2/171
+C6_offence       84/171
+C7_severity      4/171
+C8_legal         35/171
+C9_jurisdiction  89/171
+C10_source       55/171
+C11_comparison   6/171
+C12_n            12/171
+MEASURE_DONE 171
+[2026-11-26T07:23:07Z] OK    measure
+[2026-11-26T07:23:07Z] START m8_m10
+M8_interrogation N=171
+   methods_accusatorial     0/171    0.0%
+   methods_information      0/171    0.0%
+   reliability              8/171    4.7%
+   subject_core             0/171    0.0%
+   subject_leader           2/171    1.2%
+   subject_member          23/171   13.5%
+   subject_victim          39/171   22.8%
+M9_digital_forensics N=171
+   communications           0/171    0.0%
+   devices                  0/171    0.0%
+   financial                1/171    0.6%
+   recruitment_online       5/171    2.9%
+   structure_link           3/171    1.8%
+M10_case_linking N=171
+   cross_jurisdiction       2/171    1.2%
+   modus_operandi           3/171    1.8%
+   rescue_risk              1/171    0.6%
+   ringleader_id            1/171    0.6%
+   victim_id                0/171    0.0%
+M8_M10_DONE
+[2026-11-26T07:23:08Z] OK    m8_m10
+[2026-11-26T07:23:08Z] START analyse
+identification                             {'core': {'retrieved': 269, 'reported_total': None}, 'crossref': {'retrieved': 87, 'reported_total': None}, 'doaj': {'retrieved': 150, 'reported_total': None}, 'europepmc': {'retrieved': 46, 'reported_total': 46}, 'europepmc_tierS': {'retrieved': 143, 'reported_total': 143}, 'pubmed': {'retrieved': 49, 'reported_total': 50}, 's2': {'retrieved': 410, 'reported_total': None}}
+records_retrieved_total                    1154
+unique_per_source                          {'core': 269, 'crossref': 49, 'doaj': 141, 'europepmc': 143, 'pubmed': 49, 's2': 410}
+unique_after_cross_db_dedup                833
+excluded_year                              19
+excluded_language                          69
+excluded_no_base_block                     116
+model_scored_rows                          643
+duplicates_removed_after_screening         14
+screened                                   629
+auto_excluded_conf_ge_090                  412
+advanced_to_second_pass                    134
+second_pass_included                       109
+final_included                             192
+second_pass_excluded                       25
+
+C1_group_def       10/171    5.8%
+C2_role            25/171   14.6%
+C3_duration         7/171    4.1%
+C4_mechanism       26/171   15.2%
+C5_instrument       2/171    1.2%
+C6_offence         84/171   49.1%
+C7_severity         4/171    2.3%
+C8_legal           35/171   20.5%
+C9_jurisdiction    89/171   52.0%
+C10_source         55/171   32.2%
+C11_comparison      6/171    3.5%
+C12_n              12/171    7.0%
+ANALYSE_DONE
+[2026-11-26T07:23:08Z] OK    analyse
+[2026-11-26T07:23:08Z] START experiments
+E1 confidence sweep (n=627)
+   thr=0.60  auto-excluded=443  advanced=184  (29.3%)
+   thr=0.70  auto-excluded=443  advanced=184  (29.3%)
+   thr=0.80  auto-excluded=443  advanced=184  (29.3%)
+   thr=0.85  auto-excluded=443  advanced=184  (29.3%)
+   thr=0.90  auto-excluded=443  advanced=184  (29.3%)
+   thr=0.95  auto-excluded=439  advanced=188  (30.0%)
+   thr=1.00  auto-excluded=0    advanced=627  (100.0%)
+E2 conjunctive=236 disjunctive=234 extra=0 {}
+E3 per-source raw: {'core': 189, 'crossref': 49, 'doaj': 141, 'europepmc': 46, 'europepmc_tierS': 143, 'pubmed': 49, 's2': 406}
+E3 exclusive: {'core': 166, 'crossref': 33, 'doaj': 103, 'europepmc': 0, 'europepmc_tierS': 97, 'pubmed': 10, 's2': 344}
+EXPERIMENTS_DONE
+[2026-11-26T07:23:08Z] OK    experiments
+[2026-11-26T07:23:08Z] START e5
+{
+ "n": 50,
+ "overlap_available": 638,
+ "decision": {
+  "agree_pct": 74.0,
+  "kappa": 0.35
+ },
+ "decision_confusion": {
+  "EXCLUDE->EXCLUDE": 32,
+  "EXCLUDE->UNCERTAIN": 8,
+  "INCLUDE->INCLUDE": 4,
+  "UNCERTAIN->EXCLUDE": 3,
+  "EXCLUDE->INCLUDE": 1,
+  "INCLUDE->UNCERTAIN": 1,
+  "UNCERTAIN->UNCERTAIN": 1
+ },
+ "I1": {
+  "agree_pct": 86.0,
+  "kappa": 0.706,
+  "both_true": 15,
+  "both_false": 28
+ },
+ "I2": {
+  "agree_pct": 66.0,
+  "kappa": 0.309,
+  "both_true": 13,
+  "both_false": 20
+ },
+ "I3": {
+  "agree_pct": 90.0,
+  "kappa": 0.646,
+  "both_true": 6,
+  "both_false": 39
+ },
+ "I4": {
+  "agree_pct": 76.0,
+  "kappa": 0.342,
+  "both_true": 32,
+  "both_false": 6
+ },
+ "include_counts": {
+  "7B": 5,
+  "14B": 5
+ }
+}
+E5_DONE
+[2026-11-26T07:23:08Z] OK    e5
+[2026-11-26T07:23:08Z] START s5
+S5 written 2480 chars
+[2026-11-26T07:23:08Z] OK    s5
+[2026-11-26T07:23:08Z] START supplements
+SUPPLEMENTS_DONE /root/cultcrime/out/supplements
+[2026-11-26T07:23:08Z] OK    supplements
+[2026-11-26T07:23:08Z] START worksheet
+worksheet rows: 629 sample: 50
+[2026-11-26T07:23:08Z] OK    worksheet
+[2026-11-26T07:23:08Z] START selfcheck
+1. per-source counts vs raw files
+  PASS  core: file=269 analysis=269
+  PASS  crossref: file=87 analysis=87
+  PASS  doaj: file=150 analysis=150
+  PASS  europepmc: file=46 analysis=46
+  PASS  europepmc_tierS: file=143 analysis=143
+  PASS  pubmed: file=49 analysis=49
+  PASS  s2: file=410 analysis=410
+  PASS  sum of sources 1154 == records_retrieved_total 1154
+2. PRISMA chain arithmetic
+  PASS  unique - year - language - no_base_block == screened (629)
+  PASS  auto + advanced + kept == screened (412 + 134 + 83 vs 629)
+  PASS  second-pass included + excluded == advanced
+  PASS  model INCLUDE kept (83) + second-pass included (109) == final (192)
+  PASS  auto + advanced + kept (629) == screened (629)
+3. construct table denominators
+  PASS  one denominator across constructs: {171}
+  PASS  C1_group_def n<=N
+  PASS  C2_role n<=N
+  PASS  C3_duration n<=N
+  PASS  C4_mechanism n<=N
+  PASS  C5_instrument n<=N
+  PASS  C6_offence n<=N
+  PASS  C7_severity n<=N
+  PASS  C8_legal n<=N
+  PASS  C9_jurisdiction n<=N
+  PASS  C10_source n<=N
+  PASS  C11_comparison n<=N
+  PASS  C12_n n<=N
+4. numeric hygiene
+  PASS  no NaN/inf in analysis.json
+5. artefacts present
+  PASS  data/processed/included.jsonl exists (>100 B)
+  PASS  data/processed/extracted.jsonl exists (>100 B)
+  PASS  data/processed/experiments.json exists (>100 B)
+  PASS  data/processed/m8_m10.json exists (>100 B)
+  PASS  data/raw_manifest.json exists (>100 B)
+
+0 checks failed
+[2026-11-26T07:23:08Z] OK    selfcheck
+[2026-11-26T07:23:08Z] ================ pipeline done ================
+[2026-11-26T07:25:16Z] ================ pipeline start ================
+[2026-11-26T07:25:16Z] preflight
+gpu: 24564 MiB
+models present
+[2026-11-26T07:25:16Z] preflight ok
+[2026-11-26T07:25:16Z] SKIP screen_14b (complete)
+[2026-11-26T07:25:16Z] SKIP screen_7b (complete)
+[2026-11-26T07:25:16Z] START dedup_screened
+{
+ "input": 643,
+ "kept": 629,
+ "dropped": 14,
+ "dropped_examples": [
+  "Availability of opioid agonist treatment and critical incidents in Forensic Clinics for De",
+  "Modern targeted nerve agent incidents: toxicokinetic complexity, biomarker interpretation ",
+  "Medication for opioid use disorder service delivery in carceral facilities: update and sum",
+  "The Christian union students’ perception of the influence of theological grounding on cult",
+  "An Assessment of Black Axe Confraternity Cult in Nigeria: Its Impact on the University Edu",
+  "‘I loved to be included’ (Proverbs 1:8–19): The Church and Tiv Christian Youth Development",
+  "Factors for Perceived Helpfulness of Support Sources Among Survivors of Intimate Partner V",
+  "Temporary Imprisonment Sentence for the Debtor Claiming Insolvency from the Perspective of",
+  "If I could just stop loving you: anti-love biotechnology and the ethics of a chemical brea",
+  "The cult of the double-blind placebo-controlled trial."
+ ]
+}
+[2026-11-26T07:25:16Z] OK    dedup_screened
+[2026-11-26T07:25:16Z] START embed_dedup
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights:  62%|██████▏   | 241/391 [00:00<00:00, 2409.72it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 2736.17it/s]
+embedded 0/629
+embedded 160/629
+embedded 320/629
+embedded 480/629
+{
+ "0.90": {
+  "clusters": 10,
+  "records_absorbed": 10
+ },
+ "0.93": {
+  "clusters": 8,
+  "records_absorbed": 8
+ },
+ "0.95": {
+  "clusters": 8,
+  "records_absorbed": 8
+ },
+ "0.97": {
+  "clusters": 6,
+  "records_absorbed": 6
+ },
+ "0.99": {
+  "clusters": 1,
+  "records_absorbed": 1
+ }
+}
+EMBED_DEDUP_DONE
+[2026-11-26T07:25:27Z] START adjudicate
+screened                                             629
+screen_parse_failures                                2
+model_INCLUDE                                        83
+model_INCLUDE_kept                                   83
+model_INCLUDE_dropped_by_gate                        0
+model_EXCLUDE_conf_ge_090_auto_excluded              412
+advanced_to_second_pass                              134
+second_pass_included                                 109
+second_pass_excluded                                 25
+final_included                                       192
+chain_check                                          {'auto_plus_advanced_plus_kept': 629, 'screened': 629, 'kept_plus_secondpass': 192, 'final': 192}
+sensitivity_auto_excluded_would_have_survived_second_pass 2
+title_anchor_override                                31
+ADJUDICATE_DONE
+[2026-11-26T07:25:27Z] OK    adjudicate
+[2026-11-26T07:25:28Z] START measure
+C1_group_def     10/171
+C2_role          25/171
+C3_duration      7/171
+C4_mechanism     26/171
+C5_instrument    2/171
+C6_offence       84/171
+C7_severity      4/171
+C8_legal         35/171
+C9_jurisdiction  89/171
+C10_source       55/171
+C11_comparison   6/171
+C12_n            12/171
+MEASURE_DONE 171
+[2026-11-26T07:25:29Z] OK    measure
+[2026-11-26T07:25:29Z] START m8_m10
+M8_interrogation N=171
+   methods_accusatorial     0/171    0.0%
+   methods_information      0/171    0.0%
+   reliability              8/171    4.7%
+   subject_core             0/171    0.0%
+   subject_leader           2/171    1.2%
+   subject_member          23/171   13.5%
+   subject_victim          39/171   22.8%
+M9_digital_forensics N=171
+   communications           0/171    0.0%
+   devices                  0/171    0.0%
+   financial                1/171    0.6%
+   recruitment_online       5/171    2.9%
+   structure_link           3/171    1.8%
+M10_case_linking N=171
+   cross_jurisdiction       2/171    1.2%
+   modus_operandi           3/171    1.8%
+   rescue_risk              1/171    0.6%
+   ringleader_id            1/171    0.6%
+   victim_id                0/171    0.0%
+M8_M10_DONE
+[2026-11-26T07:25:29Z] OK    m8_m10
+[2026-11-26T07:25:29Z] START analyse
+identification                             {'core': {'retrieved': 269, 'reported_total': None}, 'crossref': {'retrieved': 87, 'reported_total': None}, 'doaj': {'retrieved': 150, 'reported_total': None}, 'europepmc': {'retrieved': 46, 'reported_total': 46}, 'europepmc_tierS': {'retrieved': 143, 'reported_total': 143}, 'pubmed': {'retrieved': 49, 'reported_total': 50}, 's2': {'retrieved': 410, 'reported_total': None}}
+records_retrieved_total                    1154
+unique_per_source                          {'core': 269, 'crossref': 49, 'doaj': 141, 'europepmc': 143, 'pubmed': 49, 's2': 410}
+unique_after_cross_db_dedup                833
+excluded_year                              19
+excluded_language                          69
+excluded_no_base_block                     116
+model_scored_rows                          643
+duplicates_removed_after_screening         14
+screened                                   629
+auto_excluded_conf_ge_090                  412
+advanced_to_second_pass                    134
+second_pass_included                       109
+final_included                             192
+second_pass_excluded                       25
+
+C1_group_def       10/171    5.8%
+C2_role            25/171   14.6%
+C3_duration         7/171    4.1%
+C4_mechanism       26/171   15.2%
+C5_instrument       2/171    1.2%
+C6_offence         84/171   49.1%
+C7_severity         4/171    2.3%
+C8_legal           35/171   20.5%
+C9_jurisdiction    89/171   52.0%
+C10_source         55/171   32.2%
+C11_comparison      6/171    3.5%
+C12_n              12/171    7.0%
+ANALYSE_DONE
+[2026-11-26T07:25:29Z] OK    analyse
+[2026-11-26T07:25:29Z] START experiments
+E1 confidence sweep (n=627)
+   thr=0.60  auto-excluded=443  advanced=184  (29.3%)
+   thr=0.70  auto-excluded=443  advanced=184  (29.3%)
+   thr=0.80  auto-excluded=443  advanced=184  (29.3%)
+   thr=0.85  auto-excluded=443  advanced=184  (29.3%)
+   thr=0.90  auto-excluded=443  advanced=184  (29.3%)
+   thr=0.95  auto-excluded=439  advanced=188  (30.0%)
+   thr=1.00  auto-excluded=0    advanced=627  (100.0%)
+E2 conjunctive=236 disjunctive=234 extra=0 {}
+E3 per-source raw: {'core': 189, 'crossref': 49, 'doaj': 141, 'europepmc': 46, 'europepmc_tierS': 143, 'pubmed': 49, 's2': 406}
+E3 exclusive: {'core': 166, 'crossref': 33, 'doaj': 103, 'europepmc': 0, 'europepmc_tierS': 97, 'pubmed': 10, 's2': 344}
+EXPERIMENTS_DONE
+[2026-11-26T07:25:30Z] OK    experiments
+[2026-11-26T07:25:30Z] START e5
+{
+ "n": 50,
+ "overlap_available": 638,
+ "decision": {
+  "agree_pct": 74.0,
+  "kappa": 0.35
+ },
+ "decision_confusion": {
+  "EXCLUDE->EXCLUDE": 32,
+  "EXCLUDE->UNCERTAIN": 8,
+  "INCLUDE->INCLUDE": 4,
+  "UNCERTAIN->EXCLUDE": 3,
+  "EXCLUDE->INCLUDE": 1,
+  "INCLUDE->UNCERTAIN": 1,
+  "UNCERTAIN->UNCERTAIN": 1
+ },
+ "I1": {
+  "agree_pct": 86.0,
+  "kappa": 0.706,
+  "both_true": 15,
+  "both_false": 28
+ },
+ "I2": {
+  "agree_pct": 66.0,
+  "kappa": 0.309,
+  "both_true": 13,
+  "both_false": 20
+ },
+ "I3": {
+  "agree_pct": 90.0,
+  "kappa": 0.646,
+  "both_true": 6,
+  "both_false": 39
+ },
+ "I4": {
+  "agree_pct": 76.0,
+  "kappa": 0.342,
+  "both_true": 32,
+  "both_false": 6
+ },
+ "include_counts": {
+  "7B": 5,
+  "14B": 5
+ }
+}
+E5_DONE
+[2026-11-26T07:25:30Z] OK    e5
+[2026-11-26T07:25:30Z] START s5
+S5 written 2480 chars
+[2026-11-26T07:25:30Z] OK    s5
+[2026-11-26T07:25:30Z] START supplements
+SUPPLEMENTS_DONE /root/cultcrime/out/supplements
+[2026-11-26T07:25:30Z] OK    supplements
+[2026-11-26T07:25:30Z] START worksheet
+worksheet rows: 629 sample: 50
+[2026-11-26T07:25:30Z] OK    worksheet
+[2026-11-26T07:25:30Z] START selfcheck
+1. per-source counts vs raw files
+  PASS  core: file=269 analysis=269
+  PASS  crossref: file=87 analysis=87
+  PASS  doaj: file=150 analysis=150
+  PASS  europepmc: file=46 analysis=46
+  PASS  europepmc_tierS: file=143 analysis=143
+  PASS  pubmed: file=49 analysis=49
+  PASS  s2: file=410 analysis=410
+  PASS  sum of sources 1154 == records_retrieved_total 1154
+2. PRISMA chain arithmetic
+  PASS  unique - year - language - no_base_block == screened (629)
+  PASS  auto + advanced + kept == screened (412 + 134 + 83 vs 629)
+  PASS  second-pass included + excluded == advanced
+  PASS  model INCLUDE kept (83) + second-pass included (109) == final (192)
+  PASS  auto + advanced + kept (629) == screened (629)
+3. construct table denominators
+  PASS  one denominator across constructs: {171}
+  PASS  C1_group_def n<=N
+  PASS  C2_role n<=N
+  PASS  C3_duration n<=N
+  PASS  C4_mechanism n<=N
+  PASS  C5_instrument n<=N
+  PASS  C6_offence n<=N
+  PASS  C7_severity n<=N
+  PASS  C8_legal n<=N
+  PASS  C9_jurisdiction n<=N
+  PASS  C10_source n<=N
+  PASS  C11_comparison n<=N
+  PASS  C12_n n<=N
+4. numeric hygiene
+  PASS  no NaN/inf in analysis.json
+5. artefacts present
+  PASS  data/processed/included.jsonl exists (>100 B)
+  PASS  data/processed/extracted.jsonl exists (>100 B)
+  PASS  data/processed/experiments.json exists (>100 B)
+  PASS  data/processed/m8_m10.json exists (>100 B)
+  PASS  data/raw_manifest.json exists (>100 B)
+
+0 checks failed
+[2026-11-26T07:25:30Z] OK    selfcheck
+[2026-11-26T07:25:30Z] ================ pipeline done ================

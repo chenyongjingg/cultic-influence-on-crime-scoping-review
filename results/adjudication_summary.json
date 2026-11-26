@@ -1,0 +1,20 @@
+{
+ "screened": 629,
+ "screen_parse_failures": 2,
+ "model_INCLUDE": 83,
+ "model_INCLUDE_kept": 83,
+ "model_INCLUDE_dropped_by_gate": 0,
+ "model_EXCLUDE_conf_ge_090_auto_excluded": 412,
+ "advanced_to_second_pass": 134,
+ "second_pass_included": 109,
+ "second_pass_excluded": 25,
+ "final_included": 192,
+ "chain_check": {
+  "auto_plus_advanced_plus_kept": 629,
+  "screened": 629,
+  "kept_plus_secondpass": 192,
+  "final": 192
+ },
+ "sensitivity_auto_excluded_would_have_survived_second_pass": 2,
+ "title_anchor_override": 31
+}
