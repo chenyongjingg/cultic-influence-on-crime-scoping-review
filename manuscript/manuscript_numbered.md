@@ -95,7 +95,10 @@ no pooled estimate, no significance test.
 
 Its conduct was specified before searching: population, concept and context; the
 search strategy; the eligibility criteria; the screening and extraction procedures;
-and three guiding questions with their anticipated judgements. The PRISMA-ScR
+and three guiding questions with their anticipated judgements. The protocol is
+provided as Supplementary File 1. It was written in Chinese; its population,
+concept and context, its search strategy and its eligibility criteria are stated in
+English in Sections 2.2 and 2.3, and every departure from it is listed below. The PRISMA-ScR
 checklist [7] is submitted with the manuscript and the JBI
 updated guidance [8] was followed for conduct and reporting.
 Deviations from the protocol, and the constraint that forced each, are listed in
@@ -919,10 +922,13 @@ extracted value carries a verification level; the authors take full responsibili
 for accuracy, completeness and originality. The screening model, its configuration
 and its concurrency are stated in §2.4 and in the repository.
 
-**Data availability.** Search strings, per-source counts, the screening and
-adjudication table, the extraction table with anchors, the verification audit, the
-included-record list and the analysis code are provided. The corpus is reproduced
-by running the published search script rather than redistributed.
+**Data availability.** All supporting material is openly available at
+https://github.com/chenyongjingg/cultic-influence-on-crime-scoping-review: the
+search strings and per-source counts, the screening and adjudication table with
+every model verdict and supporting span, the extraction table with anchors, the
+full-corpus audit and the author's verdicts on it, the verification audit, the
+included-record list and the analysis code. The corpus is reproduced by running the
+published search script rather than redistributed.
 
 **Funding.** None.
 
