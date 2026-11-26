@@ -1019,6 +1019,10 @@ Across 142 included records, 5 name a psychological mechanism theory (coercive c
 - **Table S3.** Screening and adjudication table, one row per record, with the
   model's verdicts, support spans, confidence and the rule applied.
 - **Table S4.** Extraction table: twelve constructs per record with the matched span.
+  Tables S3 and S4 are the two column blocks of a single record-level data sheet
+  (Supplementary Data 1): screening columns for every screened record, extraction
+  columns filled for the included records that carry an abstract, and the author's
+  decision where one was made.
 - **Table S5.** Sensitivity analyses E1–E5 and the M8–M10 coding table.
 - **Table S6.** The 50-record precheck sample.
 - **Table S7.** Validation read of that sample, verdicts record by record.
@@ -1026,5 +1030,7 @@ Across 142 included records, 5 name a psychological mechanism theory (coercive c
 - **Table S9.** Full-corpus audit of the screening decisions: the rule replay, the metaphor screen, the records whose own evidence names no group, and the sensitivity of every headline percentage to those flags.
 - **Table S9b.** The author audit applied: the 30 flagged records, the 28 excluded, and the before/after percentages.
 - **Table S10.** The 30 flagged records with the abstract, the model's flags and quoted evidence, and the author's verdict.
+- **Supplementary Data 1.** The record-level data sheet described under Table S3;
+  provided as one CSV so that every count in the paper can be recomputed from it.
 - **Supplementary File 1.** The protocol, in the language in which it was written (Chinese).
 - **PRISMA-ScR checklist.** Completed record, submitted with the manuscript.
