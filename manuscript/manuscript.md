@@ -4,7 +4,7 @@
 
 **Affiliation:** ¹ People's Public Security University of China, Beijing 100038, China
 
-* Correspondence: Songze Zhu, 20196846@ppsuc.edu.cn
+\* Correspondence: Songze Zhu, 20196846@ppsuc.edu.cn
 
 **Running title:** Cultic influence on crime
 
