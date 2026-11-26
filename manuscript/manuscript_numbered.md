@@ -98,7 +98,7 @@ search strategy; the eligibility criteria; the screening and extraction procedur
 and three guiding questions with their anticipated judgements. The protocol is
 provided as Supplementary File 1. It was written in Chinese; its population,
 concept and context, its search strategy and its eligibility criteria are stated in
-English in Sections 2.2 and 2.3, and every departure from it is listed below. The PRISMA-ScR
+English in Sections 2.2 and 2.3. The PRISMA-ScR
 checklist [7] is submitted with the manuscript and the JBI
 updated guidance [8] was followed for conduct and reporting.
 Deviations from the protocol, and the constraint that forced each, are listed in
