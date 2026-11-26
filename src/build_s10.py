@@ -14,6 +14,7 @@ import csv, io, json, os, re
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 P = os.path.join(ROOT, "out", "server_snapshot", "data", "processed")
 AUDIT = os.path.join(ROOT, "out", "data", "screening_audit.json")
+VERDICTS = os.path.join(ROOT, "out", "supplements", "S10_verdicts.csv")
 CSV_OUT = os.path.join(ROOT, "out", "supplements", "S10_human_audit.csv")
 MD_OUT = os.path.join(ROOT, "out", "supplements", "S10_human_audit.md")
 
@@ -47,6 +48,16 @@ def main():
             "abstract": (r.get("abstract") or "").replace("\n", " ")[:1500],
             "author_verdict": "", "author_note": "",
         })
+
+    # the delivered worksheet must be the FILLED one: the manuscript calls S10
+    # "the filled worksheet", so shipping a blank form would contradict the text
+    verdicts = {}
+    if os.path.exists(VERDICTS):
+        for rec in csv.DictReader(io.StringIO(io.open(VERDICTS, encoding="utf-8-sig").read().replace("﻿", ""))):
+            verdicts[rec["id"]] = (rec.get("verdict", ""), rec.get("note", ""))
+    for r in rows:
+        v, n = verdicts.get(r["id"], ("", ""))
+        r["author_verdict"], r["author_note"] = v, n
 
     with io.open(CSV_OUT, "w", encoding="utf8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
